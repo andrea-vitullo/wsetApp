@@ -1,7 +1,36 @@
-# WSET practice question dataset
+# WSET Mock Exams
 
-Question bank for a study website/app covering the **WSET Level 2 Award in Wines** and the
-**WSET Level 3 Award in Wines**. The two levels are kept fully separate throughout.
+A mock exam web app for the **WSET Level 2 Award in Wines** and the **WSET Level 3 Award in
+Wines**, built on an original question dataset. The two levels are kept fully separate throughout.
+
+## Running the app
+
+```
+open index.html
+```
+
+That's it — no server, no build step, no dependencies. The two question pools
+(`wset-level-2.json`, `wset-level-3.json`) are embedded as plain JS globals in `js/data/`, so the
+whole thing runs from the `file://` URL.
+
+What it does:
+
+- **Level select** — Level 2 (50 MCQ, 60 min) or Level 3 (full Unit 1 mock: 50 MCQ + 4 short
+  written answers, 120 min; plus standalone MCQ-only and SWA-only practice modes).
+- **Papers drawn at the official weighting** — each paper is sampled fresh from the whole pool at
+  the exact per-Learning-Outcome weighting published in that level's `exam.lo_weighting`, with no
+  repeated `topic|subtopic` concept in one sitting. See [js/sampler.js](js/sampler.js).
+- **Timer** — counts down per mode and auto-submits at zero. The 120-minute "Full Unit 1 mock" is
+  the official combined figure straight from the dataset; the standalone MCQ-only (60 min) and
+  SWA-only (90 min) practice modes are labelled as pacing estimates, since WSET doesn't publish an
+  official sub-split between the two parts.
+- **Results** — MCQ is auto-scored against the 55% pass mark, broken down by Learning Outcome,
+  with a full question review (each question's explanation, correct answer highlighted, your
+  wrong pick struck through) and an "All / Mistakes only" filter. SWA is self-marked: your typed
+  answer sits next to the published mark scheme for you to score.
+
+Unlike the Python sampler described below, the app's draw is **not seeded** — every paper is a
+fresh random draw, with no replay-by-seed.
 
 ## Why the questions are original
 
@@ -21,14 +50,16 @@ copyrightable; someone else's phrasing of a question is.
 
 ## Papers are drawn at runtime
 
-The app draws each paper from the whole pool at the official LO weighting, so **batch files are
-just authoring units** — they no longer need to be complete papers. What has to hold is that the
+Papers are drawn from the whole pool at the official LO weighting, so **batch files are just
+authoring units** — they don't need to be complete papers themselves. What has to hold is that the
 *pool* offers enough distinct material per Learning Outcome to fill every quota, every draw.
 
 - **Level 2** — LO1: 5, LO2: 4, LO3: 19, LO4: 12, LO5: 6, LO6: 4
 - **Level 3** — LO1: 8, LO2: 28, LO3: 5, LO4: 5, LO5: 4
 
-Weightings and LO titles live in `schema/coverage_targets.json`.
+Weightings and LO titles ship inline in each compiled file, under `exam.lo_weighting` and
+`exam.lo_titles` in [wset-level-2.json](wset-level-2.json) / [wset-level-3.json](wset-level-3.json)
+— that's what both the app and the Python sampler below read from.
 
 ### Two rules the sampler enforces
 
@@ -41,24 +72,47 @@ in consistently on every new question — they are load-bearing, not decoration.
 fact awaiting human confirmation cannot reach a student. Verify and clear the flag to put it in
 circulation.
 
-Papers are reproducible from a seed, which matters for resuming a session and for chasing down a
-question a user reports.
+The Python sampler referenced in Commands below draws papers reproducibly from a seed, which
+matters for resuming an authoring session and for chasing down a question a user reports. The app's
+in-browser sampler (`js/sampler.js`) implements the same weighting and no-repeated-concept rules
+but does not take a seed — every mock is a fresh random draw.
 
 ## Layout
 
 ```
-data/level2/batch-001.jsonl        50 MCQ, one full paper
-data/level3/mcq-batch-001.jsonl    50 MCQ, one full paper
-data/level3/mcq-batch-002.jsonl    partial batch, in progress
-data/level3/swa-batch-001.jsonl    short written answers with mark schemes
-schema/question.schema.json        JSON Schema for a single question
-schema/coverage_targets.json       official exam weightings and targets
-build/wset-level-{2,3}.json        compiled output for the app
+index.html                       mock exam app — open directly, no server needed
+styles.css                       app styling
+js/app.js                        exam flow: setup, timer, question rendering, results, self-marking
+js/sampler.js                    draws a paper at the official LO weighting, no repeated concept per sitting
+js/data/level2.js                wset-level-2.json embedded as window.WSET_DATA_2 (generated, see below)
+js/data/level3.js                wset-level-3.json embedded as window.WSET_DATA_3 (generated, see below)
+wset-level-2.json                compiled Level 2 question pool (505 MCQ)
+wset-level-3.json                compiled Level 3 question pool (503 MCQ + 42 SWA)
+authoring/swa-batch-003.jsonl    raw SWA authoring batches — already merged into wset-level-3.json,
+authoring/swa-batch-004.jsonl    kept here for reference rather than the app
 ```
 
-JSONL during authoring so batches append and review cleanly; compiled JSON for consumption.
+`js/data/level{2,3}.js` are generated from the compiled JSON files, not hand-edited — regenerate
+them if the JSON changes:
 
-## Commands
+```bash
+python3 -c "
+import json
+for lvl in (2, 3):
+    data = json.load(open(f'wset-level-{lvl}.json'))
+    with open(f'js/data/level{lvl}.js', 'w') as out:
+        out.write(f'window.WSET_DATA_{lvl} = ')
+        json.dump(data, out, indent=2)
+        out.write(';\n')
+"
+```
+
+## Dataset authoring toolchain
+
+The commands below describe the `wset_dataset` Python package that produced `wset-level-2.json`
+and `wset-level-3.json` — QA, rebalancing, compiling from authoring batches, and drawing seeded
+sample papers. **That toolchain is not part of this checkout**; only its compiled output ships
+here, alongside the app that consumes it.
 
 ```bash
 poetry install
@@ -106,8 +160,8 @@ rebalances keys deterministically, and a test enforces that no key exceeds 40% o
 specifications rather than left pending.
 
 57 questions test material that is factually correct but outside the published syllabus. These
-**ship in the pool** and draw normally, tagged `in_scope: false` so the app can badge or filter
-them if that is ever wanted. They live in `data/level{2,3}/beyond-syllabus.jsonl`.
+**ship in the pool** and draw normally, tagged `in_scope: false` inline in the compiled JSON, so the
+app could badge or filter them if that is ever wanted (it currently doesn't).
 
 ### What the verification pass actually found
 
@@ -123,8 +177,8 @@ outside it. Level 3 fortified scope is Port, Sherry and fortified Muscats only, 
 questions went the same way, along with VOS/VORS, puttonyos, Einzellage/Grosslage, Cava tier
 names, excise duty and a dozen regions absent from the LO2 range list.
 
-`schema/syllabus_scope.json` now encodes those closed lists, and three tests guard against
-out-of-scope material re-entering the pool.
+`schema/syllabus_scope.json` (part of the authoring toolchain above, not this checkout) encodes
+those closed lists, and three tests guard against out-of-scope material re-entering the pool.
 
 ### On what could and could not be verified
 
@@ -163,13 +217,17 @@ thinnest slot, not the total.** 42 questions now assemble **10 complete papers**
 slot 2: 10, slot 3: 11, slot 4: 10.
 
 ```bash
-poetry run python -m wset_dataset.sample --swa --health    # slot coverage
+poetry run python -m wset_dataset.sample --swa --health    # slot coverage (authoring toolchain, not this checkout)
 poetry run python -m wset_dataset.sample --swa --seed 3    # assemble a 100-mark paper
 ```
 
+The app's "Short written answer practice" and "Full Unit 1 mock" modes assemble a paper the same
+way: one random question per slot, via `assembleSwaPaper()` in [js/sampler.js](js/sampler.js).
+
 One question, `L3-SWA-0005`, is marked as revision-only: it puts 25 marks on storage, service
 and faults, but LO5 carries just 10 marks per paper and is limited to making recommendations, so
-it could never appear on a real paper. It is excluded from paper assembly and kept for practice.
+it could never appear on a real paper. It has no `paper_slot`, so both the Python sampler and the
+app's `assembleSwaPaper()` naturally exclude it from paper assembly — it's kept for practice.
 
 ### Coverage
 
