@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WSET Mock Exams</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">WSET Mock Exams</div>
+  </header>
+
+  <main id="app">
+    <!-- Home / setup -->
+    <section id="view-home" class="view">
+      <div class="container">
+        <h1>Practice for your WSET exam</h1>
+        <p class="subtitle">Papers are drawn fresh each time from the full question pool, at the official Learning Outcome weighting, with no repeated concept in the same sitting.</p>
+
+        <div id="level-cards" class="level-cards">
+          <button type="button" class="level-card" data-level="2">
+            <div class="level-card-title">Level 2 Award in Wines</div>
+            <div class="level-card-desc">50 MCQ · 60 minutes · 55% pass mark</div>
+          </button>
+          <button type="button" class="level-card" data-level="3">
+            <div class="level-card-title">Level 3 Award in Wines</div>
+            <div class="level-card-desc">Unit 1: 50 MCQ + 4 short written answers</div>
+          </button>
+        </div>
+
+        <div id="mode-picker" class="mode-picker hidden"></div>
+      </div>
+    </section>
+
+    <!-- Exam in progress -->
+    <section id="view-exam" class="view hidden">
+      <div class="exam-header">
+        <div id="exam-mode-label" class="exam-mode-label"></div>
+        <div id="exam-progress" class="exam-progress"></div>
+        <div id="exam-timer" class="exam-timer">00:00</div>
+      </div>
+
+      <div class="exam-body">
+        <nav id="question-nav" class="question-nav"></nav>
+        <div class="question-area">
+          <div id="question-panel" class="question-panel"></div>
+          <div class="exam-controls">
+            <button id="prev-btn" type="button" class="btn btn-secondary">Previous</button>
+            <button id="next-btn" type="button" class="btn btn-secondary">Next</button>
+            <button id="submit-btn" type="button" class="btn btn-primary">Submit paper</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SWA self-marking -->
+    <section id="view-marking" class="view hidden">
+      <div class="container">
+        <h1>Mark your short written answers</h1>
+        <div id="marking-content"></div>
+        <button id="finish-marking-btn" type="button" class="btn btn-primary">See final results</button>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section id="view-results" class="view hidden">
+      <div class="container">
+        <div id="results-content"></div>
+        <button id="restart-btn" type="button" class="btn btn-primary">Start another mock</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/data/level2.js"></script>
+  <script src="js/data/level3.js"></script>
+  <script src="js/sampler.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
