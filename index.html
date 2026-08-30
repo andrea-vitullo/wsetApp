@@ -9,6 +9,12 @@
 <body>
   <header class="site-header">
     <div class="brand">WSET Mock Exams</div>
+    <nav class="main-nav">
+      <button type="button" class="nav-link" data-section="exam">Mock Exams</button>
+      <button type="button" class="nav-link" data-section="regions">Regions</button>
+      <button type="button" class="nav-link" data-section="vinification">Vine Cycle &amp; Vinification</button>
+      <button type="button" class="nav-link" data-section="soils">Soils</button>
+    </nav>
   </header>
 
   <main id="app">
@@ -70,11 +76,48 @@
         <button id="restart-btn" type="button" class="btn btn-primary">Start another mock</button>
       </div>
     </section>
+
+    <!-- Regions: browse -->
+    <section id="view-regions-list" class="view hidden">
+      <div class="container">
+        <h1>Wine Regions</h1>
+        <p class="subtitle">A reference guide to the world's wine-producing regions — climate, soils, grapes, classification and style, alongside what you're tested on.</p>
+        <input id="region-search" type="text" class="region-search" placeholder="Search regions, countries or grape varieties…" />
+        <div id="region-groups" class="region-groups"></div>
+      </div>
+    </section>
+
+    <!-- Regions: detail -->
+    <section id="view-region-detail" class="view hidden">
+      <div class="container">
+        <button id="region-back-btn" type="button" class="btn btn-secondary">&larr; All regions</button>
+        <div id="region-detail-content"></div>
+      </div>
+    </section>
+
+    <!-- Vine Cycle & Vinification -->
+    <section id="view-vinification" class="view hidden">
+      <div class="container ref-page-wide">
+        <div id="vinification-content"></div>
+      </div>
+    </section>
+
+    <!-- Soils -->
+    <section id="view-soils" class="view hidden">
+      <div class="container ref-page-wide">
+        <div id="soils-content"></div>
+      </div>
+    </section>
   </main>
 
   <script src="js/data/level2.js"></script>
   <script src="js/data/level3.js"></script>
+  <script src="js/data/regions.js"></script>
+  <script src="js/data/vinification.js"></script>
+  <script src="js/data/soils.js"></script>
   <script src="js/sampler.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/regions.js"></script>
+  <script src="js/reference.js"></script>
 </body>
 </html>

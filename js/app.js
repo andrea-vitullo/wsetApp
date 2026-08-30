@@ -55,14 +55,54 @@ const views = {
   exam: document.getElementById('view-exam'),
   marking: document.getElementById('view-marking'),
   results: document.getElementById('view-results'),
+  'regions-list': document.getElementById('view-regions-list'),
+  'region-detail': document.getElementById('view-region-detail'),
+  vinification: document.getElementById('view-vinification'),
+  soils: document.getElementById('view-soils'),
+};
+
+const VIEW_SECTION = {
+  home: 'exam',
+  exam: 'exam',
+  marking: 'exam',
+  results: 'exam',
+  'regions-list': 'regions',
+  'region-detail': 'regions',
+  vinification: 'vinification',
+  soils: 'soils',
+};
+
+// nav-section -> the default view opened when its nav button is clicked, plus
+// an optional render hook (called every time, so content stays in sync with data).
+const NAV_SECTIONS = {
+  exam: { view: 'home' },
+  regions: { view: 'regions-list', render: () => typeof renderRegionsList === 'function' && renderRegionsList() },
+  vinification: { view: 'vinification', render: () => typeof renderVinificationPage === 'function' && renderVinificationPage() },
+  soils: { view: 'soils', render: () => typeof renderSoilsPage === 'function' && renderSoilsPage() },
 };
 
 function showView(name) {
   for (const key of Object.keys(views)) {
     views[key].classList.toggle('hidden', key !== name);
   }
+  setActiveNavSection(VIEW_SECTION[name] || 'exam');
   window.scrollTo(0, 0);
 }
+
+function setActiveNavSection(section) {
+  document.querySelectorAll('.nav-link').forEach((btn) => {
+    btn.classList.toggle('active', btn.dataset.section === section);
+  });
+}
+
+document.querySelectorAll('.nav-link').forEach((btn) => {
+  btn.addEventListener('click', () => {
+    const target = NAV_SECTIONS[btn.dataset.section];
+    if (!target) return;
+    showView(target.view);
+    if (target.render) target.render();
+  });
+});
 
 function formatClock(totalSeconds) {
   const s = Math.max(0, totalSeconds);
