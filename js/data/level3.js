@@ -37,9 +37,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "What is the principal benefit to grape growers of a large diurnal range?",
       "options": {
-        "a": "It accelerates sugar accumulation",
+        "a": "It accelerates sugar accumulation during ripening",
         "b": "It reduces the need for canopy management",
-        "c": "It eliminates the risk of fungal disease",
+        "c": "It eliminates the risk of fungal disease entirely",
         "d": "Cool nights help retain acidity while the fruit ripens"
       },
       "answer": "d",
@@ -62,9 +62,9 @@ window.WSET_DATA_3 = {
       "question": "A continental climate is characterised by",
       "options": {
         "a": "a large difference between the warmest and coldest months, with a short growing season",
-        "b": "a small difference between the warmest and coldest months",
-        "c": "consistently high rainfall throughout the year",
-        "d": "dry summers and mild, wet winters"
+        "b": "a small difference between the warmest and coldest months, as seen in maritime climates such as Bordeaux",
+        "c": "consistently high rainfall throughout the year, characteristic of tropical viticultural regions",
+        "d": "dry summers and mild, wet winters, typical of Mediterranean climates such as southern Rh\u00f4ne"
       },
       "answer": "a",
       "explanation": "Continental climates have marked seasonal swings and short summers, which raises the risk of spring frost and difficulty ripening late varieties. Dry summers with mild wet winters describe a Mediterranean climate.",
@@ -85,10 +85,10 @@ window.WSET_DATA_3 = {
       "difficulty": "easy",
       "question": "What is the most effective means of managing phylloxera in a vineyard?",
       "options": {
-        "a": "Regular application of fungicide",
+        "a": "Regular application of fungicide to the root zone",
         "b": "Grafting vines onto resistant American rootstock",
-        "c": "Vertical shoot positioning",
-        "d": "Reducing irrigation"
+        "c": "Vertical shoot positioning to improve canopy airflow",
+        "d": "Reducing irrigation to stress the vine roots"
       },
       "answer": "b",
       "explanation": "Phylloxera is a root-feeding louse. American rootstocks resist it, so grafting European vinifera scions onto them is the standard solution. Fungicides target fungal disease, not this pest.",
@@ -109,10 +109,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Which set of characteristics is most associated with carbonic maceration?",
       "options": {
-        "a": "High tannin and pronounced oak spice",
-        "b": "Bready, biscuity autolytic notes",
+        "a": "High tannin and pronounced oak spice from barrel ageing",
+        "b": "Bready, biscuity autolytic notes from lees ageing",
         "c": "Kirsch, banana and bubblegum aromas with low tannin",
-        "d": "Nutty, oxidative character"
+        "d": "Nutty, oxidative character from deliberate air contact"
       },
       "answer": "c",
       "explanation": "Fermentation begins inside whole intact berries in a CO2-rich environment, which extracts colour but little tannin and generates distinctive confected fruit aromas.",
@@ -133,7 +133,7 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Which technique will guarantee microbiological stability in a finished wine?",
       "options": {
-        "a": "Racking",
+        "a": "Racking off the lees",
         "b": "Depth filtration",
         "c": "Cold stabilisation",
         "d": "Sterile filtration"
@@ -181,9 +181,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Chaptalisation is carried out in order to",
       "options": {
-        "a": "lower the acidity of the must",
+        "a": "lower the acidity of the must before fermentation",
         "b": "increase the final alcohol level of the wine",
-        "c": "deepen the colour of a red wine",
+        "c": "deepen the colour of a red wine during maceration",
         "d": "stop fermentation and retain sweetness"
       },
       "answer": "b",
@@ -205,10 +205,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Stirring the lees during maturation of a white wine will typically",
       "options": {
-        "a": "increase tannin and colour",
-        "b": "raise the acidity",
+        "a": "increase tannin and colour through extended skin contact",
+        "b": "raise the acidity through malolactic inhibition",
         "c": "add creamy texture and biscuit or bread-like flavours",
-        "d": "remove oak character"
+        "d": "remove oak character absorbed during barrel ageing"
       },
       "answer": "c",
       "explanation": "Autolysis of dead yeast cells releases compounds that build texture and savoury, bready flavour, and stirring increases the wine's contact with them.",
@@ -229,9 +229,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Why are the gravel soils of the M\u00e9doc particularly well suited to Cabernet Sauvignon?",
       "options": {
-        "a": "They retain water, protecting the vine from drought",
-        "b": "They protect the vine against phylloxera",
-        "c": "They are highly fertile, promoting large yields",
+        "a": "They retain water, protecting the vine from drought during dry summers",
+        "b": "They protect the vine against phylloxera in the way sandy soils do",
+        "c": "They are highly fertile, promoting large yields of dilute fruit",
         "d": "They drain freely and absorb heat, helping this late-ripening variety to ripen"
       },
       "answer": "d",
@@ -255,9 +255,9 @@ window.WSET_DATA_3 = {
       "question": "Which natural feature is critical to the development of noble rot in Sauternes?",
       "options": {
         "a": "Cool autumn mists from the Ciron followed by sunny afternoons",
-        "b": "Constant strong winds off the Atlantic",
-        "c": "High altitude vineyards above 500 metres",
-        "d": "Volcanic soils that retain heat overnight"
+        "b": "Constant strong winds off the Atlantic drying the grapes",
+        "c": "High altitude vineyards above 500 metres near the Ciron",
+        "d": "Volcanic soils that retain heat overnight through the harvest"
       },
       "answer": "a",
       "explanation": "The cold Ciron meets the warmer Garonne, generating morning mists that encourage botrytis. Sunny afternoons then dry the grapes so the rot concentrates rather than turns grey.",
@@ -279,10 +279,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Which hazard poses the greatest threat to Chablis growers, and how is it commonly managed?",
       "options": {
-        "a": "Drought, managed by drip irrigation",
+        "a": "Drought, managed by drip irrigation systems",
         "b": "Spring frost, managed by sprinklers and heaters",
-        "c": "Hail, managed by earthing up",
-        "d": "Sunburn, managed by leaf removal"
+        "c": "Hail, managed by earthing up the vine trunks",
+        "d": "Sunburn, managed by leaf removal around the fruit zone"
       },
       "answer": "b",
       "explanation": "Chablis is far enough north that spring frost after budburst can destroy a crop. Sprinklers that coat buds in protective ice, along with heaters, are the usual defences.",
@@ -304,10 +304,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Why are the best vineyards of the C\u00f4te d'Or generally found mid-slope?",
       "options": {
-        "a": "Soils are deepest and most fertile there",
-        "b": "They are the only sites permitted to plant Pinot Noir",
+        "a": "Soils are deepest and most fertile there, encouraging vigorous vine growth",
+        "b": "They are the only sites permitted to plant Pinot Noir under appellation rules",
         "c": "They combine good drainage and sun exposure while avoiding frost that settles at the base",
-        "d": "They receive the highest rainfall"
+        "d": "They receive the highest rainfall of any position along the slope each year"
       },
       "answer": "c",
       "explanation": "Mid-slope sites drain well and catch favourable sunlight, while cold air drains past them to the flatter land below, where frost risk and more fertile soils reduce quality.",
@@ -329,8 +329,8 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Which of the following is a Beaujolais Cru?",
       "options": {
-        "a": "Mercurey",
-        "b": "Montagny",
+        "a": "Mercurey, a red-wine village in the C\u00f4te Chalonnaise",
+        "b": "Montagny, a white-wine village in the C\u00f4te Chalonnaise",
         "c": "Saint-V\u00e9ran",
         "d": "Moulin-\u00e0-Vent"
       },
@@ -355,9 +355,9 @@ window.WSET_DATA_3 = {
       "question": "A Muscadet labelled sur lie will have been",
       "options": {
         "a": "matured on its lees before bottling, adding texture and a slight prickle of CO2",
-        "b": "fermented in new oak barrels",
-        "c": "aged for a minimum of three years",
-        "d": "made from partially dried grapes"
+        "b": "fermented in new oak barrels, gaining pronounced vanilla and spice notes from the wood",
+        "c": "aged for a minimum of three years in barrel before release to market",
+        "d": "made from partially dried grapes to concentrate sugar and extract levels"
       },
       "answer": "a",
       "explanation": "The wine stays on its fine lees over winter and is bottled directly off them, gaining a little body and savoury character, sometimes with a light spritz.",
@@ -379,10 +379,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Which statement about Vouvray is correct?",
       "options": {
-        "a": "It is made from Sauvignon Blanc and is always dry",
+        "a": "It is made from Sauvignon Blanc and is always bone dry in style, unlike Sancerre",
         "b": "It is made from Chenin Blanc and can range from dry to sweet, including sparkling",
-        "c": "It is a red wine made from Cabernet Franc",
-        "d": "It is a fortified wine"
+        "c": "It is a red wine made from Cabernet Franc, aged in oak similar to nearby Chinon",
+        "d": "It is a fortified wine made in a style similar to Pineau des Charentes"
       },
       "answer": "b",
       "explanation": "Chenin Blanc's naturally high acidity supports the full range of styles, and vintage conditions largely dictate whether a producer makes dry, off-dry or botrytis-affected sweet wine.",
@@ -429,8 +429,8 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "What is the effect of the large galets stones found in some Ch\u00e2teauneuf-du-Pape vineyards?",
       "options": {
-        "a": "They prevent phylloxera",
-        "b": "They increase soil fertility",
+        "a": "They prevent phylloxera from attacking the roots",
+        "b": "They increase soil fertility and nutrient content",
         "c": "They lower the daytime temperature of the vineyard",
         "d": "They retain heat and radiate it back to the vines"
       },
@@ -456,8 +456,8 @@ window.WSET_DATA_3 = {
       "options": {
         "a": "They shelter the vineyards from westerly rain, creating a dry, sunny climate",
         "b": "They funnel cold air onto the vineyards, delaying ripening",
-        "c": "They increase humidity, encouraging noble rot every year",
-        "d": "They block sunlight from the best sites"
+        "c": "They increase humidity, encouraging noble rot to develop every single year",
+        "d": "They block sunlight from the best sites, limiting ripeness in most vintages"
       },
       "answer": "a",
       "explanation": "Alsace sits in the rain shadow of the Vosges, making it one of France's driest wine regions. That sunshine and dryness allow high ripeness levels and, in some years, late-harvest styles.",
@@ -479,10 +479,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Why are the best Mosel vineyards planted on steep, south-facing slopes?",
       "options": {
-        "a": "To make mechanical harvesting easier",
+        "a": "To make mechanical harvesting easier on the valley floor",
         "b": "To maximise interception of sunlight in a cool, northerly climate",
-        "c": "To protect the vines from excessive heat",
-        "d": "To increase yields"
+        "c": "To protect the vines from excessive heat reflected off the river",
+        "d": "To increase yields permitted under regional quotas"
       },
       "answer": "b",
       "explanation": "At this latitude, ripening depends on aspect and angle. Steep south-facing sites, often on dark slate that retains heat, capture far more solar energy than flat land, at the cost of labour-intensive manual work.",
@@ -504,7 +504,7 @@ window.WSET_DATA_3 = {
       "question": "The German Pr\u00e4dikat categories are determined by",
       "options": {
         "a": "the sweetness of the finished wine",
-        "b": "the length of oak ageing",
+        "b": "the length of oak ageing before bottling",
         "c": "the must weight of the grapes at harvest",
         "d": "the yield permitted per hectare"
       },
@@ -528,9 +528,9 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "A wine labelled VDP.Grosses Gew\u00e4chs will be",
       "options": {
-        "a": "a sweet wine from a botrytised harvest",
+        "a": "a sweet wine made from a late-harvested botrytised crop",
         "b": "a sparkling wine made by the traditional method",
-        "c": "an entry-level regional blend",
+        "c": "an entry-level regional blend sold under a Gutswein label",
         "d": "a dry wine from a member's top-classified vineyard site"
       },
       "answer": "d",
@@ -554,9 +554,9 @@ window.WSET_DATA_3 = {
       "question": "Which flavour characteristic is most typical of Gr\u00fcner Veltliner?",
       "options": {
         "a": "White pepper and citrus",
-        "b": "Petrol and lime",
+        "b": "Petrol and lime zest",
         "c": "Gooseberry and elderflower",
-        "d": "Rose and lychee"
+        "d": "Rose petal and lychee"
       },
       "answer": "a",
       "explanation": "Gr\u00fcner Veltliner commonly shows white pepper alongside citrus and stone fruit, with high acidity. Petrol suggests aged Riesling and lychee suggests Gewurztraminer.",
@@ -577,10 +577,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "How is Tokaji Asz\u00fa produced?",
       "options": {
-        "a": "By fortifying a dry base wine with grape spirit",
+        "a": "By fortifying a dry base wine with neutral grape spirit before bottling",
         "b": "By adding a paste of botrytis-affected berries to a base wine or must and macerating it",
-        "c": "By freezing grapes on the vine and pressing them frozen",
-        "d": "By drying grapes on straw mats for several months"
+        "c": "By freezing grapes on the vine and pressing them while still frozen and solid",
+        "d": "By drying grapes on straw mats for several months, as in the appassimento method"
       },
       "answer": "b",
       "explanation": "Botrytis-affected asz\u00fa berries are picked separately and mashed into a paste, then macerated in base wine or must to extract sugar and flavour before pressing and fermentation.",
@@ -602,8 +602,8 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Which factor most contributes to Barolo's characteristically firm structure?",
       "options": {
-        "a": "The use of dried grapes",
-        "b": "Extended carbonic maceration",
+        "a": "The use of dried grapes before pressing",
+        "b": "Extended carbonic maceration before pressing",
         "c": "Nebbiolo's high tannin and high acidity",
         "d": "Fortification during fermentation"
       },
@@ -627,9 +627,9 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "How is Valpolicella Ripasso made?",
       "options": {
-        "a": "By drying the grapes before fermentation",
-        "b": "By ageing the wine under a film of flor",
-        "c": "By blending in a proportion of Recioto",
+        "a": "By drying the grapes before fermentation, as with the appassimento method used for Amarone",
+        "b": "By ageing the wine under a film of flor in partially filled casks, as with Sherry",
+        "c": "By blending in a proportion of Recioto to raise the residual sugar level",
         "d": "By re-fermenting or macerating Valpolicella on the skins left over from Amarone production"
       },
       "answer": "d",
@@ -701,10 +701,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Which natural factor is most important in Ribera del Duero?",
       "options": {
-        "a": "Maritime influence from the Atlantic",
-        "b": "Persistent autumn fog encouraging botrytis",
+        "a": "Maritime influence from the Atlantic moderating summer heat",
+        "b": "Persistent autumn fog encouraging botrytis development",
         "c": "High altitude giving cold nights and a wide diurnal range",
-        "d": "Volcanic soils"
+        "d": "Volcanic soils rich in iron that retain daytime heat"
       },
       "answer": "c",
       "explanation": "Vineyards sit on a high plateau where hot days and cold nights let Tempranillo ripen fully while keeping acidity. Frost is a real risk at both ends of the season.",
@@ -750,9 +750,9 @@ window.WSET_DATA_3 = {
       "question": "Which combination best explains the high price of Priorat's wines?",
       "options": {
         "a": "Very low yields from old vines on steep llicorella slopes, requiring manual work",
-        "b": "High yields and mechanised farming",
-        "c": "Compulsory ageing under flor",
-        "d": "Extensive irrigation costs"
+        "b": "High yields and mechanised farming across flat, accessible vineyards",
+        "c": "Compulsory ageing under flor in partially filled American oak casks",
+        "d": "Extensive irrigation costs from drip systems installed on every parcel"
       },
       "answer": "a",
       "explanation": "The slate-based llicorella soils are poor and the terraced slopes are too steep for machinery, so yields are tiny and labour costs are high, driving up cost per bottle.",
@@ -773,10 +773,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "What cools Los Carneros, making it suitable for Pinot Noir and Chardonnay?",
       "options": {
-        "a": "High altitude above the fog line",
+        "a": "High altitude above the fog line at night",
         "b": "Cool air and fog drawn in from San Pablo Bay",
         "c": "Cold air descending from the Sierra Nevada",
-        "d": "Heavy summer rainfall"
+        "d": "Heavy summer rainfall from Pacific storms"
       },
       "answer": "b",
       "explanation": "Carneros lies at the southern end of Napa and Sonoma, open to the bay. The maritime influence and fog lengthen the growing season and preserve acidity.",
@@ -823,9 +823,9 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Why is irrigation essential in Washington State's Columbia Valley?",
       "options": {
-        "a": "The soils are unusually free-draining sand only",
-        "b": "Rainfall arrives only during harvest",
-        "c": "The region has no access to groundwater",
+        "a": "The soils are unusually free-draining sand only, unable to hold nutrients",
+        "b": "Rainfall arrives only during harvest, damaging ripening fruit",
+        "c": "The region has no access to groundwater beneath the vineyards",
         "d": "The Cascade Mountains create a rain shadow, leaving the area very dry"
       },
       "answer": "d",
@@ -849,9 +849,9 @@ window.WSET_DATA_3 = {
       "question": "What is the principal effect of the Uco Valley's altitude on its wines?",
       "options": {
         "a": "Cooler temperatures and a wide diurnal range preserve acidity and colour",
-        "b": "It reduces sunlight intensity",
-        "c": "It raises humidity and disease pressure",
-        "d": "It prevents the grapes from ripening at all"
+        "b": "It reduces sunlight intensity, limiting photosynthesis and slowing sugar accumulation",
+        "c": "It raises humidity and disease pressure, encouraging botrytis in the ripening fruit",
+        "d": "It prevents the grapes from ripening at all, restricting cultivation to hybrid varieties"
       },
       "answer": "a",
       "explanation": "Higher sites are cooler, so ripening slows and acidity holds. Intense UV at altitude also thickens skins, contributing colour and tannin.",
@@ -896,10 +896,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Classic Hunter Valley Semillon is made by picking grapes early, which results in",
       "options": {
-        "a": "high alcohol and pronounced oak character",
-        "b": "a sweet, botrytis-influenced wine",
+        "a": "high alcohol and pronounced oak character from extended barrel maturation and lees stirring",
+        "b": "a sweet, botrytis-influenced wine similar in style to Sauternes or Barsac",
         "c": "low alcohol, high acidity and a neutral youthful profile that develops toast and honey with age",
-        "d": "a deeply coloured, tannic white"
+        "d": "a deeply coloured, tannic white made with extended skin contact during fermentation"
       },
       "answer": "c",
       "explanation": "Early picking gives a light, low-alcohol, high-acid wine that shows little aroma when young. With bottle age it develops the characteristic toast, honey and lanolin notes without any oak involvement.",
@@ -920,9 +920,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Which combination of factors best explains the pungent aromatic style of Marlborough Sauvignon Blanc?",
       "options": {
-        "a": "Hot days with high humidity and heavy rainfall",
-        "b": "Extended oak maturation",
-        "c": "Volcanic soils and very high altitude",
+        "a": "Hot days with high humidity and heavy rainfall throughout ripening",
+        "b": "Extended oak maturation in new French barriques during fermentation",
+        "c": "Volcanic soils and very high altitude vineyard sites near the coast",
         "d": "High sunshine hours with cool nights and a long, dry growing season"
       },
       "answer": "d",
@@ -945,9 +945,9 @@ window.WSET_DATA_3 = {
       "question": "Premium Swartland Chenin Blanc frequently comes from",
       "options": {
         "a": "old bush vines producing low yields of concentrated fruit",
-        "b": "young, heavily irrigated vines",
-        "c": "vineyards planted above 1,000 metres",
-        "d": "botrytis-affected grapes"
+        "b": "young, heavily irrigated vines trained on trellises",
+        "c": "vineyards planted above 1,000 metres on decomposed granite",
+        "d": "botrytis-affected grapes picked late in autumn"
       },
       "answer": "a",
       "explanation": "Swartland has extensive plantings of old, unirrigated bush vines. Their low yields give concentration, and many producers use oak maturation for texture rather than obvious flavour.",
@@ -968,10 +968,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "In Chile, the designation Entre Cordilleras refers to",
       "options": {
-        "a": "vineyards closest to the Pacific coast",
+        "a": "vineyards closest to the Pacific coast, cooled by the Humboldt current",
         "b": "vineyards in the central area between the coastal range and the Andes",
-        "c": "vineyards in the Andean foothills",
-        "d": "a permitted grape variety"
+        "c": "vineyards in the Andean foothills at higher elevation",
+        "d": "a permitted grape variety used only for blending purposes"
       },
       "answer": "b",
       "explanation": "Chile added three cross-regional terms describing east to west position: Costa for coastal sites, Andes for the foothills and Entre Cordilleras for the warmer central zone between the two mountain ranges.",
@@ -993,10 +993,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Which style is most typical of Vinho Verde?",
       "options": {
-        "a": "Full-bodied, oaked and high in alcohol",
-        "b": "Sweet and fortified",
+        "a": "Full-bodied, oaked and high in alcohol, like white Rioja Gran Reserva",
+        "b": "Sweet and fortified, produced in a style similar to Port or Madeira",
         "c": "Light, high in acidity, low in alcohol and sometimes slightly sparkling",
-        "d": "Deeply coloured and tannic"
+        "d": "Deeply coloured and tannic, made from late-harvested red grapes"
       },
       "answer": "c",
       "explanation": "The cool, wet Atlantic north-west produces light, fresh whites, historically low in alcohol and often bottled with a touch of CO2. Higher-quality examples from Alvarinho are fuller and more serious.",
@@ -1042,9 +1042,9 @@ window.WSET_DATA_3 = {
       "question": "An Alsace wine labelled S\u00e9lection de Grains Nobles will be",
       "options": {
         "a": "a sweet wine made from individually selected botrytis-affected grapes",
-        "b": "a dry wine from a Grand Cru vineyard",
-        "c": "a sparkling wine",
-        "d": "a red wine from Pinot Noir"
+        "b": "a dry wine from a Grand Cru vineyard picked at standard ripeness",
+        "c": "a sparkling wine made by the traditional Cr\u00e9mant method",
+        "d": "a red wine from Pinot Noir, the only black variety permitted in Alsace"
       },
       "answer": "a",
       "explanation": "SGN sits above Vendanges Tardives and requires very high must weights from grapes affected by noble rot, producing intensely sweet wines.",
@@ -1067,10 +1067,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Which factor is most likely to raise the price of a wine made from a steeply terraced vineyard?",
       "options": {
-        "a": "Lower cost of grapes",
+        "a": "Lower cost of grapes bought in bulk from cooperative growers",
         "b": "The need for manual vineyard work in place of machinery",
-        "c": "Higher permitted yields",
-        "d": "Shorter maturation periods"
+        "c": "Higher permitted yields under a generous appellation ceiling",
+        "d": "Shorter maturation periods using stainless steel tanks only"
       },
       "answer": "b",
       "explanation": "Steep sites rule out mechanisation, so labour costs per bottle rise sharply. Combined with the low yields such sites usually give, this feeds directly into price.",
@@ -1117,9 +1117,9 @@ window.WSET_DATA_3 = {
       "question": "The liqueur d'exp\u00e9dition is added",
       "options": {
         "a": "after disgorgement, to top up the bottle and set the level of sweetness",
-        "b": "to start the second fermentation",
-        "c": "before the first fermentation, to raise alcohol",
-        "d": "during riddling, to clarify the wine"
+        "b": "to start the second fermentation inside the sealed bottle after tirage",
+        "c": "before the first fermentation, to raise potential alcohol level",
+        "d": "during riddling, to help settle the lees deposit against the crown cap"
       },
       "answer": "a",
       "explanation": "After the lees plug is expelled, this mixture of wine and sugar replaces the lost volume and determines whether the finished wine is Brut Nature, Brut or Demi-Sec. The liqueur de tirage is what triggers the second fermentation.",
@@ -1140,10 +1140,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "What distinguishes the transfer method from the traditional method?",
       "options": {
-        "a": "The second fermentation takes place in tank rather than bottle",
+        "a": "The second fermentation takes place in tank rather than bottle, as in the Charmat or cuve close process",
         "b": "The wine undergoes its second fermentation in bottle but is then disgorged into a tank, filtered and rebottled under pressure",
-        "c": "Carbon dioxide is injected into the finished wine",
-        "d": "Fermentation is stopped by chilling and filtration"
+        "c": "Carbon dioxide is injected into the finished wine, as in the carbonation method used for cheap sparkling wine",
+        "d": "Fermentation is stopped by chilling and filtration before the wine reaches its full potential alcohol"
       },
       "answer": "b",
       "explanation": "The transfer method keeps the bottle fermentation and its autolytic character while avoiding riddling and bottle-by-bottle disgorgement, which suits small formats and large volumes.",
@@ -1164,10 +1164,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "How does the Asti method differ from the tank method?",
       "options": {
-        "a": "It uses only black grapes",
-        "b": "It requires a minimum of 15 months on the lees",
+        "a": "It uses only black grapes, unlike the white Moscato Bianco used in the tank method",
+        "b": "It requires a minimum of 15 months on the lees before disgorgement takes place",
         "c": "It uses a single fermentation, stopped by chilling and filtration to retain both CO2 and sugar",
-        "d": "The wine is fermented in oak barrels"
+        "d": "The wine is fermented in oak barrels rather than sealed stainless steel tanks"
       },
       "answer": "c",
       "explanation": "There is no separate second fermentation. Chilled must is fermented under pressure and the process is halted while sugar remains, preserving grapey Muscat aromatics along with low alcohol and sweetness.",
@@ -1215,9 +1215,9 @@ window.WSET_DATA_3 = {
       "question": "Why is a wine destined to become Fino fortified to around 15% abv rather than higher?",
       "options": {
         "a": "Flor yeast cannot survive much above this level, and it is flor that gives the style its character",
-        "b": "Higher alcohol would prevent malolactic conversion",
-        "c": "It is a legal maximum for all Sherry",
-        "d": "Higher alcohol would strip the wine of colour"
+        "b": "Higher alcohol would prevent malolactic conversion from taking place in cask",
+        "c": "It is a legal maximum for all Sherry styles regardless of the intended category",
+        "d": "Higher alcohol would strip the wine of colour during oxidative ageing in cask"
       },
       "answer": "a",
       "explanation": "Flor needs a narrow alcohol band to thrive. Wines fortified to 17% and above kill the flor and age oxidatively instead, which is the route to Oloroso.",
@@ -1239,10 +1239,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "At what point is grape spirit added during Port production?",
       "options": {
-        "a": "Before fermentation begins",
+        "a": "Before fermentation begins, to preserve all natural grape sugar",
         "b": "Part-way through fermentation, while sugar remains in the must",
-        "c": "After fermentation has finished",
-        "d": "After several years of cask ageing"
+        "c": "After fermentation has finished, as with dry Sherry styles",
+        "d": "After several years of cask ageing, once the wine has developed tawny character"
       },
       "answer": "b",
       "explanation": "Fortifying mid-fermentation kills the yeast and leaves unfermented sugar, which is why Port is sweet and high in alcohol. Dry Sherry styles are fortified only after fermentation is complete.",
@@ -1264,10 +1264,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "A Port labelled 20 Year Old Tawny indicates that",
       "options": {
-        "a": "every wine in the blend is exactly 20 years old",
-        "b": "the wine spent 20 years in bottle",
+        "a": "every wine in the blend is exactly 20 years old at bottling",
+        "b": "the wine spent 20 years ageing in bottle before its release",
         "c": "the blend is intended to reflect the character of a 20-year-old Tawny",
-        "d": "the wine comes from the 20th vintage of a series"
+        "d": "the wine comes from the 20th vintage declared by the shipping house"
       },
       "answer": "c",
       "explanation": "The figure is an indication of style and average age rather than a precise measurement, arrived at by blending casks of different ages.",
@@ -1290,9 +1290,9 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Palo Cortado is best described as a wine that",
       "options": {
-        "a": "is always sweetened before bottling",
-        "b": "is made exclusively from Pedro Xim\u00e9nez",
-        "c": "is aged entirely under flor",
+        "a": "is always sweetened before bottling with a portion of concentrated grape must, as with Cream Sherry",
+        "b": "is made exclusively from Pedro Xim\u00e9nez rather than Palomino grapes",
+        "c": "is aged entirely under a film of flor without any oxidative development",
         "d": "shows the aromatic delicacy of Amontillado with the body and structure of Oloroso"
       },
       "answer": "d",
@@ -1316,9 +1316,9 @@ window.WSET_DATA_3 = {
       "question": "Rutherglen Muscat owes its intense raisin and toffee character to",
       "options": {
         "a": "very ripe or shrivelled grapes, fortification, and extended oxidative cask ageing in a warm climate",
-        "b": "noble rot concentrating the grapes, followed by a long cool fermentation",
-        "c": "biological ageing beneath a protective layer of flor yeast in cool cellars",
-        "d": "the addition of caramel colouring and grape concentrate before bottling"
+        "b": "noble rot concentrating the grapes, followed by a long cool fermentation in stainless steel",
+        "c": "biological ageing beneath a protective layer of flor yeast in cool coastal cellars",
+        "d": "the addition of caramel colouring and grape concentrate before bottling, as permitted for cheap blends"
       },
       "answer": "a",
       "explanation": "Grapes are picked at extreme ripeness and fortified to retain sugar, then aged oxidatively in a hot climate, which concentrates the wine and builds toffee and dried fruit complexity.",
@@ -1340,10 +1340,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "What is the principal reason for decanting an old red wine?",
       "options": {
-        "a": "To warm the wine quickly",
+        "a": "To warm the wine quickly before service",
         "b": "To separate the wine from its sediment",
-        "c": "To increase its tannin",
-        "d": "To remove cork taint"
+        "c": "To increase its tannin before serving",
+        "d": "To remove cork taint from the wine"
       },
       "answer": "b",
       "explanation": "Older reds throw a deposit that is unpleasant in the glass. Decanting a young wine, by contrast, is usually about aeration to soften tannins and open the aromas.",
@@ -1414,8 +1414,8 @@ window.WSET_DATA_3 = {
       "options": {
         "a": "It makes the wine seem more bitter and astringent",
         "b": "It softens the tannins and increases perceived fruitiness",
-        "c": "It has no measurable effect",
-        "d": "It makes the wine taste sweeter"
+        "c": "It has no measurable effect on the wine's taste",
+        "d": "It makes the wine taste noticeably sweeter"
       },
       "answer": "a",
       "explanation": "Umami accentuates bitterness and astringency while reducing perceived sweetness and fruit. Adding salt to the dish is a common way of counteracting this.",
@@ -1436,10 +1436,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Why might a grower choose replacement cane pruning rather than spur pruning?",
       "options": {
-        "a": "It requires less skilled labour and can be carried out by machine on any variety",
-        "b": "It eliminates the need for a trellis and reduces the cost of canopy management",
+        "a": "It requires less skilled labour and can be carried out by machine on any variety without regard to bud fruitfulness",
+        "b": "It eliminates the need for a trellis and reduces the cost of canopy management throughout the growing season",
         "c": "It allows the grower to select healthy, fruitful wood each year, which suits varieties with unfruitful buds near the base of the cane",
-        "d": "It guarantees higher yields in every vintage regardless of the weather at flowering"
+        "d": "It guarantees higher yields in every vintage regardless of the weather at flowering or the vine's crop-thinning history"
       },
       "answer": "c",
       "explanation": "Some varieties produce little fruit from basal buds, so retaining a longer cane of proven wood is necessary. The trade-off is that it takes more time and skill than spur pruning.",
@@ -1460,9 +1460,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "What is the principal benefit of vertical shoot positioning in a cool climate?",
       "options": {
-        "a": "It shades the fruit from direct sun, preventing sunburn and bitter cooked flavours",
-        "b": "It increases yields substantially without any additional work in the vineyard",
-        "c": "It removes the need for winter pruning and for any further canopy work",
+        "a": "It shades the fruit from direct sun, preventing sunburn and bitter cooked flavours in hot climates",
+        "b": "It increases yields substantially without any additional work needed in the vineyard each season",
+        "c": "It removes the need for winter pruning and for any further canopy work throughout the growing season",
         "d": "It exposes leaves and fruit to sunlight and improves air circulation, aiding ripening and reducing fungal disease"
       },
       "answer": "d",
@@ -1486,7 +1486,7 @@ window.WSET_DATA_3 = {
       "options": {
         "a": "shade the grapes and prevent sunburn",
         "b": "increase the rate of photosynthesis",
-        "c": "encourage fungal disease",
+        "c": "encourage fungal disease within the canopy",
         "d": "raise the sugar level faster"
       },
       "answer": "a",
@@ -1508,10 +1508,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "What is the main advantage of drip irrigation over flood irrigation?",
       "options": {
-        "a": "It is cheaper to install",
+        "a": "It is cheaper to install than a full flood irrigation channel system overall",
         "b": "It delivers precise amounts of water to individual vines, allowing controlled water stress",
-        "c": "It requires no water source",
-        "d": "It eliminates the need for canopy management"
+        "c": "It reduces the need for any water source by relying on natural rainfall alone",
+        "d": "It eliminates the need for canopy management throughout the entire growing season"
       },
       "answer": "b",
       "explanation": "Precise control lets a grower apply mild water stress at the right moment, which limits berry size and concentrates flavour. Installation cost is high, but water use is far more efficient.",
@@ -1532,10 +1532,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Biodynamic viticulture differs from organic viticulture principally in that it",
       "options": {
-        "a": "permits synthetic pesticides",
-        "b": "prohibits all use of sulfur dioxide in the winery",
+        "a": "permits synthetic pesticides in limited quantities during the growing season",
+        "b": "prohibits all use of sulfur dioxide in the winery at every stage of production",
         "c": "adds a set of preparations and a calendar of vineyard tasks based on lunar and cosmic cycles",
-        "d": "requires irrigation to be avoided"
+        "d": "requires irrigation to be avoided entirely regardless of local rainfall patterns"
       },
       "answer": "c",
       "explanation": "Biodynamics builds on organic practice, so synthetic treatments remain excluded, and adds its own preparations and timing framework.",
@@ -1556,9 +1556,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Which is a genuine disadvantage of machine harvesting?",
       "options": {
-        "a": "It can only be used at night",
-        "b": "It prevents the grapes from being destemmed",
-        "c": "It is always slower than hand picking",
+        "a": "It can only be used at night, since daytime heat damages the fruit during mechanical shaking",
+        "b": "It prevents the grapes from being destemmed before they reach the winery for processing",
+        "c": "It is always slower than hand picking, even on flat, well-trellised vineyard sites",
         "d": "It cannot select between healthy and unhealthy fruit, and cannot be used on steep or terraced sites"
       },
       "answer": "d",
@@ -1583,7 +1583,7 @@ window.WSET_DATA_3 = {
         "a": "It removes fine particles and unstable compounds that are too small for a filter to catch",
         "b": "It sterilises the wine, removing all yeast and bacteria before bottling",
         "c": "It raises the alcohol level by concentrating the wine before bottling",
-        "d": "It adds tannin and colour to the wine, building structure before maturation"
+        "d": "It adds tannin and colour to the wine, building structure ahead of barrel maturation"
       },
       "answer": "a",
       "explanation": "A fining agent binds to suspended colloids so they clump together and can be removed. Filtration then physically separates larger particles from the liquid.",
@@ -1604,10 +1604,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Compared with natural cork, a screw cap closure",
       "options": {
-        "a": "guarantees faster development of tertiary aromas",
+        "a": "guarantees faster development of tertiary aromas during extended bottle ageing",
         "b": "removes the risk of cork taint and gives a more consistent, generally more reductive seal",
-        "c": "allows significantly more oxygen ingress",
-        "d": "cannot be used for wines intended to age"
+        "c": "allows significantly more oxygen ingress than a natural cork closure permits",
+        "d": "cannot be used for wines intended for any ageing beyond a few years in bottle"
       },
       "answer": "b",
       "explanation": "Screw caps eliminate TCA from the closure and vary less bottle to bottle. Their low oxygen transmission preserves freshness but can accentuate reductive characters.",
@@ -1653,9 +1653,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "The 1855 classification of Grand Cru Class\u00e9 estates covers properties in",
       "options": {
-        "a": "Pomerol and Saint-\u00c9milion",
-        "b": "Burgundy",
-        "c": "the whole of Bordeaux equally",
+        "a": "Pomerol and Saint-\u00c9milion, ranked by the local growers' syndicate",
+        "b": "Burgundy, where similar cru rankings were later adopted",
+        "c": "the whole of Bordeaux equally, regardless of appellation",
         "d": "the M\u00e9doc, plus Haut-Brion in Graves, along with Sauternes and Barsac"
       },
       "answer": "d",
@@ -1703,10 +1703,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Chinon and Bourgueil produce red wines from which grape variety?",
       "options": {
-        "a": "Pinot Noir",
+        "a": "Pinot Noir, more typical of Sancerre further east",
         "b": "Cabernet Franc",
-        "c": "Gamay",
-        "d": "Malbec"
+        "c": "Gamay, the grape of Beaujolais to the south",
+        "d": "Malbec, associated with Cahors in the south-west"
       },
       "answer": "b",
       "explanation": "Cabernet Franc in the middle Loire gives medium-bodied reds with red fruit, leafy or floral notes and medium tannin, with vintage variation in a marginal climate.",
@@ -1728,10 +1728,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Savenni\u00e8res is best known for",
       "options": {
-        "a": "sweet Chenin Blanc",
-        "b": "ros\u00e9 from Grolleau",
+        "a": "sweet Chenin Blanc affected by noble rot, as in Coteaux du Layon",
+        "b": "ros\u00e9 from Grolleau grown on sandy soils along the river",
         "c": "dry, structured Chenin Blanc with high acidity and ageing potential",
-        "d": "sparkling wine made by the traditional method"
+        "d": "sparkling wine made by the traditional method, as in Saumur"
       },
       "answer": "c",
       "explanation": "Savenni\u00e8res specialises in dry Chenin, typically firm and austere in youth and capable of long development. Coteaux du Layon nearby is the sweet counterpart.",
@@ -1753,9 +1753,9 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Which statement about Cornas is correct?",
       "options": {
-        "a": "It produces white wine only",
-        "b": "It is located in the Southern Rh\u00f4ne",
-        "c": "It permits the addition of Viognier",
+        "a": "It produces white wine only from Viognier",
+        "b": "It is located in the Southern Rh\u00f4ne Valley",
+        "c": "It permits the addition of some Viognier",
         "d": "It produces red wine made entirely from Syrah"
       },
       "answer": "d",
@@ -1806,7 +1806,7 @@ window.WSET_DATA_3 = {
         "a": "Grenache",
         "b": "Mourv\u00e8dre",
         "c": "Cinsault",
-        "d": "Syrah"
+        "d": "Syrah, the principal grape of the Northern Rh\u00f4ne"
       },
       "answer": "b",
       "explanation": "Mourv\u00e8dre ripens very late and needs the heat and sunshine of this coastal appellation, giving structured, tannic reds with a savoury, meaty character.",
@@ -1828,10 +1828,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Compared with the Mosel, Rieslings from the Rheingau are typically",
       "options": {
-        "a": "lighter in body with lower alcohol",
-        "b": "always sweet and botrytis-affected",
+        "a": "lighter in body with lower alcohol than the Mosel",
+        "b": "always sweet and botrytis-affected in style",
         "c": "fuller in body and more often made in a dry style",
-        "d": "made from Silvaner"
+        "d": "made from Silvaner rather than Riesling"
       },
       "answer": "c",
       "explanation": "The Rheingau is slightly warmer and its vineyards face south towards the Rhine, giving riper fruit and more structure, with a strong tradition of dry wines.",
@@ -1852,9 +1852,9 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "The Wachau lies within which larger Austrian region?",
       "options": {
-        "a": "Burgenland",
-        "b": "Vienna",
-        "c": "Styria",
+        "a": "Eastern Burgenland, known for sweet wines around Neusiedlersee",
+        "b": "Central Vienna, home to the Heuriger wine taverns",
+        "c": "Southern Styria, known for aromatic Sauvignon Blanc",
         "d": "Nieder\u00f6sterreich"
       },
       "answer": "d",
@@ -1877,9 +1877,9 @@ window.WSET_DATA_3 = {
       "question": "Why is Pinot Grigio from Alto Adige generally more concentrated than examples from the Veneto plains?",
       "options": {
         "a": "Higher-altitude sites and lower yields give greater flavour concentration and fresher acidity",
-        "b": "It is aged in new oak",
-        "c": "It is made from a different grape variety",
-        "d": "It is fortified"
+        "b": "It is aged in new oak barrels, which adds vanilla and toast character",
+        "c": "It is made from a different grape variety grown at higher elevation",
+        "d": "It is fortified with neutral grape spirit part-way through its primary fermentation"
       },
       "answer": "a",
       "explanation": "Alpine altitude produces a wide diurnal range, and the smaller-scale viticulture there works at lower yields than the high-volume flatland vineyards.",
@@ -1902,8 +1902,8 @@ window.WSET_DATA_3 = {
       "options": {
         "a": "Proximity to the Adriatic Sea, giving a cool maritime influence",
         "b": "Altitude on volcanic slopes, giving cooler temperatures and a wide diurnal range",
-        "c": "Persistent autumn noble rot concentrating sugars in the grapes",
-        "d": "Very fertile alluvial soils supporting high yields of ripe fruit"
+        "c": "Persistent autumn noble rot concentrating sugars in the ripening grapes",
+        "d": "Very fertile alluvial soils supporting high yields of ripe fruit each year"
       },
       "answer": "b",
       "explanation": "Vineyards climb high on the volcano, so despite the southerly latitude the wines are fresher and lighter in body than typical Sicilian reds, with pronounced volcanic soil character.",
@@ -1974,9 +1974,9 @@ window.WSET_DATA_3 = {
       "question": "Compared with Ribera del Duero, reds from Toro are typically",
       "options": {
         "a": "fuller, riper and higher in alcohol, from a warmer, drier site",
-        "b": "lighter in body with lower alcohol",
-        "c": "made from Garnacha only",
-        "d": "aged exclusively in American oak by law"
+        "b": "lighter in body with lower alcohol, similar to Rioja Alavesa",
+        "c": "made from Garnacha only, as in southern Rh\u00f4ne blends",
+        "d": "aged exclusively in American oak by law under the DO regulations"
       },
       "answer": "a",
       "explanation": "Toro is hotter and drier, so its Tempranillo, known locally as Tinta de Toro, ripens to higher sugar levels and produces powerful, robust wines.",
@@ -1997,9 +1997,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Jumilla in the Levante is best known for reds made from",
       "options": {
-        "a": "Menc\u00eda",
+        "a": "Menc\u00eda, more typical of Bierzo further north",
         "b": "Monastrell",
-        "c": "Verdejo",
+        "c": "Verdejo, the white grape of nearby Rueda",
         "d": "Albari\u00f1o"
       },
       "answer": "b",
@@ -2021,10 +2021,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Unfortified red wines from the Douro are generally made from",
       "options": {
-        "a": "international varieties such as Cabernet Sauvignon only",
-        "b": "Baga",
+        "a": "international varieties such as Cabernet Sauvignon only, planted since the 1990s",
+        "b": "Baga, the thick-skinned variety typical of Bairrada further west",
         "c": "the same local varieties used for Port, such as Touriga Nacional and Tinta Roriz",
-        "d": "Alvarinho"
+        "d": "Alvarinho, the aromatic white variety of the Vinho Verde region"
       },
       "answer": "c",
       "explanation": "Producers use the same indigenous grapes but ferment them to dryness without fortification, giving full-bodied, structured reds from the region's steep schist terraces.",
@@ -2070,9 +2070,9 @@ window.WSET_DATA_3 = {
       "question": "What allows viticulture to succeed in New York's Finger Lakes despite its cold winters?",
       "options": {
         "a": "The moderating influence of the deep lakes, which reduce the risk of winter freeze",
-        "b": "The rain shadow of the Appalachians",
-        "c": "Consistently warm winters",
-        "d": "Volcanic soils that store heat"
+        "b": "The rain shadow of the Appalachians, which reduces disease pressure overall",
+        "c": "Consistently warm winters similar to those found in coastal California",
+        "d": "Volcanic soils that store heat and buffer temperature swings through winter"
       },
       "answer": "a",
       "explanation": "Large bodies of water release stored heat, protecting vines on the slopes above from the worst winter cold. Riesling is the region's flagship variety.",
@@ -2093,10 +2093,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Canadian Icewine production depends on",
       "options": {
-        "a": "noble rot developing in autumn mists",
+        "a": "noble rot developing in autumn mists that gather along the lakeshore",
         "b": "grapes reliably freezing on the vine, with pressing carried out while still frozen",
-        "c": "drying grapes indoors after harvest",
-        "d": "fortification during fermentation"
+        "c": "drying grapes indoors after harvest to concentrate their natural sugars",
+        "d": "fortification during fermentation to halt sugar conversion early"
       },
       "answer": "b",
       "explanation": "The cold continental winters make freezing dependable, which is why Ontario and British Columbia can produce Icewine at commercial scale. Vidal and Riesling are widely used.",
@@ -2117,10 +2117,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Tasmania is valued as a source of",
       "options": {
-        "a": "full-bodied Shiraz with high alcohol",
-        "b": "fortified Muscat",
+        "a": "full-bodied Shiraz with high alcohol, similar to warm Barossa Valley styles",
+        "b": "fortified Muscat aged oxidatively for many years in old cask, as in Rutherglen",
         "c": "cool-climate Chardonnay and Pinot Noir, including base wines for sparkling production",
-        "d": "Semillon picked at high ripeness"
+        "d": "Semillon picked at high ripeness for a full-bodied dry white wine"
       },
       "answer": "c",
       "explanation": "Its cool maritime conditions preserve the high acidity that traditional method sparkling wine needs, and also give elegant still Pinot Noir and Chardonnay.",
@@ -2141,9 +2141,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "A wine labelled Cr\u00e9mant de Bourgogne is made",
       "options": {
-        "a": "by the tank method in Burgundy",
-        "b": "only from black grapes",
-        "c": "by carbonation",
+        "a": "by the tank method in Burgundy from Aligot\u00e9",
+        "b": "only from black grapes such as Pinot Noir",
+        "c": "by carbonation of a finished still wine",
         "d": "by the traditional method outside Champagne"
       },
       "answer": "d",
@@ -2167,9 +2167,9 @@ window.WSET_DATA_3 = {
       "question": "Compared with generic Prosecco, wines from Conegliano-Valdobbiadene generally come from",
       "options": {
         "a": "steeper hillside sites with lower yields, giving greater concentration",
-        "b": "flatter, higher-yielding vineyards",
-        "c": "a completely different grape variety",
-        "d": "vineyards outside Italy"
+        "b": "flatter, higher-yielding vineyards on the plain below the hills",
+        "c": "a completely different grape variety than standard Prosecco DOC",
+        "d": "vineyards outside Italy, across the border in Slovenia"
       },
       "answer": "a",
       "explanation": "The hillside zone is the historic heart of the region. Manual work on steep slopes raises costs, and the wines are correspondingly more concentrated and more expensive.",
@@ -2267,9 +2267,9 @@ window.WSET_DATA_3 = {
       "question": "What distinguishes Manzanilla from Fino?",
       "options": {
         "a": "It is aged in Sanl\u00facar de Barrameda, where cooler, more humid conditions sustain a thicker layer of flor year-round",
-        "b": "It is fortified to a considerably higher level, which prevents flor from forming",
-        "c": "It is always sweetened before bottling with a portion of Pedro Xim\u00e9nez",
-        "d": "It is aged oxidatively in contact with air rather than beneath a layer of flor"
+        "b": "It is fortified to a considerably higher level from the outset, which prevents flor from ever forming",
+        "c": "It is always sweetened before bottling with a portion of Pedro Xim\u00e9nez to soften its character",
+        "d": "It is aged oxidatively in contact with air rather than beneath a layer of flor, as with Oloroso"
       },
       "answer": "a",
       "explanation": "Both are biologically aged, but the coastal microclimate of Sanl\u00facar supports flor more consistently, giving a lighter, more delicate and often saline style.",
@@ -2291,10 +2291,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "How does the solera system work?",
       "options": {
-        "a": "Each vintage is bottled separately after a fixed period",
+        "a": "Each vintage is bottled separately after a fixed period of cask ageing in a single barrel",
         "b": "Wine is drawn from the oldest tier and replaced from the next youngest, fractionally blending across ages",
-        "c": "Wine is aged entirely in bottle",
-        "d": "Casks are sealed and left untouched for decades"
+        "c": "Wine is aged entirely in bottle, gaining its oxidative character from years spent under cork",
+        "d": "Casks are sealed and left untouched for decades without any topping up or blending"
       },
       "answer": "b",
       "explanation": "Fractional blending averages out vintage variation and refreshes older wine with younger, which is why most Sherry carries no vintage date.",
@@ -2316,10 +2316,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "The principal difference between Ruby and Tawny Port styles lies in",
       "options": {
-        "a": "the grape varieties permitted",
-        "b": "whether or not the wine is fortified",
+        "a": "the grape varieties permitted, since Tawny is made only from white grapes",
+        "b": "whether or not the wine is fortified during the course of primary fermentation",
         "c": "whether the wine is aged protectively in large vessels or oxidatively in smaller casks",
-        "d": "the region of production"
+        "d": "the region of production within the demarcated Douro Valley subzones"
       },
       "answer": "c",
       "explanation": "Ruby styles are kept in large vessels that limit oxygen, preserving deep colour and fresh fruit. Tawny styles age in smaller casks where oxidation fades the colour and builds nutty, dried fruit character.",
@@ -2341,9 +2341,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Muscat de Beaumes-de-Venise is produced by",
       "options": {
-        "a": "ageing under flor",
-        "b": "blending across a solera",
-        "c": "drying the grapes for several months before fermentation",
+        "a": "ageing under flor in partially filled barrels for several years",
+        "b": "blending across a solera system spanning several different vintages",
+        "c": "drying the grapes for several months before fermentation begins",
         "d": "fortifying during fermentation to retain grape sugar and Muscat aromatics"
       },
       "answer": "d",
@@ -2368,8 +2368,8 @@ window.WSET_DATA_3 = {
       "options": {
         "a": "Dry before sweet, light before full-bodied, young before old",
         "b": "Sweet before dry, red before white, old before young",
-        "c": "Full-bodied before light, sweet before dry",
-        "d": "Fortified first, sparkling last"
+        "c": "Full-bodied before light, sweet before dry, red before white",
+        "d": "Fortified first, sparkling last to cleanse the palate"
       },
       "answer": "a",
       "explanation": "Each wine should not be overwhelmed by what came before, so lighter and drier styles come first and the most complex or sweetest wines close the meal.",
@@ -2390,10 +2390,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Why is a glass with a bowl that narrows towards the rim recommended for wine service?",
       "options": {
-        "a": "It keeps the wine colder for longer",
+        "a": "It keeps the wine colder for longer by reducing surface contact with air",
         "b": "It concentrates the aromas above the surface of the wine and directs them towards the nose",
-        "c": "It prevents the wine from oxidising entirely",
-        "d": "It increases the perceived acidity"
+        "c": "It prevents the wine from oxidising entirely once the bottle has been opened",
+        "d": "It increases the perceived acidity by directing the wine to the tip of the tongue"
       },
       "answer": "b",
       "explanation": "A tapered bowl collects volatile aromas in the headspace, and leaving the glass well under half full allows swirling to release more of them.",
@@ -2414,10 +2414,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "When recommending a wine to a customer, which consideration should come first?",
       "options": {
-        "a": "The highest-margin wine on the list",
-        "b": "The oldest vintage available",
+        "a": "The highest-margin wine on the current wine list",
+        "b": "The oldest vintage available on the current list",
         "c": "The customer's stated preferences, budget and the occasion",
-        "d": "Whichever wine needs to be sold quickly"
+        "d": "Whichever wine needs to be sold quickly before it spoils"
       },
       "answer": "c",
       "explanation": "A recommendation is only useful if it fits the person in front of you. Style, quality, price and occasion together frame the choice, and any pairing follows from there.",
@@ -2438,8 +2438,8 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Which is a recognised social consequence of excessive alcohol consumption?",
       "options": {
-        "a": "Improved long-term liver function",
-        "b": "No measurable consequences at any level",
+        "a": "Improved long-term liver function from regular heavy drinking",
+        "b": "No measurable consequences at any level of regular consumption",
         "c": "Reduced sensitivity to alcohol over time with no other effect",
         "d": "Increased risk of accidents, absenteeism and antisocial behaviour"
       },
@@ -2463,8 +2463,8 @@ window.WSET_DATA_3 = {
       "question": "Cold, wet or windy weather at flowering is a problem because it",
       "options": {
         "a": "disrupts fruit set, reducing the size of the crop",
-        "b": "causes the grapes to ripen too quickly",
-        "c": "increases the sugar level in the berries",
+        "b": "causes the grapes to ripen too quickly overall",
+        "c": "increases the sugar level within the berries",
         "d": "triggers early budburst the following spring"
       },
       "answer": "a",
@@ -2486,10 +2486,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Why can a free-draining soil be an advantage in a region with high rainfall?",
       "options": {
-        "a": "It supplies extra nutrients to the vine",
+        "a": "It supplies extra nutrients to the vine, encouraging vigorous canopy growth",
         "b": "It prevents waterlogging and mild water stress limits vine vigour, concentrating the fruit",
-        "c": "It raises the soil temperature above air temperature",
-        "d": "It eliminates the risk of fungal disease entirely"
+        "c": "It raises the soil temperature above air temperature, accelerating sugar accumulation",
+        "d": "It eliminates the risk of fungal disease entirely, removing the need for canopy management"
       },
       "answer": "b",
       "explanation": "Excess water swells berries and dilutes flavour while encouraging leafy growth. Soils that shed water keep the vine slightly stressed, which favours fruit over foliage.",
@@ -2510,10 +2510,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "What is the purpose of a cold soak before fermentation begins?",
       "options": {
-        "a": "To remove excess acidity",
-        "b": "To raise the temperature of the must quickly",
+        "a": "To remove excess acidity from the must before fermentation formally begins each vintage",
+        "b": "To raise the temperature of the must quickly ahead of fermentation starting",
         "c": "To extract colour and flavour in the absence of alcohol, with little tannin extraction",
-        "d": "To start malolactic conversion early"
+        "d": "To start malolactic conversion early alongside the alcoholic fermentation"
       },
       "answer": "c",
       "explanation": "Water is a better solvent for anthocyanins than for tannins, so chilling the must and holding it before fermentation builds colour and aroma without adding structure.",
@@ -2535,8 +2535,8 @@ window.WSET_DATA_3 = {
       "question": "Leaving a red wine on its skins after fermentation has finished will typically",
       "options": {
         "a": "reduce the alcohol level and lighten the body of the finished wine",
-        "b": "prevent malolactic conversion from taking place after pressing",
-        "c": "strip colour from the wine as the pigments bind to the skins",
+        "b": "prevent malolactic conversion from taking place after pressing is complete",
+        "c": "strip colour from the wine as the pigments bind permanently to the skins",
         "d": "extract further tannin and encourage those tannins to soften through polymerisation"
       },
       "answer": "d",
@@ -2559,9 +2559,9 @@ window.WSET_DATA_3 = {
       "question": "Compared with American oak, French oak generally contributes",
       "options": {
         "a": "subtler flavours with more spice, and often a finer tannin contribution",
-        "b": "more pronounced coconut and sweet vanilla flavours",
-        "c": "no flavour whatsoever",
-        "d": "a significant increase in acidity"
+        "b": "more pronounced coconut and sweet vanilla flavours from wide grain wood",
+        "c": "no flavour whatsoever, regardless of the toast level applied",
+        "d": "a significant increase in acidity during barrel maturation"
       },
       "answer": "a",
       "explanation": "The two species differ in their aromatic compounds and in how the wood is prepared, with American oak being the more overtly sweet and coconut-scented of the pair.",
@@ -2582,10 +2582,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Cold stabilisation is carried out in order to",
       "options": {
-        "a": "kill any remaining yeast in the wine",
+        "a": "kill any remaining yeast in the wine before bottling",
         "b": "prevent harmless tartrate crystals forming in the bottle",
-        "c": "increase the wine's tannin",
-        "d": "strip the wine of colour"
+        "c": "increase the wine's tannin through cold maceration",
+        "d": "strip the wine of colour through fining agents"
       },
       "answer": "b",
       "explanation": "Chilling the wine forces the crystals to precipitate before bottling. They are harmless, but consumers often mistake them for glass or sediment.",
@@ -2655,8 +2655,8 @@ window.WSET_DATA_3 = {
       "question": "Sweet white Juran\u00e7on is made principally from",
       "options": {
         "a": "Petit Manseng, whose grapes shrivel on the vine",
-        "b": "S\u00e9millon affected by noble rot",
-        "c": "Chenin Blanc picked late",
+        "b": "S\u00e9millon affected by noble rot in most vintages",
+        "c": "Chenin Blanc picked late in the season",
         "d": "Muscat fortified during fermentation"
       },
       "answer": "a",
@@ -2680,8 +2680,8 @@ window.WSET_DATA_3 = {
       "options": {
         "a": "the C\u00f4te de Nuits",
         "b": "the C\u00f4te Chalonnaise",
-        "c": "the M\u00e2connais",
-        "d": "Beaujolais"
+        "c": "the southern M\u00e2connais, known for everyday white Burgundy",
+        "d": "Beaujolais, further south and planted with Gamay"
       },
       "answer": "b",
       "explanation": "The C\u00f4te Chalonnaise lies south of the C\u00f4te d'Or and offers similar grape varieties at generally lower prices, since its reputation and land values are lower.",
@@ -2703,10 +2703,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Chablis Grand Cru vineyards are notable for being",
       "options": {
-        "a": "scattered evenly throughout the appellation",
+        "a": "scattered evenly throughout the appellation on both riverbanks",
         "b": "located outside the Chablis appellation boundary",
         "c": "concentrated on a single south-west facing slope above the town",
-        "d": "planted mainly with Pinot Noir"
+        "d": "planted mainly with Pinot Noir rather than Chardonnay"
       },
       "answer": "c",
       "explanation": "All seven Grand Cru climats sit together on one favoured slope, whose aspect maximises sunlight interception in a region where full ripeness is not guaranteed.",
@@ -2728,9 +2728,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Beaujolais Nouveau is released",
       "options": {
-        "a": "after a minimum of two years in oak",
-        "b": "after extended bottle ageing",
-        "c": "only in exceptional vintages",
+        "a": "after a minimum of two years in oak to soften its naturally firm tannins",
+        "b": "after extended bottle ageing to allow tertiary aromas to fully develop",
+        "c": "only in exceptional vintages when yields are naturally very low across the region",
         "d": "in the November following the harvest, as a light, fruity wine for immediate drinking"
       },
       "answer": "d",
@@ -2778,10 +2778,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Coteaux du Layon produces",
       "options": {
-        "a": "dry red wine from Cabernet Franc",
+        "a": "dry red wine from Cabernet Franc, as in nearby Chinon",
         "b": "sweet white wine from Chenin Blanc, often affected by noble rot",
-        "c": "sparkling wine by the traditional method",
-        "d": "ros\u00e9 from Grolleau"
+        "c": "sparkling wine by the traditional method, as in Cr\u00e9mant de Loire",
+        "d": "ros\u00e9 from Grolleau grown on the valley floor"
       },
       "answer": "b",
       "explanation": "Autumn mists rising off the Layon tributary encourage botrytis, and Chenin's high acidity keeps the resulting sweet wines balanced rather than cloying.",
@@ -2828,9 +2828,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Compared with Hermitage, wines from Crozes-Hermitage are generally",
       "options": {
-        "a": "more concentrated and considerably more expensive",
-        "b": "aged for a legal minimum of ten years",
-        "c": "made from white grapes only",
+        "a": "more concentrated and considerably more expensive, reflecting its smaller yields",
+        "b": "aged for a legal minimum of ten years before release to the market",
+        "c": "made from white grapes only, mainly Marsanne and Roussanne blends",
         "d": "lighter and more affordable, since much of the appellation lies on flatter land"
       },
       "answer": "d",
@@ -2854,9 +2854,9 @@ window.WSET_DATA_3 = {
       "question": "Picpoul de Pinet is",
       "options": {
         "a": "a dry white wine with high acidity from near the Mediterranean coast",
-        "b": "a full-bodied red from the Roussillon",
-        "c": "a sweet fortified wine",
-        "d": "a ros\u00e9 from Provence"
+        "b": "a full-bodied red from the Roussillon, aged in old oak barrels",
+        "c": "a sweet fortified wine made using a traditional solera system",
+        "d": "a ros\u00e9 from Provence, made by direct pressing of dark-skinned grapes"
       },
       "answer": "a",
       "explanation": "The variety's name refers to its sharpness, and the wine is a crisp, citrus-driven white commonly served with the local shellfish.",
@@ -2878,10 +2878,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Reds from Corbi\u00e8res and Fitou are typically based on",
       "options": {
-        "a": "Pinot Noir and Gamay",
+        "a": "Pinot Noir and Gamay from cooler sites",
         "b": "Carignan, Grenache, Syrah and Mourv\u00e8dre",
         "c": "Cabernet Sauvignon and Merlot only",
-        "d": "Tempranillo"
+        "d": "Tempranillo blended with Garnacha"
       },
       "answer": "b",
       "explanation": "These Mediterranean appellations rely on southern French varieties, with old-vine Carignan contributing colour and structure alongside the Rh\u00f4ne varieties.",
@@ -2903,10 +2903,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Baden is notable among German regions for being",
       "options": {
-        "a": "the coolest region, producing only sweet wines",
-        "b": "restricted to Silvaner by law",
+        "a": "the coolest region, producing only sweet late-harvest wines",
+        "b": "restricted to Silvaner plantings by regional wine law",
         "c": "the warmest region, with significant plantings of Sp\u00e4tburgunder",
-        "d": "the only region permitted to produce Sekt"
+        "d": "the only region permitted to produce traditional method Sekt"
       },
       "answer": "c",
       "explanation": "Baden's relative warmth allows red varieties to ripen, and Sp\u00e4tburgunder, the German name for Pinot Noir, is its signature.",
@@ -2952,9 +2952,9 @@ window.WSET_DATA_3 = {
       "question": "Burgenland is best known for",
       "options": {
         "a": "red wines from Blaufr\u00e4nkisch and Zweigelt, and sweet botrytised whites",
-        "b": "dry Gr\u00fcner Veltliner from steep Danube terraces",
-        "c": "traditional method sparkling wine",
-        "d": "fortified Muscat"
+        "b": "dry Gr\u00fcner Veltliner from steep Danube terraces near Wachau",
+        "c": "traditional method sparkling wine aged for years on the lees",
+        "d": "fortified Muscat aged oxidatively in warm cellar conditions"
       },
       "answer": "a",
       "explanation": "Burgenland is warmer than Nieder\u00f6sterreich, and the shallow Neusiedlersee generates the autumn humidity that encourages noble rot for its sweet wines.",
@@ -2975,10 +2975,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Xinomavro, the grape of Naoussa, is often compared with Nebbiolo because both",
       "options": {
-        "a": "produce deeply coloured, low-acid wines",
+        "a": "produce deeply coloured, low-acid wines for early drinking",
         "b": "give relatively pale wines with high tannin and high acidity",
-        "c": "are white grape varieties",
-        "d": "are used mainly for fortified wines"
+        "c": "are white grape varieties used for sparkling wine",
+        "d": "are used mainly for fortified wines aged in solera"
       },
       "answer": "b",
       "explanation": "The name means acid-black, and the wines are structurally firm and slow to develop, with red fruit, dried tomato and olive notes.",
@@ -3023,8 +3023,8 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Orvieto and Frascati are both",
       "options": {
-        "a": "sweet wines from Sicily",
-        "b": "red wines from Piemonte",
+        "a": "fortified sweet wines from Sicily",
+        "b": "robust red wines from Piemonte",
         "c": "sparkling wines from the Veneto",
         "d": "dry white wines from central Italy"
       },
@@ -3073,8 +3073,8 @@ window.WSET_DATA_3 = {
       "options": {
         "a": "pure Sangiovese aged for a legal minimum of five years",
         "b": "wines based on Bordeaux varieties such as Cabernet Sauvignon and Merlot",
-        "c": "dry white wine from Vermentino only",
-        "d": "sweet wines from dried grapes"
+        "c": "dry white wine from Vermentino only, similar to nearby coastal appellations",
+        "d": "sweet wines from dried grapes, made using an appassimento-style process"
       },
       "answer": "b",
       "explanation": "The maritime location is warmer and more moderate than inland Tuscany, and the region built its reputation on international varieties rather than Sangiovese.",
@@ -3096,10 +3096,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Vino Nobile di Montepulciano is made principally from",
       "options": {
-        "a": "the Montepulciano grape variety",
-        "b": "Nebbiolo",
+        "a": "the Montepulciano grape variety, as grown in Abruzzo",
+        "b": "Nebbiolo, the noble grape variety of Piedmont",
         "c": "Sangiovese, grown around the Tuscan town of Montepulciano",
-        "d": "a blend of Corvina and Rondinella"
+        "d": "a blend of Corvina and Rondinella, as used for Valpolicella"
       },
       "answer": "c",
       "explanation": "The name refers to the town, not a grape. Montepulciano d'Abruzzo, by contrast, is named for the variety grown in Abruzzo.",
@@ -3121,9 +3121,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Pened\u00e8s in Catalunya is notable for",
       "options": {
-        "a": "reds from Menc\u00eda only, grown on steep slate slopes",
-        "b": "fortified wines aged for many years beneath a layer of flor",
-        "c": "sweet wines made from botrytised Furmint harvested berry by berry",
+        "a": "reds from Menc\u00eda only, grown on the steep slate slopes typical of the Bierzo region",
+        "b": "fortified wines aged for many years beneath a protective layer of flor, as in Jerez",
+        "c": "sweet wines made from botrytised Furmint harvested berry by berry, as in Tokaj",
         "d": "still wines from both local and international varieties, and as the heartland of Cava production"
       },
       "answer": "d",
@@ -3146,8 +3146,8 @@ window.WSET_DATA_3 = {
       "question": "Calatayud and Cari\u00f1ena in the Upper Ebro are known for value reds made largely from",
       "options": {
         "a": "old-vine Garnacha",
-        "b": "Albari\u00f1o",
-        "c": "Verdejo",
+        "b": "Albari\u00f1o, the aromatic white grape of Galicia",
+        "c": "Verdejo, the white grape of Rueda",
         "d": "Menc\u00eda"
       },
       "answer": "a",
@@ -3169,10 +3169,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "What makes the Russian River Valley suitable for Pinot Noir and Chardonnay?",
       "options": {
-        "a": "Its high elevation above the fog line",
+        "a": "Its high elevation above the fog line, similar to Mount Veeder",
         "b": "Fog drawn inland through a gap in the coastal hills, cooling the valley overnight",
-        "c": "Its position in the rain shadow of the Sierra Nevada",
-        "d": "Consistently hot, dry conditions throughout the season"
+        "c": "Its position in the rain shadow of the Sierra Nevada, far from marine influence",
+        "d": "Consistently hot, dry conditions throughout the season, similar to the Central Valley"
       },
       "answer": "b",
       "explanation": "Cool marine air penetrates the valley and lingers into the morning, extending the growing season and preserving acidity in both varieties.",
@@ -3219,9 +3219,9 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Paso Robles is characterised by",
       "options": {
-        "a": "vineyards planted entirely below sea level",
-        "b": "a uniformly cool maritime climate throughout",
-        "c": "reliable autumn noble rot",
+        "a": "vineyards planted entirely below sea level near the coast",
+        "b": "a uniformly cool maritime climate throughout the growing season",
+        "c": "reliable autumn noble rot encouraged by coastal fog",
         "d": "a very wide diurnal range, with warm days and markedly cool nights"
       },
       "answer": "d",
@@ -3292,10 +3292,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "McLaren Vale is particularly noted for",
       "options": {
-        "a": "traditional method sparkling wine",
-        "b": "Riesling grown at high altitude",
+        "a": "traditional method sparkling wine aged for years on its lees",
+        "b": "Riesling grown at high altitude on granite soils",
         "c": "Shiraz and Grenache, moderated by breezes from the nearby gulf",
-        "d": "botrytised Semillon"
+        "d": "botrytised Semillon from fog-prone river valleys"
       },
       "answer": "c",
       "explanation": "The warm Mediterranean climate suits both varieties, and old Grenache bush vines are a particular regional asset.",
@@ -3316,9 +3316,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "The Adelaide Hills differ from the neighbouring Barossa Valley chiefly because",
       "options": {
-        "a": "only fortified wines may be produced",
-        "b": "they are considerably warmer, suiting late-ripening reds",
-        "c": "irrigation is prohibited there",
+        "a": "only fortified wines may be produced under regional appellation rules",
+        "b": "they are considerably warmer, suiting late-ripening reds such as Shiraz",
+        "c": "irrigation is prohibited there under the region's strict appellation regulations",
         "d": "they are considerably cooler owing to altitude, suiting Sauvignon Blanc and Chardonnay"
       },
       "answer": "d",
@@ -3341,9 +3341,9 @@ window.WSET_DATA_3 = {
       "question": "Reducing yields in the vineyard tends to raise the price of the finished wine because",
       "options": {
         "a": "fixed costs of farming the land are spread across fewer bottles",
-        "b": "lower yields always reduce quality",
-        "c": "it shortens the maturation period required",
-        "d": "it removes the need for hand harvesting"
+        "b": "lower yields always reduce quality regardless of vine balance",
+        "c": "it shortens the maturation period required before bottling",
+        "d": "it removes the need for hand harvesting on steep slopes"
       },
       "answer": "a",
       "explanation": "The same labour, land and treatment costs are recovered from a smaller crop, so cost per bottle rises. The concentration gained also supports a higher price.",
@@ -3364,10 +3364,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Why is Sauternes expensive to produce?",
       "options": {
-        "a": "The wine must be aged for a minimum of ten years",
+        "a": "The wine must be aged for a minimum of ten years before release to the market",
         "b": "Yields are tiny and pickers must pass through the vineyard repeatedly to select botrytised bunches",
-        "c": "The grapes must be imported from outside the region",
-        "d": "Fortification requires costly grape spirit"
+        "c": "The grapes must be imported from outside the region under strict appellation rules",
+        "d": "Fortification requires costly grape spirit added during fermentation each vintage"
       },
       "answer": "b",
       "explanation": "Noble rot arrives unevenly, so harvesting takes several passes over weeks, and shrivelled berries yield very little juice. In some vintages no wine is made at all.",
@@ -3415,9 +3415,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Vintage Champagne is produced",
       "options": {
-        "a": "every year, from the youngest available base wines",
-        "b": "exclusively from Meunier",
-        "c": "by blending across at least three vintages",
+        "a": "every year, using the youngest base wines available in the cellar",
+        "b": "exclusively from Meunier grown on the valley floor sites near the river",
+        "c": "by blending across at least three vintages to maintain house style",
         "d": "only in years the house judges good enough, from grapes of that single harvest"
       },
       "answer": "d",
@@ -3465,10 +3465,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Autolysis during lees ageing contributes",
       "options": {
-        "a": "green apple and citrus primary fruit",
+        "a": "green apple and citrus primary fruit from cool-climate grapes",
         "b": "biscuit, bread and pastry aromas along with a creamier texture",
-        "c": "tannin and colour",
-        "d": "a significant increase in alcohol"
+        "c": "tannin and colour extracted from grape skins",
+        "d": "a significant increase in alcohol during lees ageing"
       },
       "answer": "b",
       "explanation": "As dead yeast cells break down they release compounds that build savoury complexity and soften the mousse. Longer lees ageing means more pronounced character.",
@@ -3489,10 +3489,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "The purpose of riddling is to",
       "options": {
-        "a": "increase the pressure inside the bottle",
-        "b": "mix the lees back through the wine",
+        "a": "increase the pressure inside the bottle during the second fermentation",
+        "b": "mix the lees back through the wine to intensify autolytic character",
         "c": "move the lees deposit into the neck of the bottle ready for removal",
-        "d": "start the second fermentation"
+        "d": "start the second fermentation by adding liqueur de tirage"
       },
       "answer": "c",
       "explanation": "Bottles are gradually tilted and turned so the sediment collects against the closure, allowing it to be expelled cleanly at disgorgement.",
@@ -3513,9 +3513,9 @@ window.WSET_DATA_3 = {
       "difficulty": "easy",
       "question": "Carbonation is used mainly because it",
       "options": {
-        "a": "produces the most complex sparkling wines",
+        "a": "produces the most complex sparkling wines through lees ageing",
         "b": "generates the finest, most persistent mousse",
-        "c": "is required by law in the EU",
+        "c": "is required by law in the EU for all sparkling wine",
         "d": "is the cheapest and quickest way to make a wine sparkle"
       },
       "answer": "d",
@@ -3538,9 +3538,9 @@ window.WSET_DATA_3 = {
       "question": "Anderson Valley in California is used for premium sparkling wine because",
       "options": {
         "a": "cool ocean fog preserves the high acidity that sparkling base wine requires",
-        "b": "it is one of the warmest sites in the state",
+        "b": "it is one of the warmest sites in the state, ripening grapes fully each year",
         "c": "it is the only region permitted to use the traditional method",
-        "d": "its soils are unusually fertile"
+        "d": "its soils are unusually fertile, supporting vigorous, high-yielding vines"
       },
       "answer": "a",
       "explanation": "Base wines are picked early at low sugar and high acid, so producers seek out the coolest available sites. Los Carneros serves the same purpose.",
@@ -3562,10 +3562,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Compared with entry-level Cava, a Cava de Guarda Superior will have",
       "options": {
-        "a": "been made by the tank method",
+        "a": "been made by the tank method rather than in bottle",
         "b": "spent longer ageing on its lees, giving more autolytic character",
-        "c": "lower acidity and higher alcohol",
-        "d": "been carbonated rather than fermented in bottle"
+        "c": "lower acidity and higher alcohol than entry-level Cava",
+        "d": "been carbonated rather than fermented a second time in bottle"
       },
       "answer": "b",
       "explanation": "Extended lees contact is the main lever for quality in traditional method wines, building the biscuit and pastry notes that distinguish the higher tiers.",
@@ -3588,10 +3588,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "How is Amontillado Sherry produced?",
       "options": {
-        "a": "By oxidative ageing from the outset, with no flor at any stage",
+        "a": "By oxidative ageing from the outset, with no flor at any stage, as with an Oloroso",
         "b": "By biological ageing under flor, then refortification to kill the flor followed by oxidative ageing",
-        "c": "By blending Fino with Pedro Xim\u00e9nez",
-        "d": "By drying the grapes before fermentation"
+        "c": "By blending Fino with a portion of Pedro Xim\u00e9nez to add sweetness and deepen the colour",
+        "d": "By drying the grapes before fermentation to concentrate their sugars, as with Pedro Xim\u00e9nez"
       },
       "answer": "b",
       "explanation": "The two-stage process explains the style: yeasty, saline notes from the flor period combined with the nutty, dried fruit character of oxidative ageing.",
@@ -3613,10 +3613,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Why is Palomino well suited to Sherry production?",
       "options": {
-        "a": "It is highly aromatic, giving the wine its distinctive character",
-        "b": "It is resistant to all vineyard diseases",
+        "a": "It is highly aromatic, giving the wine a pronounced floral and fruity character",
+        "b": "It is resistant to almost all vineyard diseases, particularly powdery and downy mildew",
         "c": "It is fairly neutral and low in acidity, so the ageing process rather than the grape shapes the style",
-        "d": "It is naturally very high in sugar"
+        "d": "It is naturally very high in sugar, similar to Pedro Xim\u00e9nez grown under the same sun"
       },
       "answer": "c",
       "explanation": "The base wine is a blank canvas. Everything distinctive about Sherry comes from fortification, flor or oxidation, and the solera rather than from varietal character.",
@@ -3638,7 +3638,7 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Cream Sherry is made by",
       "options": {
-        "a": "adding cream to the finished wine",
+        "a": "adding cream to the finished wine to soften its texture and colour",
         "b": "ageing a dry wine under flor for an extended period",
         "c": "stopping the fermentation early with grape spirit",
         "d": "blending a dry oxidatively aged wine with a sweetening component"
@@ -3664,9 +3664,9 @@ window.WSET_DATA_3 = {
       "question": "Vineyard work in the Douro is expensive principally because",
       "options": {
         "a": "vines are planted on steep schist terraces where mechanisation is largely impossible",
-        "b": "the region is prone to persistent rain during harvest",
-        "c": "all grapes must be imported from neighbouring regions",
-        "d": "irrigation is required year-round"
+        "b": "the region is prone to persistent rain during harvest, which delays picking",
+        "c": "all grapes must be imported from neighbouring regions across the border",
+        "d": "irrigation is required year-round to compensate for poor, dry schist soils"
       },
       "answer": "a",
       "explanation": "The valley's gradients force terracing and hand work. The hot, dry summers and poor schist soils also keep yields low, which raises cost per bottle further.",
@@ -3688,10 +3688,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Why must extraction be rapid and vigorous during Port fermentation?",
       "options": {
-        "a": "Because the must is fermented at very low temperatures",
+        "a": "Because the must is fermented at very low temperatures to preserve fresh fruit aromas",
         "b": "Because fermentation is cut short by fortification, leaving little time to extract colour and tannin",
-        "c": "Because the grapes have unusually thin skins",
-        "d": "Because no maceration is permitted by law"
+        "c": "Because the grapes have unusually thin skins that release colour and tannin very quickly",
+        "d": "Because no maceration whatsoever is permitted by law during Port fermentation itself"
       },
       "answer": "b",
       "explanation": "Fortification halts fermentation partway, so techniques such as foot treading in lagares, autovinifiers or piston plungers are used to maximise extraction in the short window available.",
@@ -3713,10 +3713,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Compared with basic Ruby Port, Reserve Ruby is",
       "options": {
-        "a": "aged oxidatively until it turns pale brown",
-        "b": "always from a single declared vintage",
+        "a": "aged oxidatively until it turns pale brown over several decades in cask",
+        "b": "always from a single declared vintage bottled without filtration",
         "c": "made from better-quality fruit and aged somewhat longer, giving more concentration",
-        "d": "a dry style"
+        "d": "a dry style with no residual sugar remaining, made in a manner similar to White Port"
       },
       "answer": "c",
       "explanation": "It remains a protectively aged style with fresh black fruit, but is selected from superior lots and given more time before bottling.",
@@ -3739,8 +3739,8 @@ window.WSET_DATA_3 = {
       "question": "The spirit used to fortify Port is",
       "options": {
         "a": "the same strength as the wine itself",
-        "b": "a heavily flavoured malt spirit",
-        "c": "produced from sugar cane",
+        "b": "a heavily flavoured malt spirit distilled from grain",
+        "c": "produced from sugar cane through column distillation",
         "d": "a neutral grape spirit, added at around 77% abv"
       },
       "answer": "d",
@@ -3765,9 +3765,9 @@ window.WSET_DATA_3 = {
       "question": "Rutherglen Muscat and Muscat de Beaumes-de-Venise are both made from",
       "options": {
         "a": "Muscat Blanc \u00e0 Petits Grains",
-        "b": "Palomino",
-        "c": "Pedro Xim\u00e9nez",
-        "d": "Touriga Nacional"
+        "b": "Palomino used for Sherry",
+        "c": "Pedro Xim\u00e9nez dried in the sun",
+        "d": "Touriga Nacional from the Douro"
       },
       "answer": "a",
       "explanation": "This is the finest of the Muscat family. The two wines differ through climate and ageing: one is aged oxidatively in a hot climate, the other kept fresh and grapey.",
@@ -3788,10 +3788,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Decanting a young, tannic red is intended to",
       "options": {
-        "a": "remove sediment that has formed over decades",
+        "a": "remove sediment that has formed over decades of bottle ageing",
         "b": "expose the wine to oxygen, softening tannins and opening the aromas",
-        "c": "lower the serving temperature",
-        "d": "remove excess sulfur dioxide entirely"
+        "c": "lower the serving temperature before the meal begins",
+        "d": "remove excess sulfur dioxide entirely from the finished wine"
       },
       "answer": "b",
       "explanation": "Young wines have little or no deposit, so the purpose here is aeration rather than separation. Old wines are decanted for the opposite reason and handled far more gently.",
@@ -3812,10 +3812,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "A wine described as out of condition is one that",
       "options": {
-        "a": "has been contaminated by TCA from the cork",
-        "b": "contains visible tartrate crystals",
+        "a": "has been contaminated by TCA from the cork, producing a musty, wet-cardboard smell",
+        "b": "contains visible tartrate crystals that settled during cold storage",
         "c": "has lost its freshness through poor handling or storage, tasting dull and stale",
-        "d": "is deliberately made in an oxidative style"
+        "d": "is deliberately made in an oxidative style, as with Sherry or tawny Port"
       },
       "answer": "c",
       "explanation": "This covers wine that has deteriorated in transit or on the shelf, typically through heat or slow oxygen ingress, rather than a specific chemical fault.",
@@ -3836,9 +3836,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "A dish with significant chilli heat will make a high-alcohol wine seem",
       "options": {
-        "a": "lower in acidity",
-        "b": "smoother and less alcoholic",
-        "c": "noticeably sweeter",
+        "a": "lower in acidity and softer on the palate",
+        "b": "smoother and less alcoholic in perceived character",
+        "c": "noticeably sweeter due to residual sugar perception",
         "d": "more burning and astringent, with the heat accentuated"
       },
       "answer": "d",
@@ -3861,9 +3861,9 @@ window.WSET_DATA_3 = {
       "question": "Why does a rare steak flatter a tannic red wine?",
       "options": {
         "a": "The fat and protein soften the perception of tannin, making the wine seem smoother",
-        "b": "The protein increases the wine's acidity",
-        "c": "The meat strips fruit character from the wine",
-        "d": "The fat raises the wine's apparent alcohol"
+        "b": "The protein increases the wine's acidity, making tannins taste sharper",
+        "c": "The meat strips fruit character from the wine, leaving only oak notes",
+        "d": "The fat raises the wine's apparent alcohol, intensifying the burning sensation"
       },
       "answer": "a",
       "explanation": "Tannins bind to proteins and fats in the mouth rather than to salivary proteins, so the drying, astringent sensation is reduced.",
@@ -3885,9 +3885,9 @@ window.WSET_DATA_3 = {
       "question": "What is the difference between a crossing and a hybrid?",
       "options": {
         "a": "A crossing combines two varieties of the same species, while a hybrid combines varieties from different species",
-        "b": "A crossing is grafted while a hybrid is not",
-        "c": "A crossing occurs naturally and a hybrid only in a laboratory",
-        "d": "There is no difference; the terms are interchangeable"
+        "b": "A crossing is always propagated by grafting onto rootstock, while a hybrid is always grown on its own roots",
+        "c": "A crossing occurs naturally in the vineyard, while a hybrid can only be produced in a laboratory",
+        "d": "There is no real difference; the terms are used interchangeably throughout modern viticultural literature"
       },
       "answer": "a",
       "explanation": "M\u00fcller-Thurgau and Pinotage are crossings within Vitis vinifera. Hybrids bring in American species, often for disease resistance or cold hardiness, as with Vidal in Canada.",
@@ -3908,10 +3908,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Why might a grower select a particular clone of a grape variety?",
       "options": {
-        "a": "To change the variety into a different one entirely",
+        "a": "To change the variety into a different one entirely through cross-pollination",
         "b": "To obtain specific traits such as smaller berries, earlier ripening or disease tolerance",
-        "c": "To avoid the need for pruning",
-        "d": "To guarantee the wine will be sweet"
+        "c": "To avoid the need for any canopy management or winter pruning at all",
+        "d": "To guarantee the wine will be sweet regardless of the winemaking technique used"
       },
       "answer": "b",
       "explanation": "Clones are propagated from a single parent vine showing desirable characteristics, letting growers fine-tune yield, ripening time and berry size within one variety.",
@@ -3932,10 +3932,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "High planting density is generally used where",
       "options": {
-        "a": "the grower intends to harvest entirely by machine",
-        "b": "soils are highly fertile and water is abundant",
+        "a": "the grower intends to harvest entirely by machine across flat terrain",
+        "b": "soils are highly fertile and water is abundant, encouraging vigorous canopies",
         "c": "soils are poor and water is limited, so vines compete and each carries a small crop",
-        "d": "irrigation is prohibited by law"
+        "d": "irrigation is prohibited by law throughout the whole appellation area"
       },
       "answer": "c",
       "explanation": "On poor sites, competition between closely spaced vines restricts the vigour of each one. On fertile land, wider spacing with a larger canopy per vine makes better use of the resources available.",
@@ -3981,9 +3981,9 @@ window.WSET_DATA_3 = {
       "question": "Which strategy helps a producer limit the financial damage caused by hail?",
       "options": {
         "a": "Owning vineyard parcels spread across several sites so one storm cannot destroy the whole crop",
-        "b": "Planting at a higher density",
-        "c": "Delaying the harvest until late autumn",
-        "d": "Increasing the level of irrigation"
+        "b": "Planting at a higher density to spread the crop load across more individual vines",
+        "c": "Delaying the harvest until late autumn, after the main risk of storms has passed",
+        "d": "Increasing the level of irrigation to help damaged vines recover more quickly"
       },
       "answer": "a",
       "explanation": "Hail is highly localised and can strip a vineyard in minutes. Spreading holdings, and in some cases netting, limits the exposure of any single vintage.",
@@ -4004,10 +4004,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Besides spraying fungicide, how can a grower reduce the risk of fungal disease?",
       "options": {
-        "a": "Increase irrigation during humid periods",
+        "a": "Increase irrigation during humid periods to keep the canopy fully hydrated",
         "b": "Manage the canopy to improve air circulation and let the fruit zone dry more quickly",
-        "c": "Plant at the base of a slope where cold air collects",
-        "d": "Delay pruning until after budburst"
+        "c": "Plant at the base of a slope where cold air collects and frost risk rises",
+        "d": "Delay pruning until well after budburst to extend the growing season"
       },
       "answer": "b",
       "explanation": "Fungal spores thrive in still, damp conditions. Opening the canopy through leaf removal and shoot positioning is a cultural control that reduces reliance on treatments.",
@@ -4028,10 +4028,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Sustainable viticulture is best described as an approach that",
       "options": {
-        "a": "applies only to the winery rather than the vineyard",
-        "b": "prohibits all synthetic treatments without exception",
+        "a": "applies only to the winery rather than the vineyard, since fermentation and maturation are where quality is decided",
+        "b": "prohibits all synthetic treatments without exception, in the same way that organic certification does",
         "c": "permits synthetic treatments but seeks to minimise their use alongside wider environmental and economic considerations",
-        "d": "requires certification under a single global standard"
+        "d": "requires certification under a single global standard administered by an international regulatory body"
       },
       "answer": "c",
       "explanation": "Sustainability is broader but less prescriptive than organic certification, weighing environmental impact against the commercial viability of the business.",
@@ -4052,9 +4052,9 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Why might a grower delay picking even after the grapes have reached the desired sugar level?",
       "options": {
-        "a": "To ensure the grapes can only be harvested by machine",
-        "b": "To reduce the alcohol level of the finished wine",
-        "c": "To increase the acidity of the grapes",
+        "a": "To ensure the grapes can only be harvested by machine rather than by hand",
+        "b": "To reduce the alcohol level of the finished wine by slowing sugar accumulation",
+        "c": "To increase the acidity of the grapes as they hang longer on the vine",
         "d": "To allow tannins and flavours to ripen further, avoiding green, astringent characters"
       },
       "answer": "d",
@@ -4077,9 +4077,9 @@ window.WSET_DATA_3 = {
       "question": "A short period of skin contact before pressing white grapes is used to",
       "options": {
         "a": "extract more flavour compounds from the skins, at the risk of also extracting bitterness",
-        "b": "lower the alcohol level of the finished wine",
-        "c": "begin malolactic conversion",
-        "d": "remove colour from the juice"
+        "b": "lower the alcohol level of the finished wine before fermentation even begins",
+        "c": "begin malolactic conversion ahead of the primary alcoholic fermentation",
+        "d": "remove colour from the juice prior to pressing the grapes fully at the winery"
       },
       "answer": "a",
       "explanation": "Aromatic precursors sit in the skins, so brief contact can build intensity. Held too long, it also draws out phenolics that leave the wine coarse.",
@@ -4100,10 +4100,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Why is white grape must usually clarified before fermentation?",
       "options": {
-        "a": "It raises the sugar level of the must",
+        "a": "It raises the sugar level of the must, boosting the wine's final alcohol",
         "b": "Solids left in the must can produce coarse, unwanted flavours in the finished wine",
-        "c": "It is required for malolactic conversion to occur",
-        "d": "It deepens the colour of the wine"
+        "c": "It is required for malolactic conversion to occur during fermentation",
+        "d": "It deepens the colour of the wine by retaining more skin contact solids"
       },
       "answer": "b",
       "explanation": "Settling, flotation or centrifuging removes suspended matter so the fermentation gives a cleaner aromatic profile. Some producers leave a little solid material deliberately for texture.",
@@ -4124,10 +4124,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "A wine is racked off its gross lees shortly after fermentation because",
       "options": {
-        "a": "it raises the alcohol level",
-        "b": "the lees would make the wine too sweet",
+        "a": "it raises the alcohol level through continued yeast activity in the lees",
+        "b": "the lees would make the wine noticeably too sweet if left in contact",
         "c": "those heavy solids can produce unpleasant aromas if left in contact with the wine",
-        "d": "the wine cannot otherwise be filtered"
+        "d": "the wine cannot otherwise be filtered clear before bottling takes place"
       },
       "answer": "c",
       "explanation": "Gross lees include grape debris and dead yeast that can turn reductive and give off-odours. The finer lees that remain are the ones deliberately used for texture.",
@@ -4148,9 +4148,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Concrete vessels are valued by some winemakers because they",
       "options": {
-        "a": "speed up fermentation dramatically",
-        "b": "impart strong vanilla and toast character",
-        "c": "are the only vessel permitted for malolactic conversion",
+        "a": "speed up fermentation dramatically, by raising must temperature more quickly than stainless steel",
+        "b": "impart strong vanilla and toast character, similar to fermentation in new French oak barrels",
+        "c": "are the only vessel permitted for malolactic conversion under most appellation regulations",
         "d": "provide good temperature stability and, if unlined, allow very slight oxygen exchange without adding oak flavour"
       },
       "answer": "d",
@@ -4173,9 +4173,9 @@ window.WSET_DATA_3 = {
       "question": "Oak staves and chips are used mainly because they",
       "options": {
         "a": "deliver oak flavour far more cheaply than barrels, though without the slow oxygen exchange a barrel provides",
-        "b": "add more tannin than a new barrel would",
-        "c": "are required for wines labelled as oaked in the EU",
-        "d": "allow the wine to age for longer in bottle"
+        "b": "add more tannin than a new barrel would, due to the greater surface area of the wood contact",
+        "c": "are required for wines labelled as oaked in the EU, under the appellation rules governing maturation",
+        "d": "allow the wine to age for longer in bottle, developing tertiary aromas more quickly than barrel maturation"
       },
       "answer": "a",
       "explanation": "They supply flavour compounds at a fraction of the cost of coopered barrels, but an inert tank offers none of the gentle oxidation that softens tannins in barrel maturation.",
@@ -4196,10 +4196,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Which statement about oxygen in winemaking is correct?",
       "options": {
-        "a": "Oxygen is always harmful and must be excluded at every stage",
+        "a": "Oxygen is always harmful and must be excluded at every stage, from crushing through to bottling",
         "b": "Limited exposure can soften tannins and stabilise colour, while excessive exposure causes oxidation and loss of fruit",
-        "c": "Oxygen increases the acidity of the wine",
-        "d": "Oxygen is only relevant during bottle ageing"
+        "c": "Oxygen increases the acidity of the wine by converting alcohol directly into tartaric acid",
+        "d": "Oxygen is only relevant during bottle ageing, having no effect during fermentation or maturation"
       },
       "answer": "b",
       "explanation": "Winemakers manage oxygen rather than eliminate it, using techniques such as barrel maturation and racking to gain its benefits while avoiding its costs.",
@@ -4220,10 +4220,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Bag-in-box packaging is best suited to wines that are",
       "options": {
-        "a": "sparkling and under high pressure",
-        "b": "designed for decades of bottle ageing",
+        "a": "sparkling and under high pressure, since the bag material can withstand carbonation",
+        "b": "designed for decades of quiet bottle ageing in a cool, dark cellar",
         "c": "intended for early consumption, since the packaging admits more oxygen over time than glass",
-        "d": "fortified to over 18% abv"
+        "d": "fortified to over 18% abv, beyond the tolerance of the plastic bag material"
       },
       "answer": "c",
       "explanation": "The material is lighter and cheaper to transport and keeps opened wine fresh for weeks, but it is permeable enough that long-term ageing is not viable.",
@@ -4244,9 +4244,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Ros\u00e9 made by direct pressing will typically be",
       "options": {
-        "a": "sparkling",
-        "b": "deeply coloured with noticeable tannin",
-        "c": "sweet, since fermentation is stopped early",
+        "a": "sparkling, made by the traditional method with lees ageing",
+        "b": "deeply coloured with noticeable tannin from extended maceration",
+        "c": "sweet, since fermentation is stopped early by chilling the must",
         "d": "very pale, since colour is picked up only during pressing itself"
       },
       "answer": "d",
@@ -4269,9 +4269,9 @@ window.WSET_DATA_3 = {
       "question": "What style of wine does Monbazillac produce?",
       "options": {
         "a": "Sweet white wine from botrytis-affected S\u00e9millon and Sauvignon Blanc",
-        "b": "Tannic red wine from Tannat",
-        "c": "Dry white wine from Petit Manseng",
-        "d": "Ros\u00e9 from Cabernet Franc"
+        "b": "Tannic red wine from Tannat, as produced in nearby Madiran",
+        "c": "Dry white wine from Petit Manseng grown on steep hillsides",
+        "d": "Ros\u00e9 from Cabernet Franc, made by direct pressing of the grapes"
       },
       "answer": "a",
       "explanation": "Monbazillac lies near Bergerac and uses the same varieties as Sauternes in similar conditions, generally at considerably lower prices.",
@@ -4292,10 +4292,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Wines from Bergerac are typically made from",
       "options": {
-        "a": "Gamay and Pinot Noir",
+        "a": "Gamay and Pinot Noir, as grown in nearby Burgundy vineyards",
         "b": "the same varieties as Bordeaux, which lies immediately downstream",
-        "c": "Nebbiolo and Barbera",
-        "d": "Riesling and Gr\u00fcner Veltliner"
+        "c": "Nebbiolo and Barbera, the classic red varieties of Piedmont",
+        "d": "Riesling and Gr\u00fcner Veltliner, as commonly grown in Austria"
       },
       "answer": "b",
       "explanation": "Bergerac sits on the Dordogne just east of Bordeaux and shares its climate and grape varieties, but has a weaker reputation and correspondingly lower prices.",
@@ -4316,10 +4316,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Muscadet S\u00e8vre et Maine differs from generic Muscadet in that it",
       "options": {
-        "a": "is always sweet",
-        "b": "is made from a different grape variety",
+        "a": "is always sweet, unlike the dry style typical of generic Muscadet",
+        "b": "is made from a different grape variety than the wider appellation permits",
         "c": "comes from a smaller, more highly regarded sub-zone within the wider appellation",
-        "d": "must be aged in new oak"
+        "d": "must be aged in new oak barrels for several years before bottling"
       },
       "answer": "c",
       "explanation": "S\u00e8vre et Maine accounts for most quality Muscadet production and is where the sur lie designation is most commonly encountered.",
@@ -4341,9 +4341,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Saumur-Champigny produces red wine from",
       "options": {
-        "a": "Malbec",
-        "b": "Pinot Noir",
-        "c": "Gamay",
+        "a": "Malbec, associated with Cahors in the south-west",
+        "b": "Pinot Noir, more typical of Sancerre further east",
+        "c": "Gamay, the grape of Beaujolais to the south",
         "d": "Cabernet Franc"
       },
       "answer": "d",
@@ -4367,9 +4367,9 @@ window.WSET_DATA_3 = {
       "question": "Ros\u00e9 d'Anjou is typically",
       "options": {
         "a": "medium-sweet, based principally on Grolleau",
-        "b": "bone dry, based on Cabernet Franc",
+        "b": "bone dry, based mainly on Cabernet Franc",
         "c": "sparkling and made by the traditional method",
-        "d": "a fortified wine"
+        "d": "a fortified wine aged oxidatively in cask"
       },
       "answer": "a",
       "explanation": "It is the sweeter of the region's ros\u00e9s. Cabernet d'Anjou, made from the two Cabernets, is also off-dry but generally regarded as the finer style.",
@@ -4392,7 +4392,7 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Saint-Joseph is a Northern Rh\u00f4ne appellation producing",
       "options": {
-        "a": "sweet fortified wine from grapes dried after picking",
+        "a": "sweet fortified wine from grapes dried after picking, as in Banyuls",
         "b": "reds from Syrah, generally lighter and earlier-drinking than Hermitage",
         "c": "ros\u00e9 exclusively, made by direct pressing of black grapes",
         "d": "reds based on Grenache, blended with Mourv\u00e8dre and Cinsault"
@@ -4417,10 +4417,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Reds from the C\u00f4tes du Roussillon are typically",
       "options": {
-        "a": "off-dry with pronounced floral aromas",
-        "b": "light-bodied with very high acidity",
+        "a": "off-dry with pronounced floral aromas, similar to Alsace Gewurztraminer",
+        "b": "light-bodied with very high acidity, typical of a cool coastal climate",
         "c": "full-bodied and high in alcohol, from a hot, dry Mediterranean climate",
-        "d": "pale ros\u00e9s for early drinking"
+        "d": "pale ros\u00e9s for early drinking, made by direct pressing of the grapes"
       },
       "answer": "c",
       "explanation": "The region is one of France's hottest and driest, and old Grenache and Carignan vines on poor soils give very low yields of concentrated fruit.",
@@ -4441,9 +4441,9 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "The Nahe is often described as producing Riesling that",
       "options": {
-        "a": "cannot be made in a dry style",
-        "b": "is always sweet and low in alcohol",
-        "c": "is made exclusively from Silvaner",
+        "a": "cannot legally be made in a dry style under the region's labelling rules",
+        "b": "is always sweet and low in alcohol, similar in style to Kabinett wines",
+        "c": "is made exclusively from Silvaner rather than Riesling grapes",
         "d": "sits stylistically between the delicacy of the Mosel and the body of the Rheingau"
       },
       "answer": "d",
@@ -4467,9 +4467,9 @@ window.WSET_DATA_3 = {
       "question": "Rheinhessen is notable as",
       "options": {
         "a": "Germany's largest wine region by area, producing everything from bulk wine to top-quality Riesling",
-        "b": "Germany's smallest and coolest region",
-        "c": "a region restricted to sparkling wine production",
-        "d": "a region planted entirely with Sp\u00e4tburgunder"
+        "b": "Germany's smallest and coolest wine region, smaller even than the Mittelrhein to the west",
+        "c": "a region restricted entirely to sparkling wine production under Sekt regulations",
+        "d": "a region planted almost entirely with Sp\u00e4tburgunder for red wine production alone"
       },
       "answer": "a",
       "explanation": "Much of it produces inexpensive wine, but sites such as those around Nierstein have a strong reputation for serious Riesling.",
@@ -4490,10 +4490,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Bernkastel, Wehlen and Piesport are",
       "options": {
-        "a": "Grand Cru vineyards in Alsace",
+        "a": "Grand Cru vineyards in Alsace planted with Riesling",
         "b": "villages in the Mosel known for high-quality Riesling",
-        "c": "regions within Austria",
-        "d": "classified estates in Baden"
+        "c": "regions within Austria's Wachau district",
+        "d": "classified estates in Baden producing Sp\u00e4tburgunder"
       },
       "answer": "b",
       "explanation": "Each has famous individual vineyard sites on the steep slate slopes above the river, and village and vineyard names commonly appear together on the label.",
@@ -4514,10 +4514,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Trentino, immediately south of Alto Adige, produces",
       "options": {
-        "a": "exclusively Nebbiolo-based reds requiring long ageing before release",
-        "b": "only sweet wines made from grapes dried for several months after picking",
+        "a": "exclusively Nebbiolo-based reds requiring long ageing before release, as in neighbouring Piedmont",
+        "b": "only sweet wines made from grapes dried for several months after picking, in a method similar to Recioto",
         "c": "a wide range of wines including Pinot Grigio and Chardonnay, generally in warmer conditions than its northern neighbour",
-        "d": "only fortified wines aged oxidatively in small casks"
+        "d": "only fortified wines aged oxidatively in small casks, in a style similar to Sherry production"
       },
       "answer": "c",
       "explanation": "The valley broadens and warms as it runs south, so Trentino wines tend to be riper and softer than those from higher, cooler Alto Adige.",
@@ -4538,9 +4538,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Nero d'Avola, Sicily's most planted black variety, typically produces wines that are",
       "options": {
-        "a": "light-bodied and intended for immediate consumption only",
-        "b": "pale with very high acidity and low tannin",
-        "c": "sweet and fortified",
+        "a": "light-bodied and intended for immediate consumption only, like Beaujolais Nouveau",
+        "b": "pale with very high acidity and low tannin, similar to Frappato",
+        "c": "sweet and fortified, aged oxidatively in old wooden casks",
         "d": "deeply coloured and full-bodied with ripe black fruit and medium to high tannin"
       },
       "answer": "d",
@@ -4564,9 +4564,9 @@ window.WSET_DATA_3 = {
       "question": "The Spanish category Vinos de Pago applies to",
       "options": {
         "a": "individual single estates of recognised distinction, which may lie outside a DO",
-        "b": "wines from an entire autonomous region",
-        "c": "wines aged for a minimum of five years",
-        "d": "sparkling wines only"
+        "b": "wines from an entire autonomous region rather than a single estate",
+        "c": "wines aged for a minimum of five years before release to market under strict rules",
+        "d": "sparkling wines only, made exclusively by the traditional method"
       },
       "answer": "a",
       "explanation": "It is Spain's highest tier for single estates and is awarded to specific properties rather than to delimited zones.",
@@ -4588,10 +4588,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "La Mancha in central Spain is characterised by",
       "options": {
-        "a": "a cool maritime climate suited to Albari\u00f1o",
+        "a": "a cool maritime climate suited to Albari\u00f1o and other aromatic whites",
         "b": "a hot, dry continental climate producing large volumes of inexpensive wine",
-        "c": "steep slate terraces worked entirely by hand",
-        "d": "regular autumn noble rot"
+        "c": "steep slate terraces worked entirely by hand, as in Priorat",
+        "d": "regular autumn noble rot favouring sweet dessert wine production"
       },
       "answer": "b",
       "explanation": "It is one of the largest delimited wine areas in the world. Air\u00e9n dominates plantings, though Tempranillo has grown in importance for red production.",
@@ -4612,10 +4612,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "The Levante regions of Yecla and Jumilla are best known for reds made from",
       "options": {
-        "a": "Tempranillo exclusively",
-        "b": "Pinot Noir",
+        "a": "Tempranillo exclusively, as in nearby Ribera del Duero",
+        "b": "Pinot Noir grown on cool, elevated plateaux",
         "c": "Monastrell, suited to their hot, arid conditions",
-        "d": "Menc\u00eda"
+        "d": "Menc\u00eda, associated with Bierzo further north"
       },
       "answer": "c",
       "explanation": "Monastrell tolerates drought and heat and ripens very late, giving deeply coloured, robust wines with high alcohol.",
@@ -4636,9 +4636,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Alentejo in southern Portugal is characterised by",
       "options": {
-        "a": "a legal requirement to fortify all red wines",
-        "b": "a cool Atlantic climate producing light, spritzy whites",
-        "c": "steep terraces above a river gorge",
+        "a": "a legal requirement to fortify all red wines with grape spirit before bottling",
+        "b": "a cool Atlantic climate producing light, spritzy whites similar to Vinho Verde",
+        "c": "steep terraces above a river gorge, comparable to those found in the Douro",
         "d": "a hot, dry climate producing ripe, full-bodied reds, with irrigation permitted in many areas"
       },
       "answer": "d",
@@ -4684,10 +4684,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Viticulture in the Okanagan Valley depends on",
       "options": {
-        "a": "high rainfall throughout the growing season",
+        "a": "high rainfall throughout the growing season, similar to nearby Vancouver",
         "b": "irrigation, since the valley is very dry, with the lake moderating winter temperatures",
-        "c": "the absence of any winter frost risk",
-        "d": "consistent coastal fog"
+        "c": "the absence of any winter frost risk despite its continental climate",
+        "d": "consistent coastal fog that moderates summer temperatures each year near the coast"
       },
       "answer": "b",
       "explanation": "The valley lies in a rain shadow and is close to desert in places. The long lake stores heat and reduces the risk of vine-killing winter cold.",
@@ -4708,10 +4708,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "The Niagara Peninsula benefits from",
       "options": {
-        "a": "vineyards planted above 1,000 metres",
-        "b": "a Mediterranean climate with dry summers",
+        "a": "vineyards planted above 1,000 metres, similar in elevation to the mountain sites of Mendoza",
+        "b": "a Mediterranean climate with dry summers similar to that found in coastal California",
         "c": "the moderating effect of Lake Ontario and the escarpment, which circulate air and reduce frost risk",
-        "d": "reliable summer noble rot"
+        "d": "reliable summer noble rot that allows sweet wine production every vintage"
       },
       "answer": "c",
       "explanation": "Air moving between the lake and the escarpment keeps cold air from settling, which allows vinifera varieties to survive in a region with severe winters.",
@@ -4732,9 +4732,9 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Limar\u00ed in northern Chile is notable for",
       "options": {
-        "a": "exclusively sweet wines made from botrytis-affected grapes",
-        "b": "the hottest and driest conditions of any Chilean wine region",
-        "c": "very high rainfall spread evenly through the growing season",
+        "a": "exclusively sweet wines made from botrytis-affected grapes harvested late in the season",
+        "b": "the hottest and driest conditions of any Chilean wine region, warmer than the Elqui Valley",
+        "c": "very high rainfall spread evenly through the growing season, unlike the rest of Chile",
         "d": "cool coastal influence and limestone soils, producing fresh Chardonnay and Syrah despite the low latitude"
       },
       "answer": "d",
@@ -4757,9 +4757,9 @@ window.WSET_DATA_3 = {
       "question": "Maule Valley in southern Chile is increasingly valued for",
       "options": {
         "a": "old-vine Carignan and Pa\u00eds from dry-farmed vineyards",
-        "b": "traditional method sparkling wine",
-        "c": "botrytised sweet wines",
-        "d": "fortified Muscat"
+        "b": "traditional method sparkling wine ageing on lees",
+        "c": "botrytised sweet wines aged in old oak casks",
+        "d": "fortified Muscat aged in a solera system"
       },
       "answer": "a",
       "explanation": "Maule holds some of Chile's oldest plantings, and interest in these dry-farmed old vines has grown as producers look beyond high-volume international varieties.",
@@ -4780,10 +4780,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Patagonia differs from Mendoza chiefly in that it is",
       "options": {
-        "a": "considerably hotter and more humid",
+        "a": "considerably hotter and more humid, ideal for ripening late-harvest reds",
         "b": "further south and therefore cooler, with strong winds and a longer growing season",
-        "c": "planted at much higher altitude",
-        "d": "the only Argentine region permitted to grow Malbec"
+        "c": "planted at much higher altitude, above 1,500 metres in the Andean foothills",
+        "d": "the only Argentine region permitted to grow Malbec under national law"
       },
       "answer": "b",
       "explanation": "Latitude rather than altitude provides the cooling here, and the resulting wines, including Pinot Noir and Malbec, tend to be fresher and more aromatic.",
@@ -4804,10 +4804,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Robertson in the Breede River Valley is distinguished by",
       "options": {
-        "a": "steep slate terraces",
-        "b": "a cold maritime climate suited to Pinot Noir",
+        "a": "steep slate terraces similar to those found in the Douro Valley",
+        "b": "a cold maritime climate best suited to Pinot Noir and sparkling wine",
         "c": "lime-rich soils and a warm, dry climate requiring irrigation from the river",
-        "d": "reliable autumn botrytis"
+        "d": "reliable autumn botrytis favouring late-harvest dessert wine styles"
       },
       "answer": "c",
       "explanation": "The limestone content is unusual in South Africa and is often credited for the region's Chardonnay, while the river makes viticulture viable in a dry inland setting.",
@@ -4828,9 +4828,9 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "The Riverina in New South Wales is known for both",
       "options": {
-        "a": "old-vine Grenache and Mourv\u00e8dre",
+        "a": "old-vine Grenache and Mourv\u00e8dre from low-yielding bush vines",
         "b": "cool-climate Pinot Noir and traditional method sparkling wine",
-        "c": "fortified Muscat and dry Riesling",
+        "c": "fortified Muscat and dry Riesling from cool upland vineyards",
         "d": "high-volume inexpensive wine and botrytis-affected sweet Semillon"
       },
       "answer": "d",
@@ -4853,9 +4853,9 @@ window.WSET_DATA_3 = {
       "question": "Great Southern in Western Australia is best known for",
       "options": {
         "a": "Riesling and Shiraz from a cool, maritime-influenced climate",
-        "b": "fortified wines from a hot inland climate",
-        "c": "high-volume irrigated production",
-        "d": "botrytised Semillon"
+        "b": "fortified wines produced in a hot, dry inland climate",
+        "c": "high-volume irrigated production on flat river plains",
+        "d": "botrytised Semillon from consistently humid vineyard sites"
       },
       "answer": "a",
       "explanation": "It is one of Australia's largest and coolest wine regions, and its Riesling in particular has a strong reputation.",
@@ -4876,10 +4876,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Gisborne on New Zealand's North Island is best known for",
       "options": {
-        "a": "Pinot Noir from high-altitude sites",
+        "a": "Pinot Noir from high-altitude sites above the surrounding plains",
         "b": "Chardonnay, in a warmer and more humid setting than Marlborough",
-        "c": "fortified wine production",
-        "d": "Riesling grown on slate"
+        "c": "fortified wine production aged oxidatively in old oak",
+        "d": "Riesling grown on slate soils similar to the Mosel"
       },
       "answer": "b",
       "explanation": "Its warmth gives riper, softer Chardonnay than the South Island, though autumn rain and humidity present real disease pressure.",
@@ -4900,10 +4900,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "The Yakima Valley is a sub-region of",
       "options": {
-        "a": "Napa County in California",
+        "a": "Napa County in northern California",
         "b": "the Willamette Valley in Oregon",
         "c": "the Columbia Valley in Washington State",
-        "d": "the Finger Lakes in New York"
+        "d": "the Finger Lakes region in New York"
       },
       "answer": "c",
       "explanation": "It lies within the larger Columbia Valley AVA, sharing its continental climate, rain shadow and reliance on irrigation.",
@@ -4925,7 +4925,7 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Dry Creek Valley in Sonoma County has a particular reputation for",
       "options": {
-        "a": "botrytised sweet wine",
+        "a": "botrytised sweet wine from Semillon",
         "b": "Riesling grown at high altitude",
         "c": "traditional method sparkling wine",
         "d": "Zinfandel, including old-vine plantings"
@@ -4951,9 +4951,9 @@ window.WSET_DATA_3 = {
       "question": "The northern part of Monterey County is cooled by",
       "options": {
         "a": "strong winds and fog drawn down the valley from Monterey Bay",
-        "b": "cold air descending from the Sierra Nevada",
-        "c": "its position at over 1,000 metres altitude",
-        "d": "heavy summer rainfall"
+        "b": "cold air descending from the Sierra Nevada foothills",
+        "c": "its position at over 1,000 metres above sea level",
+        "d": "heavy summer rainfall from Pacific storm systems moving inland each year"
       },
       "answer": "a",
       "explanation": "The valley funnels marine air inland with such force that it can slow ripening considerably, and the influence weakens as you move further south.",
@@ -4975,10 +4975,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "The C\u00f4te des Bar is notable within Champagne for",
       "options": {
-        "a": "being the coolest and most northerly part of the region",
+        "a": "being the coolest and most northerly part of the region, ideal for Chardonnay",
         "b": "lying well to the south of the main vineyard area, with substantial Pinot Noir plantings",
-        "c": "producing only Blanc de Blancs",
-        "d": "lying outside the Champagne appellation"
+        "c": "producing only Blanc de Blancs from steep, chalk-rich hillside vineyards",
+        "d": "lying outside the Champagne appellation entirely, closer to Chablis in Burgundy"
       },
       "answer": "b",
       "explanation": "Its distance from the rest of the region and its warmth give riper Pinot Noir, which is widely used by houses based further north.",
@@ -5000,10 +5000,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Ros\u00e9 Champagne is unusual among EU ros\u00e9 wines because it may be made by",
       "options": {
-        "a": "macerating the finished wine on skins after disgorgement",
-        "b": "adding colouring agents to the finished wine",
+        "a": "macerating the finished wine on skins after disgorgement, before final corking",
+        "b": "adding colouring agents to the finished wine before the final dosage is applied",
         "c": "blending a still red wine into the white base wine before the second fermentation",
-        "d": "fortifying the base wine before bottling"
+        "d": "fortifying the base wine before bottling to increase alcohol strength"
       },
       "answer": "c",
       "explanation": "Blending red and white is generally prohibited for EU ros\u00e9, and Champagne is the well-known exception. Short maceration is also permitted.",
@@ -5025,9 +5025,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Meunier is valued in Champagne blends because it",
       "options": {
-        "a": "produces the palest juice",
-        "b": "contributes the highest acidity of the three varieties",
-        "c": "is the only variety permitted for vintage Champagne",
+        "a": "produces the palest juice, making it the preferred variety for Blanc de Blancs style Champagne",
+        "b": "contributes the highest acidity of the three varieties, more than Chardonnay grown on chalk soils",
+        "c": "is the only variety permitted for vintage Champagne, since Chardonnay and Pinot Noir are reserved for non-vintage blends",
         "d": "buds late and ripens early, making it reliable in frost-prone sites, and adds fruitiness and early approachability"
       },
       "answer": "d",
@@ -5051,9 +5051,9 @@ window.WSET_DATA_3 = {
       "question": "Which sparkling wine sweetness category is the driest?",
       "options": {
         "a": "Brut Nature",
-        "b": "Brut",
+        "b": "Classic Brut",
         "c": "Extra Dry",
-        "d": "Demi-Sec"
+        "d": "Rich Demi-Sec"
       },
       "answer": "a",
       "explanation": "Brut Nature has essentially no added dosage. Confusingly, Extra Dry is sweeter than Brut, and Demi-Sec is sweeter still.",
@@ -5101,10 +5101,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Grapes for traditional method sparkling wine are picked early because the base wine needs",
       "options": {
-        "a": "pronounced tannin extracted from the skins",
-        "b": "high sugar and low acidity from fully ripe fruit",
+        "a": "pronounced tannin extracted from the skins during extended maceration",
+        "b": "high sugar and low acidity from fully ripe fruit picked late in the season",
         "c": "high acidity and low alcohol, since the second fermentation adds further alcohol",
-        "d": "a deep colour drawn from extended skin contact"
+        "d": "a deep colour drawn from extended skin contact before pressing"
       },
       "answer": "c",
       "explanation": "The second fermentation raises alcohol by a percentage point or so, and the finished wine relies on acidity for freshness beneath the autolytic character.",
@@ -5125,9 +5125,9 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Why is albariza soil valuable in Jerez?",
       "options": {
-        "a": "It raises the acidity of the finished wine",
-        "b": "It is highly fertile, allowing very high yields",
-        "c": "It prevents flor from forming",
+        "a": "It raises the acidity of the finished wine through its high limestone content",
+        "b": "It is highly fertile, allowing very high yields across the whole Jerez triangle",
+        "c": "It prevents flor from ever forming on the surface of the ageing wine in cask each year",
         "d": "It retains winter rainfall and reflects sunlight, sustaining the vines through a hot, dry summer"
       },
       "answer": "d",
@@ -5151,9 +5151,9 @@ window.WSET_DATA_3 = {
       "question": "Pedro Xim\u00e9nez grapes destined for sweet Sherry are",
       "options": {
         "a": "laid out to dry in the sun after picking, concentrating their sugars",
-        "b": "picked early to retain acidity",
-        "c": "left to freeze on the vine",
-        "d": "fermented to complete dryness before fortification"
+        "b": "picked early to retain natural acidity before fermentation",
+        "c": "left to freeze on the vine during a late winter harvest",
+        "d": "fermented to complete dryness before fortification with grape spirit"
       },
       "answer": "a",
       "explanation": "Sun-drying raises sugar to extreme levels, and fortification then stops fermentation almost immediately, giving a dark, intensely sweet wine.",
@@ -5175,10 +5175,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "A Port house declares a vintage",
       "options": {
-        "a": "every year without exception",
+        "a": "every year without exception, regardless of the quality of the harvest",
         "b": "only in years it judges exceptional, and the wine is bottled after a short period in cask",
-        "c": "after ageing the wine in cask for at least twenty years",
-        "d": "only for white Port"
+        "c": "after ageing the wine in cask for at least twenty years, as with a Tawny",
+        "d": "only for white Port made from a blend of indigenous white grape varieties"
       },
       "answer": "b",
       "explanation": "Declarations are relatively infrequent. Minimal cask ageing leaves the wine deeply coloured and tannic, requiring long bottle ageing and decanting before service.",
@@ -5200,10 +5200,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Most Late Bottled Vintage Port is filtered before bottling, which means it",
       "options": {
-        "a": "loses its sweetness",
-        "b": "will continue to develop for several decades",
+        "a": "loses its sweetness as residual sugar ferments out completely",
+        "b": "will continue to develop for several decades in bottle",
         "c": "does not require decanting and is ready to drink on release",
-        "d": "must be served chilled"
+        "d": "must be served chilled to preserve its fruit character"
       },
       "answer": "c",
       "explanation": "Filtration removes material that would otherwise form a deposit, making the wine convenient for by-the-glass service. Unfiltered versions do throw a deposit and benefit from decanting.",
@@ -5225,9 +5225,9 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Which principle determines whether a fortified wine is sweet or dry?",
       "options": {
-        "a": "Whether the wine is aged under flor",
-        "b": "The grape variety used",
-        "c": "The size of the ageing vessel",
+        "a": "Whether the wine is aged under flor or oxidatively in open casks, as with Fino styles",
+        "b": "The grape variety used, since only Pedro Xim\u00e9nez can produce a sweet style",
+        "c": "The size of the ageing vessel used during the maturation period, whether butt or hogshead",
         "d": "Whether the spirit is added before fermentation has finished or after it is complete"
       },
       "answer": "d",
@@ -5275,10 +5275,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "A wine stored in a warm room with fluctuating temperature is likely to",
       "options": {
-        "a": "retain its freshness longer than one stored cool",
+        "a": "retain its freshness longer than one stored cool, since gentle oxidation rounds out the tannins",
         "b": "age prematurely and may show cooked fruit, with the cork pushed out as the wine expands",
-        "c": "develop a sparkle",
-        "d": "increase in acidity"
+        "c": "develop a sparkle, as residual sugar undergoes a secondary fermentation inside the bottle",
+        "d": "increase in acidity, as carbonic maceration continues to occur inside the sealed bottle"
       },
       "answer": "b",
       "explanation": "Heat accelerates chemical reactions, and repeated expansion and contraction breaks the seal, letting oxygen in.",
@@ -5299,10 +5299,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Why are many wines bottled in coloured rather than clear glass?",
       "options": {
-        "a": "To slow the rate of fermentation",
-        "b": "To keep the wine cooler in transit",
+        "a": "To slow the rate of fermentation during the primary alcoholic stage by limiting yeast activity",
+        "b": "To keep the wine cooler in transit across long distances through ports and warehouses",
         "c": "To shield the wine from ultraviolet light, which can cause unpleasant aromas to develop",
-        "d": "To prevent tartrate crystals forming"
+        "d": "To prevent tartrate crystals forming during cold stabilisation before bottling occurs"
       },
       "answer": "c",
       "explanation": "UV exposure can generate sulfur-like off-odours, a fault sometimes called light strike. Tinted glass filters much of that light, which matters most for delicate whites and sparkling wines.",
@@ -5323,9 +5323,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Why does serving a red wine too warm make it less enjoyable?",
       "options": {
-        "a": "The colour fades in the glass",
-        "b": "The tannins become far more astringent",
-        "c": "The acidity increases sharply",
+        "a": "The colour fades in the glass as anthocyanin pigments oxidise more rapidly",
+        "b": "The tannins become far more astringent as warmth hardens the wine's phenolic structure",
+        "c": "The acidity increases sharply because malic acid is released from the grape skins",
         "d": "The alcohol becomes more noticeable and the wine tastes flabby and unbalanced"
       },
       "answer": "d",
@@ -5348,9 +5348,9 @@ window.WSET_DATA_3 = {
       "question": "When advising a customer who says they are new to wine and dislike anything bitter, the most useful approach is to",
       "options": {
         "a": "suggest lower-tannin styles and explain briefly what makes them approachable",
-        "b": "recommend the most expensive wine available",
+        "b": "recommend the most expensive wine available regardless of the customer's taste",
         "c": "suggest a heavily oaked, tannic red to build their palate",
-        "d": "decline to advise until they have taken a course"
+        "d": "decline to advise until they have taken a formal wine qualification course"
       },
       "answer": "a",
       "explanation": "Recommendations should start from the customer's stated preference. Tannin is the main source of bitterness and astringency, so lighter reds or whites are the sensible direction.",
@@ -5372,8 +5372,8 @@ window.WSET_DATA_3 = {
       "question": "What distinguishes a Mediterranean climate from a maritime one?",
       "options": {
         "a": "Mediterranean climates show a far greater difference between the hottest and coldest months",
-        "b": "Mediterranean climates have colder winters",
-        "c": "Maritime climates have no rainfall at all",
+        "b": "Mediterranean climates have colder winters, with a greater risk of winter freeze damaging dormant buds",
+        "c": "Maritime climates have no rainfall at all, relying entirely on irrigation to sustain the vines",
         "d": "Both have low temperature variation between seasons, but Mediterranean climates have markedly drier summers"
       },
       "answer": "d",
@@ -5396,9 +5396,9 @@ window.WSET_DATA_3 = {
       "question": "In a red wine, tannin is extracted principally from",
       "options": {
         "a": "the skins and seeds, and from stems if they are included",
-        "b": "the pulp of the grape",
-        "c": "the juice released during pressing",
-        "d": "the yeast used for fermentation"
+        "b": "the pulp of the grape during extended maceration",
+        "c": "the juice released during pressing of ripe grapes",
+        "d": "the yeast used for fermentation and lees contact"
       },
       "answer": "a",
       "explanation": "Seed tannin is harsher than skin tannin, which is why winemakers avoid crushing seeds and often press gently to limit its extraction.",
@@ -5421,8 +5421,8 @@ window.WSET_DATA_3 = {
       "options": {
         "a": "removing all leaves around the bunches",
         "b": "retaining leaf cover to shade the fruit zone",
-        "c": "increasing the planting density",
-        "d": "harvesting earlier in the season"
+        "c": "increasing the planting density per hectare",
+        "d": "harvesting earlier in the season than usual"
       },
       "answer": "b",
       "explanation": "Scorched berries develop bitter, cooked flavours and can shrivel. In hot regions the canopy is managed for shade, the opposite of cool-climate practice.",
@@ -5443,10 +5443,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "A vine showing poor growth and yellowing leaves may be suffering from",
       "options": {
-        "a": "cork taint carried over from the previous vintage",
-        "b": "excessive tannin developing in the ripening fruit",
+        "a": "cork taint carried over from the previous vintage's closures",
+        "b": "excessive tannin developing in the ripening fruit under stress",
         "c": "nutrient deficiency, which can be corrected with fertiliser or cover crops",
-        "d": "malolactic conversion beginning early in the vineyard"
+        "d": "malolactic conversion beginning early in the vineyard before harvest"
       },
       "answer": "c",
       "explanation": "Poor soils may lack nitrogen or trace elements. Growers correct this carefully, since over-fertilising promotes vigorous leafy growth at the expense of fruit quality.",
@@ -5467,9 +5467,9 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Including whole bunches in a red fermentation can contribute",
       "options": {
-        "a": "noticeable residual sugar",
-        "b": "a significant increase in alcohol",
-        "c": "biscuit and bread aromas",
+        "a": "noticeable residual sugar left after fermentation stalls",
+        "b": "a significant increase in alcohol through extended maceration",
+        "c": "biscuit and bread aromas from extended lees contact",
         "d": "stalky, spicy aromatics and additional tannin from the stems"
       },
       "answer": "d",
@@ -5492,9 +5492,9 @@ window.WSET_DATA_3 = {
       "question": "In semi-carbonic maceration, the carbon dioxide that fills the vessel comes from",
       "options": {
         "a": "fermentation of juice released by grapes crushed under their own weight",
-        "b": "a cylinder of injected gas only",
-        "c": "the addition of dry ice at the end of fermentation",
-        "d": "the second fermentation in bottle"
+        "b": "a cylinder of injected gas only, as in tank method production",
+        "c": "the addition of dry ice at the end of fermentation to preserve freshness",
+        "d": "the second fermentation in bottle, as in traditional method sparkling wine"
       },
       "answer": "a",
       "explanation": "Bunches at the bottom burst, and that juice begins fermenting conventionally, generating the CO2 blanket in which the intact berries above ferment internally.",
@@ -5515,10 +5515,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Deacidification is most likely to be needed",
       "options": {
-        "a": "in a hot region where acidity is naturally low",
+        "a": "in a hot region where acidity is naturally low and sugar levels are high",
         "b": "in a cool region in a poor vintage, where grapes retain excessive acidity",
-        "c": "when the wine is to be fortified",
-        "d": "before a second fermentation in bottle"
+        "c": "when the wine is to be fortified with high-strength grape spirit",
+        "d": "before a second fermentation in bottle to trigger mousse formation"
       },
       "answer": "b",
       "explanation": "It is the mirror image of acidification. Where grapes fail to ripen fully, the wine can be sharp enough to need correcting.",
@@ -5539,10 +5539,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Compared with cultured yeast, using ambient yeast typically means",
       "options": {
-        "a": "a guaranteed increase in alcohol",
-        "b": "a faster and more reliable fermentation",
+        "a": "a guaranteed increase in alcohol compared with cultured strains chosen for high attenuation",
+        "b": "a faster and more reliable fermentation than with cultured strains selected for vigour",
         "c": "less predictable fermentation, but potentially greater complexity in the finished wine",
-        "d": "that malolactic conversion cannot take place"
+        "d": "that malolactic conversion cannot take place without inoculating with bacterial cultures"
       },
       "answer": "c",
       "explanation": "Ambient populations vary and can stick or produce off-flavours, whereas cultured strains are chosen for reliability and sometimes for specific aromatic contributions.",
@@ -5563,9 +5563,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Saint-Est\u00e8phe differs from other Left Bank communes in that its soils contain",
       "options": {
-        "a": "deep sand throughout",
-        "b": "volcanic ash",
-        "c": "pure limestone with no gravel",
+        "a": "deep sand throughout, similar to the soils of Graves",
+        "b": "volcanic ash deposited by ancient geological activity",
+        "c": "pure limestone with no gravel, unlike its Left Bank neighbours",
         "d": "a higher proportion of clay, giving firmer, more structured wines"
       },
       "answer": "d",
@@ -5589,9 +5589,9 @@ window.WSET_DATA_3 = {
       "question": "Saint-Julien is a communal appellation known for",
       "options": {
         "a": "consistent quality, with a very high proportion of classified estates for its size",
-        "b": "sweet white wines",
-        "c": "wines made predominantly from Cabernet Franc",
-        "d": "the largest production volume in Bordeaux"
+        "b": "sweet white wines made from botrytis-affected S\u00e9millon and Sauvignon",
+        "c": "wines made predominantly from Cabernet Franc rather than Cabernet Sauvignon",
+        "d": "the largest production volume in Bordeaux, dominated by cooperative wineries"
       },
       "answer": "a",
       "explanation": "It is small but densely planted with classified growths, and its wines are often described as sitting between the power of Pauillac and the perfume of Margaux.",
@@ -5613,10 +5613,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "The most highly regarded parts of Pomerol are associated with",
       "options": {
-        "a": "deep gravel banks suited to Cabernet Sauvignon",
+        "a": "deep gravel banks suited to Cabernet Sauvignon plantings",
         "b": "clay soils that suit Merlot, retaining water through dry summers",
-        "c": "chalk soils identical to those of Champagne",
-        "d": "volcanic soils"
+        "c": "chalk soils identical to those found in the Champagne region",
+        "d": "volcanic soils similar to those of the Canary Islands"
       },
       "answer": "b",
       "explanation": "Water-retentive clay slows ripening and gives Merlot the concentration and structure that distinguishes the appellation's best wines.",
@@ -5638,10 +5638,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Wines labelled C\u00f4tes de Bordeaux generally",
       "options": {
-        "a": "are exclusively sweet",
-        "b": "are the most expensive wines in the region",
+        "a": "are exclusively sweet, made from botrytis-affected grapes",
+        "b": "are the most expensive wines in the region, above the classified growths",
         "c": "come from hillside areas outside the prestigious communes and offer value",
-        "d": "are made only from white grapes"
+        "d": "are made only from white grapes such as S\u00e9millon and Sauvignon Blanc"
       },
       "answer": "c",
       "explanation": "The umbrella appellation covers several hillside zones, most of them Merlot-dominated, at prices well below the classified estates.",
@@ -5663,9 +5663,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Vosne-Roman\u00e9e is a village in the C\u00f4te de Nuits notable for",
       "options": {
-        "a": "specialising in sparkling wine",
-        "b": "producing only white wine",
-        "c": "lying outside the C\u00f4te d'Or",
+        "a": "specialising in sparkling wine made by the traditional method",
+        "b": "producing only white wine, unlike its neighbour Nuits-Saint-Georges",
+        "c": "lying outside the C\u00f4te d'Or, further south near the C\u00f4te Chalonnaise",
         "d": "containing several of Burgundy's most prestigious Grand Cru vineyards"
       },
       "answer": "d",
@@ -5689,9 +5689,9 @@ window.WSET_DATA_3 = {
       "question": "Chassagne-Montrachet in the C\u00f4te de Beaune produces",
       "options": {
         "a": "both red and white wine, with its reputation resting mainly on Chardonnay",
-        "b": "only red wine from Pinot Noir",
-        "c": "sparkling wine by the traditional method",
-        "d": "sweet wine from botrytised grapes"
+        "b": "only red wine from Pinot Noir, unlike its white-focused neighbours",
+        "c": "sparkling wine by the traditional method under the Cr\u00e9mant de Bourgogne label",
+        "d": "sweet wine from botrytised grapes affected by noble rot each autumn"
       },
       "answer": "a",
       "explanation": "It sits alongside Puligny-Montrachet among Burgundy's leading white wine villages, though a meaningful amount of red is still produced there.",
@@ -5713,10 +5713,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Saint-V\u00e9ran is an appellation in",
       "options": {
-        "a": "the C\u00f4te de Nuits, producing red wine",
+        "a": "the C\u00f4te de Nuits, producing red wine from Pinot Noir",
         "b": "the M\u00e2connais, producing white wine from Chardonnay",
-        "c": "Chablis",
-        "d": "Beaujolais"
+        "c": "Chablis, producing steely unoaked Chardonnay",
+        "d": "Beaujolais, producing red wine from Gamay"
       },
       "answer": "b",
       "explanation": "It neighbours Pouilly-Fuiss\u00e9 and offers a similar riper southern Burgundian style of Chardonnay, usually at a lower price.",
@@ -5738,10 +5738,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Morgon and Brouilly are",
       "options": {
-        "a": "Grand Cru vineyards in Alsace",
-        "b": "villages within the C\u00f4te Chalonnaise",
+        "a": "Grand Cru vineyards in Alsace known for aromatic white wine",
+        "b": "villages within the C\u00f4te Chalonnaise producing white Burgundy",
         "c": "Beaujolais Crus, the top tier of the region's appellation hierarchy",
-        "d": "sub-regions of the Southern Rh\u00f4ne"
+        "d": "sub-regions of the Southern Rh\u00f4ne planted mainly with Grenache"
       },
       "answer": "c",
       "explanation": "The ten Crus sit on granite soils in the north of Beaujolais and generally produce more structured wines than Beaujolais Villages.",
@@ -5763,9 +5763,9 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Menetou-Salon produces wines most similar in style to",
       "options": {
-        "a": "Sauternes, being a source of botrytised sweet wine",
-        "b": "Muscadet, sharing its maritime climate and lees ageing",
-        "c": "Ch\u00e2teauneuf-du-Pape, sharing its Grenache-based blend",
+        "a": "Sauternes, being a source of botrytised sweet wine from noble rot",
+        "b": "Muscadet, sharing its maritime climate and tradition of ageing sur lie",
+        "c": "Ch\u00e2teauneuf-du-Pape, sharing its warm climate and Grenache-based blend",
         "d": "Sancerre, being a neighbouring appellation growing the same varieties"
       },
       "answer": "d",
@@ -5789,9 +5789,9 @@ window.WSET_DATA_3 = {
       "question": "Compared with generic C\u00f4tes du Rh\u00f4ne, wines labelled C\u00f4tes du Rh\u00f4ne Villages must meet",
       "options": {
         "a": "stricter rules including lower yields, and come from a defined group of better communes",
-        "b": "identical rules over a wider area",
-        "c": "a minimum of five years in oak",
-        "d": "a requirement to be made entirely from Syrah"
+        "b": "identical rules over a wider area than generic C\u00f4tes du Rh\u00f4ne, with no yield restriction",
+        "c": "a minimum of five years in oak before release to market under appellation rules",
+        "d": "a requirement to be made entirely from Syrah rather than Grenache or Mourv\u00e8dre"
       },
       "answer": "a",
       "explanation": "Some villages may append their own name, which signals a further step up in the hierarchy below the named crus.",
@@ -5813,10 +5813,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Lirac in the Southern Rh\u00f4ne produces",
       "options": {
-        "a": "only sweet fortified wine",
+        "a": "only sweet fortified wine, made in a style similar to Banyuls in Roussillon",
         "b": "red, white and ros\u00e9 wines, in a style comparable to nearby Ch\u00e2teauneuf-du-Pape at lower prices",
-        "c": "sparkling wine by the traditional method",
-        "d": "only white wine from Viognier"
+        "c": "sparkling wine by the traditional method, aged on its lees before disgorgement each spring",
+        "d": "only white wine from Viognier, similar to neighbouring Condrieu on granite soils"
       },
       "answer": "b",
       "explanation": "It sits across the river from Ch\u00e2teauneuf-du-Pape on similar soils, and its Grenache-based reds offer much of the same character for less.",
@@ -5838,10 +5838,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Proven\u00e7al ros\u00e9 achieves its very pale colour chiefly through",
       "options": {
-        "a": "filtering colour out of a finished red wine",
-        "b": "blending white wine into red wine",
+        "a": "filtering colour out of a finished red wine using fining agents",
+        "b": "blending white wine into red wine to dilute its colour and body",
         "c": "direct pressing or very brief maceration, limiting extraction from the skins",
-        "d": "fermenting the wine at very high temperatures"
+        "d": "fermenting the wine at very high temperatures to extract more colour"
       },
       "answer": "c",
       "explanation": "Minimal skin contact is the key decision, and picking earlier also helps keep the wine fresh and light in colour.",
@@ -5863,9 +5863,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "The Pfalz is notable for being",
       "options": {
-        "a": "planted exclusively with Silvaner",
-        "b": "Germany's coolest and wettest region",
-        "c": "restricted to sweet wine production",
+        "a": "planted exclusively with Silvaner, unlike neighbouring Rheinhessen and the Nahe",
+        "b": "Germany's coolest and wettest region, more so than the Mosel or the Ahr valley",
+        "c": "restricted to sweet wine production under regional labelling and Pr\u00e4dikat rules",
         "d": "relatively warm and dry, sheltered by the Haardt mountains, with a wide range of varieties"
       },
       "answer": "d",
@@ -5888,9 +5888,9 @@ window.WSET_DATA_3 = {
       "question": "German Sp\u00e4tburgunder is typically",
       "options": {
         "a": "lighter in body with higher acidity than Pinot Noir from warmer regions",
-        "b": "deeply coloured and very high in tannin",
-        "c": "always made in a sweet style",
-        "d": "a white wine"
+        "b": "deeply coloured and very high in tannin, like Cabernet Sauvignon",
+        "c": "always made in a sweet style with noticeable residual sugar",
+        "d": "a white wine made from a genetic mutation of Pinot Noir"
       },
       "answer": "a",
       "explanation": "Cool conditions give red fruit character and fresh acidity, though warmer sites in Baden and the Pfalz produce riper, fuller examples.",
@@ -5935,10 +5935,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Tokaji Eszencia is made from",
       "options": {
-        "a": "a blend of dry Furmint and grape spirit",
-        "b": "grapes frozen on the vine",
+        "a": "a blend of dry Furmint and grape spirit added during fermentation",
+        "b": "grapes frozen on the vine and harvested during a winter frost",
         "c": "the free-run juice that seeps from asz\u00fa berries under their own weight",
-        "d": "grapes dried on straw mats indoors"
+        "d": "grapes dried on straw mats indoors before gentle pressing"
       },
       "answer": "c",
       "explanation": "That juice is so concentrated in sugar that fermentation barely proceeds, leaving an extraordinarily sweet liquid with very low alcohol.",
@@ -5984,9 +5984,9 @@ window.WSET_DATA_3 = {
       "question": "The Classico zone of Valpolicella refers to",
       "options": {
         "a": "the original hillside heartland of the appellation, generally giving better quality",
-        "b": "wines aged for a minimum of five years",
-        "c": "wines made from dried grapes",
-        "d": "a separate appellation outside the Veneto"
+        "b": "wines aged for a minimum of five years before release to market for sale",
+        "c": "wines made from dried grapes, as with Amarone and Recioto della Valpolicella",
+        "d": "a separate appellation outside the Veneto region entirely, near the Alps"
       },
       "answer": "a",
       "explanation": "Classico zones across Italy mark the historic core of an appellation, typically the higher, better-drained sites planted before the boundaries expanded.",
@@ -6008,10 +6008,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Compared with Barbera, Dolcetto typically produces wines that are",
       "options": {
-        "a": "much higher in acidity with no tannin",
+        "a": "much higher in acidity with no tannin, similar to Barbera",
         "b": "lower in acidity with somewhat more tannin, for earlier drinking",
-        "c": "sweet, as the name suggests",
-        "d": "white and aromatic"
+        "c": "sweet, as the name suggests, with noticeable residual sugar",
+        "d": "white and aromatic, similar to Arneis or Cortese from Piedmont"
       },
       "answer": "b",
       "explanation": "Despite a name meaning little sweet one, Dolcetto is made dry. It ripens early, which lets growers use sites where Nebbiolo would not ripen.",
@@ -6033,10 +6033,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Soave Classico differs from basic Soave chiefly because it comes from",
       "options": {
-        "a": "vineyards outside the Veneto in neighbouring regions",
-        "b": "a different grape variety permitted only in that zone",
+        "a": "vineyards outside the Veneto, in the hills of Trentino to the north",
+        "b": "a different grape variety, Trebbiano rather than Garganega",
         "c": "volcanic hillside sites in the original zone rather than the fertile plain",
-        "d": "grapes dried for several months after harvest"
+        "d": "grapes dried for several months after harvest, as in Recioto di Soave"
       },
       "answer": "c",
       "explanation": "The hills give lower yields and better drainage, producing wines with more concentration and structure than high-volume flatland Soave.",
@@ -6058,9 +6058,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Puglia's suitability for high-volume wine production rests on",
       "options": {
-        "a": "altitude above 800 metres",
-        "b": "steep terraces worked by hand",
-        "c": "cool maritime conditions and high rainfall",
+        "a": "altitude above 800 metres in the Apennine foothills",
+        "b": "steep terraces worked by hand, similar to Valtellina",
+        "c": "cool maritime conditions and high rainfall through the growing season",
         "d": "a hot, dry, sunny climate with flat land allowing mechanisation"
       },
       "answer": "d",
@@ -6083,9 +6083,9 @@ window.WSET_DATA_3 = {
       "question": "Garnacha is blended with Tempranillo in Rioja principally to add",
       "options": {
         "a": "body and alcohol, with ripe red fruit",
-        "b": "acidity and tannin",
-        "c": "colour and firm structure",
-        "d": "aromatic floral notes"
+        "b": "acidity and tannin from cooler sites",
+        "c": "colour and firm structure to the blend",
+        "d": "aromatic floral notes to the bouquet"
       },
       "answer": "a",
       "explanation": "Tempranillo supplies structure and savoury character while Garnacha fleshes out the middle of the palate, with Graciano and Mazuelo used in smaller proportions.",
@@ -6106,10 +6106,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "The principal viticultural challenge in R\u00edas Baixas is",
       "options": {
-        "a": "severe summer drought",
+        "a": "severe summer drought requiring drip irrigation each year",
         "b": "high rainfall and humidity leading to fungal disease pressure",
-        "c": "winter freeze killing the vines",
-        "d": "a complete absence of sunlight"
+        "c": "winter freeze killing the vines in exceptionally cold years",
+        "d": "a complete absence of sunlight during the growing season"
       },
       "answer": "b",
       "explanation": "The Atlantic climate is wet, which is why vines are traditionally trained high on pergolas to improve air circulation around the fruit.",
@@ -6130,10 +6130,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "The Lisboa region of Portugal is characterised by",
       "options": {
-        "a": "vineyards planted above 1,000 metres",
-        "b": "a hot continental climate with no maritime influence",
+        "a": "vineyards planted above 1,000 metres on granite plateaux inland from the coast",
+        "b": "a hot continental climate with no maritime influence, similar to inland Alentejo",
         "c": "Atlantic influence, with the best sites sheltered from the strongest coastal winds",
-        "d": "a legal requirement to fortify all wines"
+        "d": "a legal requirement to fortify all wines to at least 17% alcohol by volume"
       },
       "answer": "c",
       "explanation": "Exposure to the ocean brings cooling and wind, so shelter matters. The region produces large volumes alongside some higher-quality wines.",
@@ -6155,9 +6155,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "The Stags Leap District within Napa Valley is known for Cabernet Sauvignon that is",
       "options": {
-        "a": "produced without any oak maturation",
-        "b": "the lightest-bodied in California",
-        "c": "made in an off-dry style",
+        "a": "produced without any oak maturation of any kind",
+        "b": "the lightest-bodied in California, similar to coastal Pinot Noir",
+        "c": "made in an off-dry style with noticeable residual sugar",
         "d": "softer and more perfumed than that of neighbouring districts"
       },
       "answer": "d",
@@ -6181,9 +6181,9 @@ window.WSET_DATA_3 = {
       "question": "Compared with the Napa valley floor, mountain vineyards such as Howell Mountain and Mount Veeder generally give wines with",
       "options": {
         "a": "firmer tannins and greater concentration, from lower-yielding vines on poorer soils",
-        "b": "lower tannin and higher yields",
-        "c": "noticeably more residual sugar",
-        "d": "a lighter colour and lower alcohol"
+        "b": "lower tannin and higher yields due to deeper, more fertile valley soils",
+        "c": "noticeably more residual sugar from a deliberately halted fermentation",
+        "d": "a lighter colour and lower alcohol from cooler valley floor conditions"
       },
       "answer": "a",
       "explanation": "Thin soils, steep slopes and sites above the fog line produce smaller berries with thicker skins, and the wines are typically more structured and longer-lived.",
@@ -6205,10 +6205,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Alexander Valley in Sonoma County is best known for",
       "options": {
-        "a": "cool-climate Pinot Noir",
+        "a": "cool-climate Pinot Noir from fog-cooled coastal vineyards",
         "b": "ripe, approachable Cabernet Sauvignon from a warm inland setting",
-        "c": "traditional method sparkling wine",
-        "d": "botrytised dessert wine"
+        "c": "traditional method sparkling wine aged for years on lees",
+        "d": "botrytised dessert wine made in exceptional vintages"
       },
       "answer": "b",
       "explanation": "It lies inland and is warmer than the coastal parts of Sonoma, giving softer, fruit-forward Cabernet compared with the firmer Napa mountain style.",
@@ -6230,10 +6230,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "The Santa Cruz Mountains are notable for vineyards that are",
       "options": {
-        "a": "planted entirely on flat valley floors",
-        "b": "the largest-volume producers in California",
+        "a": "planted entirely on flat valley floors close to the San Francisco Bay estuary",
+        "b": "the largest-volume producers in California, rivalling the Central Valley's output",
         "c": "planted at altitude, often above the fog line, giving concentrated wines in small volumes",
-        "d": "restricted to white varieties by law"
+        "d": "restricted to white varieties by law under federal appellation regulations"
       },
       "answer": "c",
       "explanation": "Sites are scattered, steep and hard to farm, so production is limited and prices are high, with both Bordeaux and Burgundian varieties represented.",
@@ -6255,9 +6255,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "San Antonio and its Leyda sub-region are valued in Chile for",
       "options": {
-        "a": "old-vine Carignan",
-        "b": "the hottest conditions in the country",
-        "c": "fortified wine production",
+        "a": "old-vine Carignan planted on dry-farmed, ungrafted bush vines",
+        "b": "the hottest conditions in the country, ideal for powerful Cabernet Sauvignon",
+        "c": "fortified wine production, using a solera-style ageing system",
         "d": "cool coastal conditions producing Sauvignon Blanc, Chardonnay and Pinot Noir"
       },
       "answer": "d",
@@ -6280,9 +6280,9 @@ window.WSET_DATA_3 = {
       "question": "Luj\u00e1n de Cuyo in Mendoza is particularly associated with",
       "options": {
         "a": "old-vine Malbec from established, relatively high-altitude vineyards",
-        "b": "cool-climate Sauvignon Blanc",
-        "c": "traditional method sparkling wine",
-        "d": "fortified Muscat"
+        "b": "cool-climate Sauvignon Blanc from high-altitude vineyards",
+        "c": "traditional method sparkling wine aged for several years on lees",
+        "d": "fortified Muscat aged in a solera system for many years"
       },
       "answer": "a",
       "explanation": "It is one of Mendoza's longest-established quality zones, and its older plantings are prized for the concentration they deliver.",
@@ -6303,10 +6303,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Compared with Stellenbosch, Paarl is generally",
       "options": {
-        "a": "considerably cooler",
+        "a": "considerably cooler due to constant Atlantic fog",
         "b": "warmer, being further inland with less maritime influence",
-        "c": "restricted to white varieties",
-        "d": "located on the coast"
+        "c": "restricted to white varieties under local planting rules",
+        "d": "located on the coast facing False Bay directly"
       },
       "answer": "b",
       "explanation": "The extra warmth suits later-ripening varieties including Shiraz and Cabernet Sauvignon, and Chenin Blanc is also widely planted.",
@@ -6328,9 +6328,9 @@ window.WSET_DATA_3 = {
       "question": "Durbanville is cooled principally by",
       "options": {
         "a": "cold air draining from inland mountains",
-        "b": "altitude above 1,000 metres",
+        "b": "altitude above 1,000 metres in the surrounding hills",
         "c": "sea breezes and cloud cover from the nearby Atlantic",
-        "d": "heavy summer rainfall"
+        "d": "heavy summer rainfall blowing in from the interior"
       },
       "answer": "c",
       "explanation": "Its position close to the coast north of Cape Town moderates temperatures, and the district has a particular reputation for Sauvignon Blanc.",
@@ -6351,9 +6351,9 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Heathcote in Victoria is best known for",
       "options": {
-        "a": "botrytised Semillon",
-        "b": "Riesling from high-altitude sites",
-        "c": "traditional method sparkling wine",
+        "a": "botrytised Semillon made in a sweet style",
+        "b": "Riesling from high-altitude granite sites",
+        "c": "traditional method sparkling wine aged on lees",
         "d": "Shiraz grown on distinctive ancient red soils"
       },
       "answer": "d",
@@ -6376,9 +6376,9 @@ window.WSET_DATA_3 = {
       "question": "Nelson, at the northern end of New Zealand's South Island, produces",
       "options": {
         "a": "Sauvignon Blanc, Chardonnay and Pinot Noir in a cool, maritime climate",
-        "b": "fortified wines",
-        "c": "high-volume irrigated bulk wine",
-        "d": "Cabernet Sauvignon in a hot inland climate"
+        "b": "fortified wines aged in a solera system similar to Sherry production",
+        "c": "high-volume irrigated bulk wine from flat valley floor vineyards",
+        "d": "Cabernet Sauvignon in a hot inland climate similar to Hawke's Bay"
       },
       "answer": "a",
       "explanation": "Its varieties and climate broadly resemble neighbouring Marlborough, though it is smaller, wetter and less well known.",
@@ -6399,10 +6399,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Bottling wine close to the market rather than at the winery reduces cost because",
       "options": {
-        "a": "it removes the need for any packaging",
+        "a": "it removes the need for any packaging once the wine reaches its destination",
         "b": "shipping wine in bulk containers is far cheaper than shipping filled glass bottles",
-        "c": "it allows the wine to be sold without duty",
-        "d": "it improves the wine's quality in transit"
+        "c": "it allows the wine to be sold without duty being paid on importation",
+        "d": "it improves the wine's quality in transit by reducing oxygen exposure"
       },
       "answer": "b",
       "explanation": "Glass is heavy and mostly empty space, so bulk shipping and local bottling cuts freight costs and carbon emissions on high-volume wines.",
@@ -6423,10 +6423,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "The Vall\u00e9e de la Marne is particularly associated with",
       "options": {
-        "a": "Pinot Noir exclusively",
-        "b": "Chardonnay grown on pure chalk",
+        "a": "Pinot Noir exclusively, grown on the Montagne de Reims",
+        "b": "Chardonnay grown on pure chalk in the C\u00f4te des Blancs",
         "c": "Meunier, which copes well with the area's frost-prone sites",
-        "d": "still red wine production"
+        "d": "still red wine production labelled as Coteaux Champenois"
       },
       "answer": "c",
       "explanation": "Its later budburst reduces exposure to spring frost, which is a persistent risk on the valley floor.",
@@ -6448,9 +6448,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Reserve wines are held by Champagne houses in order to",
       "options": {
-        "a": "replace the dosage",
-        "b": "be sold as still wine",
-        "c": "provide the sugar for the second fermentation",
+        "a": "replace the dosage that is added at the moment of disgorgement each release",
+        "b": "be sold as still wine under the Coteaux Champenois appellation instead",
+        "c": "provide the sugar for the second fermentation inside each bottle via liqueur de tirage",
         "d": "blend into future non-vintage releases, maintaining a consistent house style"
       },
       "answer": "d",
@@ -6474,9 +6474,9 @@ window.WSET_DATA_3 = {
       "question": "A prestige cuv\u00e9e is typically",
       "options": {
         "a": "a house's top wine, from the best fruit with extended lees ageing",
-        "b": "the entry-level non-vintage blend",
-        "c": "a wine made without a second fermentation",
-        "d": "a still wine from the region"
+        "b": "the entry-level non-vintage blend sold in largest volume",
+        "c": "a wine made without a second fermentation, like a still wine",
+        "d": "a still wine from the region labelled Coteaux Champenois"
       },
       "answer": "a",
       "explanation": "These wines usually draw on Grand Cru fruit and spend far longer on the lees than the house's other bottlings, which is reflected in the price.",
@@ -6498,10 +6498,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "The tank method is cheaper than the traditional method principally because",
       "options": {
-        "a": "it is legally restricted to cheaper, higher-yielding grape varieties",
+        "a": "it is legally restricted to cheaper, higher-yielding grape varieties under EU rules",
         "b": "one large vessel serves thousands of bottles and there is no riddling or individual disgorgement",
-        "c": "it requires no second fermentation of any kind",
-        "d": "the wine needs no packaging or closure before sale"
+        "c": "it requires no second fermentation of any kind, relying instead on carbonation",
+        "d": "the wine needs no packaging or closure before sale, unlike bottle-fermented wines"
       },
       "answer": "b",
       "explanation": "Handling the second fermentation in bulk removes the labour-intensive bottle-by-bottle steps, and the shorter lees ageing frees up capital sooner.",
@@ -6522,10 +6522,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Glera is well suited to the tank method because it",
       "options": {
-        "a": "produces base wine with very low acidity",
-        "b": "is very high in tannin",
+        "a": "produces base wine with very low acidity that would collapse under bottle-fermentation",
+        "b": "is very high in tannin, giving Prosecco a firm, structured mouthfeel",
         "c": "has delicate primary pear and floral aromas that lengthy lees ageing would mask",
-        "d": "cannot ferment in bottle"
+        "d": "cannot ferment in bottle without the addition of tirage yeast and sugar"
       },
       "answer": "c",
       "explanation": "The method preserves exactly what makes the variety appealing. A traditional method treatment would bury that fruit under autolytic character.",
@@ -6547,9 +6547,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Tasmania and Marlborough are both used for premium sparkling wine because they offer",
       "options": {
-        "a": "volcanic soils",
-        "b": "the warmest conditions in their countries",
-        "c": "reliable botrytis every autumn",
+        "a": "volcanic soils that impart a distinctive smoky, mineral character to the wine",
+        "b": "the warmest conditions in their countries, ripening grapes to full phenolic maturity",
+        "c": "reliable botrytis every autumn, favouring late-harvest dessert styles",
         "d": "cool conditions producing base wines with high acidity and low potential alcohol"
       },
       "answer": "d",
@@ -6572,9 +6572,9 @@ window.WSET_DATA_3 = {
       "question": "Why is the transfer method often used for very small and very large bottle formats?",
       "options": {
         "a": "Riddling and disgorging those formats individually is impractical, so the wine is bottled under pressure instead",
-        "b": "Those formats cannot hold carbon dioxide",
-        "c": "The law prohibits bottle fermentation in them",
-        "d": "They require a longer second fermentation"
+        "b": "Those formats cannot hold carbon dioxide, since their glass is too thin to withstand secondary fermentation pressure",
+        "c": "The law prohibits bottle fermentation in them, requiring tank fermentation instead for non-standard bottle sizes",
+        "d": "They require a longer second fermentation because the yeast-to-wine ratio is much lower in these formats"
       },
       "answer": "a",
       "explanation": "The wine still gains its autolytic character from a bottle fermentation, but the mechanical handling is done in bulk before rebottling.",
@@ -6595,10 +6595,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "The climate of Jerez is best described as",
       "options": {
-        "a": "cool and continental with severe winters",
+        "a": "cool and continental with severe winters that limit grape ripening",
         "b": "hot with very dry summers, moderated by humid westerly winds from the Atlantic",
-        "c": "uniformly wet throughout the year",
-        "d": "alpine, with vineyards above 1,000 metres"
+        "c": "uniformly wet throughout the year, requiring extensive canopy management",
+        "d": "alpine, with vineyards above 1,000 metres shielded from Atlantic influence"
       },
       "answer": "b",
       "explanation": "The humid poniente wind is important because it helps sustain the flor that defines the biologically aged styles.",
@@ -6620,10 +6620,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "After fermentation, Sherry base wines are classified in order to determine",
       "options": {
-        "a": "which vineyard the grapes came from",
-        "b": "the vintage that will appear on the label",
+        "a": "which vineyard the grapes came from within the Jerez superior zone",
+        "b": "the vintage that will appear on the label, if the wine qualifies as an a\u00f1ada",
         "c": "whether each cask will be fortified for biological or oxidative ageing",
-        "d": "the sweetness of the finished wine"
+        "d": "the sweetness of the finished wine, determined by the dosage added before bottling"
       },
       "answer": "c",
       "explanation": "The most delicate wines are fortified to around 15% for flor development, while fuller wines are taken to 17% or more for oxidative ageing.",
@@ -6645,9 +6645,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Why do most Sherries carry no vintage date?",
       "options": {
-        "a": "Because fortification removes the need for ageing",
-        "b": "Because Spanish law prohibits vintage dating",
-        "c": "Because the grapes are harvested over several years",
+        "a": "Because fortification removes the need for any further ageing",
+        "b": "Because Spanish law prohibits vintage dating for fortified wines",
+        "c": "Because the grapes are harvested over several successive years",
         "d": "Because the solera system continuously blends wines of different ages"
       },
       "answer": "d",
@@ -6671,9 +6671,9 @@ window.WSET_DATA_3 = {
       "question": "Touriga Nacional is valued in Port production for contributing",
       "options": {
         "a": "deep colour, firm tannin and intense floral and black fruit aromatics",
-        "b": "high acidity and very light colour",
-        "c": "a neutral base with little flavour",
-        "d": "biscuit and bread character"
+        "b": "high acidity and very light colour, similar to Tinta Barroca",
+        "c": "a neutral base with little flavour, used mainly for blending volume",
+        "d": "biscuit and bread character from extended lees contact"
       },
       "answer": "a",
       "explanation": "It is generally regarded as the finest of the permitted varieties, though it is normally blended with others such as Touriga Franca and Tinta Roriz.",
@@ -6695,10 +6695,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "A Port labelled Reserve Tawny, without an indication of age, is",
       "options": {
-        "a": "a wine from a single declared vintage",
+        "a": "a wine from a single declared vintage, similar to Vintage Port in style",
         "b": "a blend aged oxidatively in cask, but for less time than an age-indicated Tawny",
-        "c": "a dry, pale style aged under flor",
-        "d": "a wine aged entirely in bottle"
+        "c": "a dry, pale style aged under flor in partially filled casks, as with Fino",
+        "d": "a wine aged entirely in bottle without any cask maturation beforehand"
       },
       "answer": "b",
       "explanation": "It offers some of the nutty, dried fruit character of cask ageing at a lower price point than the ten, twenty or older age-indicated wines.",
@@ -6721,10 +6721,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Compared with Rutherglen Muscat, Muscat de Beaumes-de-Venise is typically",
       "options": {
-        "a": "completely dry, having fermented all its sugar",
+        "a": "completely dry, having fermented all its sugar during a long, slow fermentation",
         "b": "darker and more concentrated, with pronounced raisin character",
         "c": "fresher and more grapey, having been aged in inert vessels rather than oxidatively",
-        "d": "aged beneath a protective layer of flor yeast"
+        "d": "aged beneath a protective layer of flor yeast, as with biological Sherry"
       },
       "answer": "c",
       "explanation": "Both are fortified during fermentation, but the ageing regime diverges: the French style protects the primary Muscat aromatics, while Rutherglen builds oxidative complexity.",
@@ -6771,9 +6771,9 @@ window.WSET_DATA_3 = {
       "question": "Moving upstream from the coast, the Douro becomes",
       "options": {
         "a": "progressively hotter and drier, with the highest-quality Port vineyards inland from the Baixo Corgo",
-        "b": "progressively cooler and wetter as you move inland",
-        "c": "uniformly maritime throughout its entire length",
-        "d": "unsuitable for viticulture beyond the coastal strip"
+        "b": "progressively cooler and wetter as you move inland, similar to the Vinho Verde region",
+        "c": "uniformly maritime throughout its entire length, with no real climatic variation",
+        "d": "unsuitable for viticulture beyond the coastal strip due to extreme continental heat"
       },
       "answer": "a",
       "explanation": "Mountains block Atlantic influence, so the eastern reaches are extremely hot and arid, and the middle stretch is the source of most of the finest Port.",
@@ -6797,9 +6797,9 @@ window.WSET_DATA_3 = {
       "question": "Brettanomyces in a red wine typically produces aromas of",
       "options": {
         "a": "farmyard, sticking plaster and animal notes",
-        "b": "vinegar and nail varnish",
-        "c": "damp cardboard",
-        "d": "green apple and lemon"
+        "b": "vinegar and nail varnish from volatile acidity",
+        "c": "damp cardboard aromas from cork taint",
+        "d": "green apple and lemon from unripe fruit"
       },
       "answer": "a",
       "explanation": "It is a spoilage yeast that thrives where hygiene is poor or sulfur levels are low. Small amounts divide opinion, but at higher levels it masks the fruit entirely.",
@@ -6820,10 +6820,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "An excess of sulfur dioxide in a wine presents as",
       "options": {
-        "a": "honey and bruised apple with a browning colour",
+        "a": "honey and bruised apple with a browning colour from oxidation",
         "b": "a sharp, acrid smell reminiscent of a struck match or burnt rubber",
         "c": "farmyard, leather and animal notes masking the fruit",
-        "d": "damp cardboard and musty cellar with muted fruit"
+        "d": "damp cardboard and musty cellar aromas from cork taint"
       },
       "answer": "b",
       "explanation": "It often dissipates with aeration, unlike most faults. Sulfur dioxide is essential in winemaking, so the fault lies in the quantity rather than its presence.",
@@ -6844,10 +6844,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "When decanting an old red wine, a light source is used beneath the neck of the bottle in order to",
       "options": {
-        "a": "speed up aeration",
-        "b": "warm the wine as it is poured",
+        "a": "speed up aeration by exposing more surface area to oxygen",
+        "b": "warm the wine as it is poured, bringing it closer to room temperature",
         "c": "show when the sediment reaches the neck so pouring can be stopped",
-        "d": "check the wine for cork taint"
+        "d": "check the wine for cork taint before it reaches the glass"
       },
       "answer": "c",
       "explanation": "The bottle is stood upright beforehand so the deposit settles, and the pour is slow and continuous so the sediment is not disturbed.",
@@ -6868,9 +6868,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "When serving wine with a dessert, the wine should generally be",
       "options": {
-        "a": "served at room temperature",
-        "b": "drier than the dish, to provide contrast",
-        "c": "as high in tannin as possible",
+        "a": "served at room temperature to soften its texture and aroma",
+        "b": "drier than the dish, to provide a crisp contrast in flavour",
+        "c": "as high in tannin as possible to cut through the dish's richness",
         "d": "at least as sweet as the dish, or it will taste thin and acidic"
       },
       "answer": "d",
@@ -6893,9 +6893,9 @@ window.WSET_DATA_3 = {
       "question": "A customer wants a wine for a large informal party on a modest budget. The most appropriate recommendation would be",
       "options": {
         "a": "an approachable, moderately priced wine with broad appeal and no need for decanting",
-        "b": "a mature Vintage Port",
-        "c": "a rare Grand Cru Burgundy",
-        "d": "a heavily tannic young wine needing a decade in bottle"
+        "b": "a mature Vintage Port requiring careful decanting away from heavy sediment",
+        "c": "a rare Grand Cru Burgundy priced well beyond a modest budget for the occasion",
+        "d": "a heavily tannic young wine needing a decade in bottle before it softens"
       },
       "answer": "a",
       "explanation": "Occasion and budget are as much a part of a recommendation as style. A wine needing careful service or further ageing would be wasted in this setting.",
@@ -6916,10 +6916,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Besides lowering temperature, high altitude affects grapes by",
       "options": {
-        "a": "reducing the total hours of sunlight the vineyard receives each day",
+        "a": "reducing the total hours of sunlight the vineyard receives each growing season",
         "b": "increasing ultraviolet radiation, which thickens skins and builds colour and tannin",
-        "c": "raising humidity around the canopy and encouraging fungal disease",
-        "d": "eliminating the difference between daytime and night-time temperatures"
+        "c": "raising humidity around the canopy and encouraging fungal disease pressure",
+        "d": "eliminating the difference between daytime and night-time temperatures entirely"
       },
       "answer": "b",
       "explanation": "The vine responds to UV stress by producing protective compounds in the skins, which is a real asset in Argentina and Chile.",
@@ -7085,9 +7085,9 @@ window.WSET_DATA_3 = {
       "question": "The saign\u00e9e technique involves",
       "options": {
         "a": "drawing off juice early, concentrating what remains and yielding a ros\u00e9",
-        "b": "adding sugar to the must to raise the final alcohol level",
-        "c": "stirring the lees to build texture during barrel maturation",
-        "d": "blending finished red wine into a white base before bottling"
+        "b": "adding sugar to the must to raise the final alcohol level before fermentation",
+        "c": "stirring the lees to build texture during barrel maturation, as with b\u00e2tonnage",
+        "d": "blending finished red wine into a white base before bottling to add colour"
       },
       "answer": "a",
       "explanation": "It raises the ratio of skins to juice in the remaining red wine, and the drawn-off portion is fermented as ros\u00e9.",
@@ -7204,10 +7204,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Barsac is an appellation that",
       "options": {
-        "a": "produces only dry red wine from Cabernet Sauvignon and Merlot",
+        "a": "produces only dry red wine from Cabernet Sauvignon and Merlot grapes",
         "b": "produces botrytised sweet white wine and may also use the Sauternes name",
-        "c": "lies on the Left Bank and specialises in gravel-grown reds",
-        "d": "is located in the Loire Valley near the town of Vouvray"
+        "c": "lies on the Left Bank and specialises in gravel-grown red wines",
+        "d": "is located in the Loire Valley near the town of Vouvray and Chinon"
       },
       "answer": "b",
       "explanation": "It sits within the wider Sauternes zone, and producers may label their wines under either name.",
@@ -7229,10 +7229,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "The Bordeaux n\u00e9gociant system is significant because n\u00e9gociants",
       "options": {
-        "a": "set the legal yield limits that each appellation must observe",
-        "b": "grow all the grapes used by the classified estates of the M\u00e9doc",
+        "a": "set the legal yield limits that each appellation must observe annually",
+        "b": "grow all the grapes used by the classified estates of the M\u00e9doc directly",
         "c": "buy and distribute much of the region's wine, handling sales for the ch\u00e2teaux",
-        "d": "carry out the blending decisions on behalf of every producer"
+        "d": "carry out the blending decisions on behalf of every classified producer"
       },
       "answer": "c",
       "explanation": "Estates concentrate on production while the trade handles distribution, which shapes how Bordeaux reaches world markets.",
@@ -7381,8 +7381,8 @@ window.WSET_DATA_3 = {
       "question": "Limoux in the Languedoc is notable for producing",
       "options": {
         "a": "traditional method sparkling wine and Chardonnay-based still whites",
-        "b": "sweet fortified wines from Muscat grown near the coast",
-        "c": "tannic red wines made exclusively from old-vine Carignan",
+        "b": "sweet fortified wines from Muscat grown near the coast at Frontignan",
+        "c": "tannic red wines made exclusively from old-vine Carignan vines",
         "d": "ros\u00e9 produced by direct pressing of Grenache and Cinsault"
       },
       "answer": "a",
@@ -7434,7 +7434,7 @@ window.WSET_DATA_3 = {
         "a": "specialises entirely in traditional method sparkling wine",
         "b": "is the warmest region and produces mainly full-bodied whites",
         "c": "is planted predominantly with black varieties despite its northerly position",
-        "d": "permits irrigation across all of its vineyard land"
+        "d": "permits irrigation across all of its vineyard land under regional exemption rules"
       },
       "answer": "c",
       "explanation": "Steep, sheltered south-facing slate slopes allow Sp\u00e4tburgunder to ripen at a latitude that would otherwise be marginal.",
@@ -7455,9 +7455,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "The growth of dry German wine in recent decades reflects",
       "options": {
-        "a": "a requirement that all Pr\u00e4dikat wines be fermented to dryness",
-        "b": "a legal prohibition on producing wines with any residual sugar",
-        "c": "the replanting of all vineyards with red grape varieties",
+        "a": "a requirement that all Pr\u00e4dikat wines be fermented fully to dryness",
+        "b": "a legal prohibition on producing wines with any residual sugar content",
+        "c": "the replanting of all vineyards with red grape varieties like Sp\u00e4tburgunder",
         "d": "warmer vintages allowing full ripeness, and domestic demand for dry styles"
       },
       "answer": "d",
@@ -7503,10 +7503,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Sagrantino di Montefalco is notable for being",
       "options": {
-        "a": "a light, aromatic white wine from the hills of Umbria",
+        "a": "a light, aromatic white wine from the hills of Umbria near Orvieto",
         "b": "one of the most tannic red wines in Italy, requiring long ageing",
-        "c": "a sweet sparkling wine made from Muscat grapes",
-        "d": "a fortified wine aged oxidatively in small casks"
+        "c": "a sweet sparkling wine made from Muscat grapes in Piemonte",
+        "d": "a fortified wine aged oxidatively in small casks, similar to Sherry"
       },
       "answer": "b",
       "explanation": "The variety has exceptionally high tannin levels, so producers use extended maceration and oak ageing to tame it.",
@@ -7552,9 +7552,9 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "The Maremma on the Tuscan coast is characterised by",
       "options": {
-        "a": "a legal requirement to use only Nebbiolo in its red wines",
-        "b": "an alpine climate with vineyards planted above 1,000 metres",
-        "c": "reliable autumn noble rot used for sweet wine production",
+        "a": "a legal requirement to use only Nebbiolo in its red wine blends",
+        "b": "an alpine climate with vineyards planted above 1,000 metres in elevation",
+        "c": "reliable autumn noble rot used for sweet wine production every vintage",
         "d": "a warmer maritime climate producing softer, riper wines than inland Tuscany"
       },
       "answer": "d",
@@ -7579,7 +7579,7 @@ window.WSET_DATA_3 = {
       "options": {
         "a": "cooler and more Atlantic-influenced, giving wines with fresher acidity",
         "b": "considerably hotter and drier, producing higher-alcohol wines",
-        "c": "the only subzones permitted to use oak ageing terms",
+        "c": "the only subzones permitted to use oak ageing terms such as Crianza",
         "d": "planted exclusively with Garnacha rather than Tempranillo"
       },
       "answer": "a",
@@ -7603,9 +7603,9 @@ window.WSET_DATA_3 = {
       "question": "Montsant is best described as",
       "options": {
         "a": "a region surrounding Priorat, offering a similar style at lower prices",
-        "b": "the coolest Atlantic-influenced region in north-west Spain",
-        "c": "a sherry-producing zone in the far south of the country",
-        "d": "the largest high-volume wine region on the central plateau"
+        "b": "the coolest Atlantic-influenced region in north-west Spain near Galicia",
+        "c": "a sherry-producing zone in the far south of the country near C\u00e1diz",
+        "d": "the largest high-volume wine region on the central plateau of La Mancha"
       },
       "answer": "a",
       "explanation": "It shares many of Priorat's varieties and much of its character without the extreme slate terraces and prices.",
@@ -7651,9 +7651,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "The Mon\u00e7\u00e3o e Melga\u00e7o subregion of Vinho Verde is known for",
       "options": {
-        "a": "sweet wines produced from botrytis-affected grapes",
-        "b": "tannic red wines made from the Baga grape variety",
-        "c": "fortified wines aged oxidatively in small oak casks",
+        "a": "sweet wines produced from botrytis-affected grapes late in the season",
+        "b": "tannic red wines made from the Baga grape variety near Bairrada",
+        "c": "fortified wines aged oxidatively in small oak casks over decades",
         "d": "higher-quality Alvarinho with more body than typical Vinho Verde"
       },
       "answer": "d",
@@ -7702,9 +7702,9 @@ window.WSET_DATA_3 = {
       "question": "The Sonoma Coast is a challenging place to grow grapes because",
       "options": {
         "a": "the region is the hottest and driest in the whole of California",
-        "b": "the soils are so fertile that vines produce excessive crops",
+        "b": "the soils are so fertile that vines produce excessive crops each vintage",
         "c": "proximity to the ocean brings cold, fog and wind, making ripening marginal",
-        "d": "it lies too far inland to receive any maritime moderation"
+        "d": "it lies too far inland to receive any maritime moderation from the Pacific"
       },
       "answer": "c",
       "explanation": "Yields are low and vintage variation is real, but the best sites give Pinot Noir and Chardonnay with striking acidity.",
@@ -7727,8 +7727,8 @@ window.WSET_DATA_3 = {
       "question": "Oakville and Rutherford are valued within Napa Valley for producing",
       "options": {
         "a": "traditional method sparkling wine from early-picked grapes",
-        "b": "cool-climate Pinot Noir grown close to San Pablo Bay",
-        "c": "botrytised sweet wines from S\u00e9millon and Sauvignon Blanc",
+        "b": "cool-climate Pinot Noir grown close to San Pablo Bay in Carneros",
+        "c": "botrytised sweet wines from S\u00e9millon and Sauvignon Blanc grapes",
         "d": "benchmark Cabernet Sauvignon from valley-floor sites with warm days"
       },
       "answer": "d",
@@ -7823,9 +7823,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Constantia is significant in South African wine because it",
       "options": {
-        "a": "lies at over 1,500 metres in the Drakensberg mountains",
+        "a": "lies at over 1,500 metres in the Drakensberg mountains far inland",
         "b": "is the hottest inland district, producing high-volume bulk wine",
-        "c": "produces exclusively fortified wines in a solera system",
+        "c": "produces exclusively fortified wines in a solera system like Sherry",
         "d": "is a historic district cooled by ocean breezes, known for Sauvignon Blanc"
       },
       "answer": "d",
@@ -7898,8 +7898,8 @@ window.WSET_DATA_3 = {
       "options": {
         "a": "high-volume Sauvignon Blanc grown on flat irrigated land",
         "b": "concentrated Pinot Noir from free-draining river terrace soils",
-        "c": "Cabernet Sauvignon ripened in a hot inland climate",
-        "d": "fortified wines aged oxidatively in small casks"
+        "c": "Cabernet Sauvignon ripened in a hot, dry inland climate zone",
+        "d": "fortified wines aged oxidatively in small casks for decades"
       },
       "answer": "b",
       "explanation": "Production is small, and low yields from stony terraces give wines with more structure than the region's size suggests.",
@@ -7994,8 +7994,8 @@ window.WSET_DATA_3 = {
       "options": {
         "a": "sweet with pronounced honey and dried apricot character",
         "b": "dry with high acidity, citrus fruit and a bitter almond finish",
-        "c": "a full-bodied red with firm tannin and black fruit",
-        "d": "a sparkling wine made by the traditional method"
+        "c": "a full-bodied red with firm tannin and dark black fruit",
+        "d": "a sparkling wine made by the traditional method with lees ageing"
       },
       "answer": "b",
       "explanation": "The best examples have real ageing capacity, developing nutty complexity over several years in bottle.",
@@ -8041,9 +8041,9 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "The Saar and Ruwer are",
       "options": {
-        "a": "classification tiers used by the VDP producers association",
-        "b": "separate German regions located far to the east of the Rhine",
-        "c": "the two principal grape varieties grown throughout the Mosel",
+        "a": "classification tiers used by the VDP producers association nationally",
+        "b": "separate German regions located far to the east of the Rhine valley",
+        "c": "the two principal grape varieties grown throughout the Mosel valley",
         "d": "tributaries of the Mosel whose cool sites give particularly taut Riesling"
       },
       "answer": "d",
@@ -8093,7 +8093,7 @@ window.WSET_DATA_3 = {
         "a": "precise, aromatic dry white wines grown at altitude in an alpine setting",
         "b": "full-bodied reds made from dried grapes over several months",
         "c": "sweet fortified wines aged oxidatively in a hot climate",
-        "d": "high-volume inexpensive wine from irrigated flat land"
+        "d": "high-volume inexpensive wine from irrigated flat land near the Po valley"
       },
       "answer": "a",
       "explanation": "Its wide diurnal range preserves acidity and aromatics across varieties including Pinot Grigio, Gew\u00fcrztraminer and Riesling.",
@@ -8114,10 +8114,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Franciacorta is an Italian sparkling wine made",
       "options": {
-        "a": "by stopping a single fermentation while sugar remains",
+        "a": "by stopping a single fermentation early while sugar still remains",
         "b": "by the traditional method, principally from Chardonnay and Pinot Noir",
-        "c": "by the tank method from Glera grown in the Veneto",
-        "d": "by injecting carbon dioxide into a finished still wine"
+        "c": "by the tank method from Glera grown in the Veneto foothills",
+        "d": "by injecting carbon dioxide into a finished still wine before bottling"
       },
       "answer": "b",
       "explanation": "It sits in Lombardy and is Italy's most prestigious sparkling wine, with minimum lees ageing well beyond Prosecco.",
@@ -8163,9 +8163,9 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "A grower Champagne is one that is",
       "options": {
-        "a": "made using the tank method rather than bottle fermentation",
-        "b": "produced entirely from grapes purchased on the open market",
-        "c": "aged for a minimum of ten years before it may be released",
+        "a": "made using the tank method rather than bottle fermentation entirely",
+        "b": "produced entirely from grapes purchased on the open market each harvest",
+        "c": "aged for a minimum of ten years before it may legally be released",
         "d": "made by the same estate that grew the grapes, rather than a large house"
       },
       "answer": "d",
@@ -8189,9 +8189,9 @@ window.WSET_DATA_3 = {
       "question": "A disgorgement date on a sparkling wine label tells the consumer",
       "options": {
         "a": "when the lees were removed, indicating how long the wine has since rested",
-        "b": "the year in which the grapes for the wine were harvested",
-        "c": "the date on which the second fermentation was started",
-        "d": "how much sugar was added in the final dosage"
+        "b": "the year in which the grapes for the wine were harvested and pressed",
+        "c": "the date on which the second fermentation was started in bottle",
+        "d": "how much sugar was added in the final dosage before corking occurred"
       },
       "answer": "a",
       "explanation": "A wine changes after disgorgement, so the date helps a buyer judge how much bottle development it has had.",
@@ -8362,9 +8362,9 @@ window.WSET_DATA_3 = {
       "question": "A Sherry labelled en rama has been",
       "options": {
         "a": "bottled with minimal filtration, retaining more character from the cask",
-        "b": "aged for a minimum of thirty years in a single solera",
-        "c": "sweetened with a substantial proportion of Pedro Xim\u00e9nez",
-        "d": "fortified to a level well above that used for other styles"
+        "b": "aged for a minimum of thirty years in a single static solera system",
+        "c": "sweetened with a substantial proportion of Pedro Xim\u00e9nez must",
+        "d": "fortified to a level well above that used for other Sherry styles"
       },
       "answer": "a",
       "explanation": "Lighter handling preserves texture and intensity, at the cost of a shorter window of freshness once bottled.",
@@ -8388,7 +8388,7 @@ window.WSET_DATA_3 = {
       "question": "Traditional foot treading in granite lagares is used in Port production because it",
       "options": {
         "a": "raises the temperature of the must to speed up fermentation",
-        "b": "removes the need to add any grape spirit to the wine",
+        "b": "removes the need to add any grape spirit to the wine before bottling",
         "c": "achieves thorough gentle extraction quickly, without crushing the seeds",
         "d": "allows the fermentation to continue for several months"
       },
@@ -8610,8 +8610,8 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "A bitter dish served with a tannic red wine will typically make the wine seem",
       "options": {
-        "a": "lower in alcohol than it actually is",
-        "b": "noticeably sweeter and rounder on the palate",
+        "a": "lower in alcohol than it actually is due to sweetness perception",
+        "b": "noticeably sweeter and rounder on the palate overall",
         "c": "more bitter, since bitterness in food and wine are additive",
         "d": "completely unchanged from how it tasted alone"
       },
@@ -8634,9 +8634,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Why is it useful for a wine professional to understand alcohol units?",
       "options": {
-        "a": "To decide whether a wine should be decanted before service",
+        "a": "To decide whether a wine should be decanted before service to guests",
         "b": "To determine the correct serving temperature for each style of wine",
-        "c": "To calculate the tannin level a wine will display on the palate",
+        "c": "To calculate the tannin level a wine will display on the palate later",
         "d": "To give customers accurate information and encourage responsible consumption"
       },
       "answer": "d",
@@ -8706,9 +8706,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Head-trained vines differ from cordon-trained vines in that they have",
       "options": {
-        "a": "roots grafted onto two different rootstocks",
+        "a": "roots grafted onto two different resistant rootstocks",
         "b": "a much taller trunk supporting the entire canopy",
-        "c": "no requirement for any winter pruning at all",
+        "c": "no requirement for any winter pruning of the canopy at all",
         "d": "little or no permanent horizontal wood beyond the trunk"
       },
       "answer": "d",
@@ -8732,8 +8732,8 @@ window.WSET_DATA_3 = {
       "options": {
         "a": "spoils the fruit, giving mouldy off-flavours rather than concentration",
         "b": "concentrates sugars and flavours in an entirely beneficial way",
-        "c": "only affects black grapes and never white varieties",
-        "d": "occurs exclusively during the winter dormant period"
+        "c": "only affects black grapes and never white varieties like Semillon",
+        "d": "occurs exclusively during the winter dormant period after leaf fall"
       },
       "answer": "a",
       "explanation": "The same organism causes both, and whether it turns noble or destructive depends on weather and grape health.",
@@ -8754,10 +8754,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Trunk diseases such as esca are a concern for growers because they",
       "options": {
-        "a": "affect only the leaves and disappear each winter",
+        "a": "affect only the leaves and disappear again each winter",
         "b": "progressively kill vine wood, reducing yields and vine lifespan",
-        "c": "can be eliminated entirely by grafting onto rootstock",
-        "d": "improve fruit concentration in the affected vines"
+        "c": "can be eliminated entirely by grafting onto resistant rootstock",
+        "d": "improve fruit concentration and quality in the affected vines"
       },
       "answer": "b",
       "explanation": "There is no simple cure, so management focuses on pruning technique and replacing affected vines.",
@@ -8803,8 +8803,8 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Press wine differs from free run wine in being",
       "options": {
-        "a": "legally required to be discarded in most appellations",
-        "b": "far lighter in colour with almost no tannin at all",
+        "a": "legally required to be discarded in most classified appellations",
+        "b": "far lighter in colour with almost no tannin present at all",
         "c": "deeper in colour and higher in tannin, sometimes blended back in",
         "d": "the first juice to emerge before any pressure is applied"
       },
@@ -8827,8 +8827,8 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Barrels are topped up regularly during maturation in order to",
       "options": {
-        "a": "raise the temperature of the wine in the cellar",
-        "b": "increase the alcohol level of the maturing wine",
+        "a": "raise the temperature of the wine inside the cellar",
+        "b": "increase the alcohol level of the wine during maturation",
         "c": "introduce fresh yeast to continue the fermentation",
         "d": "replace wine lost to evaporation and limit oxygen exposure"
       },
@@ -8875,10 +8875,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Compared with punching down, pumping over during red fermentation",
       "options": {
-        "a": "is used only for wines destined to be fortified",
+        "a": "is used only for wines destined to be fortified afterwards",
         "b": "circulates juice over the cap and can also aerate the ferment",
-        "c": "requires the cap to be left entirely undisturbed",
-        "d": "prevents any colour being extracted from the skins"
+        "c": "requires the cap to be left entirely undisturbed throughout",
+        "d": "prevents any colour being extracted from the grape skins"
       },
       "answer": "b",
       "explanation": "Both keep the cap wet, but pumping over gives the winemaker more control over oxygen and temperature.",
@@ -8971,10 +8971,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Cabernet Franc contributes what to a Bordeaux blend?",
       "options": {
-        "a": "Residual sweetness that balances the wine's acidity",
+        "a": "Residual sweetness that balances the wine's natural acidity",
         "b": "Aromatic lift with red fruit and leafy notes, plus useful acidity",
-        "c": "The bulk of the colour and the firmest tannic structure",
-        "d": "Biscuit and bread character from extended lees ageing"
+        "c": "The bulk of the colour and the firmest tannic structure overall",
+        "d": "Biscuit and bread character from extended ageing on the lees"
       },
       "answer": "b",
       "explanation": "It is more important on the Right Bank, where it ripens more reliably than Cabernet Sauvignon.",
@@ -9047,9 +9047,9 @@ window.WSET_DATA_3 = {
       "question": "Wines from the Hautes C\u00f4tes de Nuits and Hautes C\u00f4tes de Beaune are typically",
       "options": {
         "a": "lighter than C\u00f4te d'Or wines, coming from higher, cooler land behind the slope",
-        "b": "richer and more concentrated than any Grand Cru wine",
-        "c": "produced exclusively as traditional method sparkling wine",
-        "d": "made from international varieties rather than Pinot Noir"
+        "b": "richer and more concentrated than any Grand Cru wine from the C\u00f4te de Nuits",
+        "c": "produced exclusively as traditional method sparkling wine like Cr\u00e9mant de Bourgogne",
+        "d": "made from international varieties such as Cabernet Sauvignon rather than Pinot Noir"
       },
       "answer": "a",
       "explanation": "The extra altitude means later ripening, and the wines are generally priced well below the main slope.",
@@ -9096,10 +9096,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Cr\u00e9mant de Loire is generally based on",
       "options": {
-        "a": "Gamay grown on granite soils in Beaujolais",
-        "b": "Melon Blanc grown in the Nantais near the ocean",
+        "a": "Gamay grown on granite soils in the Beaujolais crus",
+        "b": "Melon Blanc grown in the Nantais near the Atlantic coast",
         "c": "Chenin Blanc, sometimes with Chardonnay and Cabernet Franc",
-        "d": "Sauvignon Blanc from Sancerre and Pouilly-Fum\u00e9"
+        "d": "Sauvignon Blanc from Sancerre and Pouilly-Fum\u00e9 vineyards"
       },
       "answer": "c",
       "explanation": "Chenin's high acidity makes it an excellent base for traditional method sparkling wine.",
@@ -9121,9 +9121,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "The clearest difference between Northern and Southern Rh\u00f4ne reds is that northern wines are",
       "options": {
-        "a": "produced in far greater volume than southern wines",
+        "a": "produced in far greater volume than southern wines each vintage",
         "b": "blends led by Grenache while southern wines use only Syrah",
-        "c": "always sweet while southern wines are always dry",
+        "c": "always sweet while southern wines are always bone dry",
         "d": "based on Syrah alone while southern wines are blends led by Grenache"
       },
       "answer": "d",
@@ -9149,7 +9149,7 @@ window.WSET_DATA_3 = {
         "a": "Hermitage, Crozes-Hermitage and Saint-Joseph",
         "b": "Sancerre and Pouilly-Fum\u00e9 in the Loire",
         "c": "Chablis and the wider Burgundy region",
-        "d": "R\u00edas Baixas in north-west Spain"
+        "d": "R\u00edas Baixas in north-west Spain, based on Albari\u00f1o"
       },
       "answer": "a",
       "explanation": "They give full-bodied, low-acid whites, and are also permitted in Ch\u00e2teauneuf-du-Pape further south.",
@@ -9173,8 +9173,8 @@ window.WSET_DATA_3 = {
       "options": {
         "a": "red wine production entirely towards sweet white wine",
         "b": "bulk production towards more quality-focused appellation wines",
-        "c": "quality appellation wines towards bulk production",
-        "d": "organic farming towards conventional chemical use"
+        "c": "quality appellation wines back towards bulk production methods",
+        "d": "organic farming towards conventional chemical spray use"
       },
       "answer": "b",
       "explanation": "Vine pull schemes removed poor land, and producers replanted better sites with more suitable varieties.",
@@ -9197,8 +9197,8 @@ window.WSET_DATA_3 = {
       "question": "Pic Saint-Loup is distinguished within the Languedoc by its",
       "options": {
         "a": "requirement to use only Bordeaux varieties",
-        "b": "position on the coast at sea level",
-        "c": "exclusive focus on sweet fortified wine",
+        "b": "position on the coast at sea level near the Mediterranean",
+        "c": "exclusive focus on sweet fortified wine production",
         "d": "higher altitude and cooler nights, giving fresher reds"
       },
       "answer": "d",
@@ -9248,8 +9248,8 @@ window.WSET_DATA_3 = {
       "question": "To be bottled as a VDP Grosses Gew\u00e4chs, a wine must be",
       "options": {
         "a": "sweet, and from any vineyard within the member's holdings",
-        "b": "fortified, and produced only in declared vintages",
-        "c": "sparkling, and aged for a minimum of five years",
+        "b": "fortified, and produced only in officially declared vintages",
+        "c": "sparkling, and aged for a minimum of five years on the lees",
         "d": "dry, and from a vineyard classified at the association's top tier"
       },
       "answer": "d",
@@ -9371,10 +9371,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "DOCG differs from DOC in that DOCG wines must",
       "options": {
-        "a": "be made exclusively from international varieties",
-        "b": "come from a much larger geographical area",
+        "a": "be made exclusively from international grape varieties",
+        "b": "come from a much larger geographical area than DOC zones",
         "c": "meet stricter rules and pass an official tasting assessment",
-        "d": "be fortified before they can be released for sale"
+        "d": "be fortified before they can legally be released for sale"
       },
       "answer": "c",
       "explanation": "Both sit within the PDO category, with DOCG representing the higher tier.",
@@ -9396,9 +9396,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "The wines that became known as Super Tuscans were originally labelled as table wine because they",
       "options": {
-        "a": "contained more than the legal maximum alcohol level",
+        "a": "contained more than the legal maximum permitted alcohol level",
         "b": "failed the official quality tasting in every vintage",
-        "c": "were produced entirely outside the Tuscan region",
+        "c": "were produced entirely outside the Tuscan region's boundaries",
         "d": "used varieties or blends not permitted by the local appellation rules"
       },
       "answer": "d",
@@ -9422,8 +9422,8 @@ window.WSET_DATA_3 = {
       "question": "Barbaresco generally requires less minimum ageing than Barolo because it is",
       "options": {
         "a": "grown in slightly warmer sites giving marginally softer tannins",
-        "b": "made from a completely different grape variety",
-        "c": "produced in far larger volumes each vintage",
+        "b": "made from a completely different grape variety than Barolo",
+        "c": "produced in far larger volumes each vintage than Barolo",
         "d": "fortified during fermentation to soften its structure"
       },
       "answer": "a",
@@ -9520,7 +9520,7 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Modern-styled Rioja differs from the traditional style chiefly through",
       "options": {
-        "a": "the exclusive use of white grape varieties",
+        "a": "the exclusive use of white grape varieties such as Viura",
         "b": "far longer ageing in old American oak barrels",
         "c": "the addition of grape spirit during fermentation",
         "d": "shorter oak ageing in French barrels, giving fresher fruit"
@@ -9569,10 +9569,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Moscatel de Set\u00fabal is",
       "options": {
-        "a": "a tannic red wine from the Baga variety",
-        "b": "a dry white wine made from Alvarinho",
+        "a": "a tannic red wine made from the Baga variety",
+        "b": "a dry white wine made from the Alvarinho grape",
         "c": "a fortified sweet wine made from Muscat grapes",
-        "d": "a lightly sparkling wine from the Minho"
+        "d": "a lightly sparkling wine made in the Minho"
       },
       "answer": "c",
       "explanation": "Skins are commonly left in the fortified wine for a period, adding aromatic intensity.",
@@ -9620,10 +9620,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "California's Central Coast is notable for",
       "options": {
-        "a": "uniformly hot conditions across its entire extent",
+        "a": "uniformly hot conditions across its entire extent, as in the Central Valley",
         "b": "considerable variation, with coastal sites far cooler than inland ones",
-        "c": "being the only region permitted to grow Zinfandel",
-        "d": "producing exclusively fortified wines"
+        "c": "being the only region permitted to grow Zinfandel under AVA regulations",
+        "d": "producing exclusively fortified wines in a solera-style system"
       },
       "answer": "b",
       "explanation": "Gaps in the coastal hills let marine air inland, so proximity to the ocean matters more than latitude.",
@@ -9646,9 +9646,9 @@ window.WSET_DATA_3 = {
       "question": "Walla Walla Valley is an AVA located principally in",
       "options": {
         "a": "California, within the Napa Valley boundary",
-        "b": "New York, close to the Finger Lakes",
+        "b": "New York State, close to the Finger Lakes wine region",
         "c": "Washington State, extending across the Oregon border",
-        "d": "Oregon, within the Willamette Valley"
+        "d": "Oregon, within the Willamette Valley AVA boundary"
       },
       "answer": "c",
       "explanation": "It sits within the wider Columbia Valley and is known for Cabernet Sauvignon, Merlot and Syrah.",
@@ -9670,9 +9670,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Chile's DO system principally defines",
       "options": {
-        "a": "minimum ageing periods for all red wines",
+        "a": "minimum ageing periods for all red wines before release",
         "b": "maximum yields and permitted varieties for each region",
-        "c": "the price at which each category may be sold",
+        "c": "the price at which each category may be sold to retailers",
         "d": "geographical areas, with relatively few production restrictions"
       },
       "answer": "d",
@@ -9746,8 +9746,8 @@ window.WSET_DATA_3 = {
       "options": {
         "a": "a minimum quality standard verified by blind tasting",
         "b": "that stated origin, vintage and variety on the label are accurate",
-        "c": "maximum yields for every registered vineyard",
-        "d": "a minimum period of oak ageing before release"
+        "c": "maximum yields for every registered vineyard in the scheme",
+        "d": "a minimum period of oak ageing before release to market"
       },
       "answer": "b",
       "explanation": "It certifies claims rather than dictating how the wine must be made, unlike European appellation systems.",
@@ -9769,7 +9769,7 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "South Africa's interest in certified old vines reflects the view that such vines",
       "options": {
-        "a": "are immune to fungal and viral disease",
+        "a": "are immune to fungal and viral disease once established",
         "b": "crop far more heavily than younger plantings",
         "c": "produce low yields of concentrated, distinctive fruit",
         "d": "ripen several weeks earlier than young vines"
@@ -9890,9 +9890,9 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Moschofilero from Mantinia produces",
       "options": {
-        "a": "traditional method sparkling wine aged on the lees",
-        "b": "deeply coloured red wine with very firm tannins",
-        "c": "sweet fortified wine aged oxidatively for decades",
+        "a": "traditional method sparkling wine aged on the lees for years",
+        "b": "deeply coloured red wine with very firm, gripping tannins",
+        "c": "sweet fortified wine aged oxidatively for decades in cask",
         "d": "aromatic dry white wine with high acidity from a cool plateau"
       },
       "answer": "d",
@@ -9940,8 +9940,8 @@ window.WSET_DATA_3 = {
       "question": "Cooperatives are significant in many European regions because they",
       "options": {
         "a": "allow small growers to share the cost of winemaking equipment",
-        "b": "own all the vineyards within a given appellation",
-        "c": "set the legal minimum price for every wine sold",
+        "b": "own all the vineyards within a given appellation collectively",
+        "c": "set the legal minimum price for every wine sold locally",
         "d": "are required to produce only the highest quality wines"
       },
       "answer": "a",
@@ -9987,7 +9987,7 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Vin Jaune from the Jura is made by",
       "options": {
-        "a": "blending red and white wines before bottling",
+        "a": "blending red and white wines before bottling, as in Champagne ros\u00e9",
         "b": "fortifying the base wine with a neutral grape spirit",
         "c": "drying the grapes for months before fermentation",
         "d": "ageing Savagnin under a yeast film without topping up the barrel"
@@ -10184,10 +10184,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Sparkling wine is served well chilled principally because cold temperatures",
       "options": {
-        "a": "soften the tannins present in the finished wine",
+        "a": "soften the tannins present in the finished wine's structure",
         "b": "hold the carbon dioxide in solution and sharpen the acidity",
-        "c": "raise the perception of sweetness in the wine",
-        "d": "increase the size of the bubbles in the glass"
+        "c": "raise the perception of sweetness across the palate",
+        "d": "increase the size of the bubbles rising in the glass"
       },
       "answer": "b",
       "explanation": "Serving too warm gives a foaming, unruly pour and a flabbier impression on the palate.",
@@ -10234,9 +10234,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Fino Sherry is a classic partner for salted almonds and olives because its",
       "options": {
-        "a": "pronounced sweetness balances the salt in the dish",
-        "b": "low alcohol prevents the salt being noticeable",
-        "c": "high tannin binds with the fat in the almonds",
+        "a": "pronounced sweetness balances the salt in the dish nicely",
+        "b": "low alcohol level prevents the salt being noticeable at all",
+        "c": "high tannin content binds with the fat in the almonds",
         "d": "dry, saline character and high acidity complement salty food"
       },
       "answer": "d",
@@ -10284,8 +10284,8 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Madeira is distinctive because the wine is deliberately",
       "options": {
-        "a": "bottled without any fortification at all",
-        "b": "aged beneath a protective layer of flor yeast",
+        "a": "bottled without any fortification at all before release",
+        "b": "aged beneath a protective layer of flor yeast, as in Fino Sherry",
         "c": "frozen before pressing to concentrate the juice",
         "d": "heated during maturation, giving cooked, caramelised flavours"
       },
@@ -10361,10 +10361,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "An age-indicated Tawny Port needs no decanting because it has been",
       "options": {
-        "a": "fortified to a much higher level than other Ports",
-        "b": "aged entirely in bottle for at least twenty years",
+        "a": "fortified to a much higher level than other Port styles",
+        "b": "aged entirely in bottle for at least twenty years already",
         "c": "aged in cask and filtered, so it throws little or no deposit",
-        "d": "produced only in formally declared vintage years"
+        "d": "produced only in formally declared vintage years each decade"
       },
       "answer": "c",
       "explanation": "Vintage Port, bottled young and unfiltered, is the style that requires careful decanting.",
@@ -10386,7 +10386,7 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Banyuls is produced principally from",
       "options": {
-        "a": "Muscat grown near the Rh\u00f4ne delta",
+        "a": "Muscat grown near the Rh\u00f4ne delta in Provence",
         "b": "Palomino grown on albariza soils in Andaluc\u00eda",
         "c": "Touriga Nacional grown on Douro schist",
         "d": "Grenache grown on steep terraces in Roussillon"
@@ -10413,7 +10413,7 @@ window.WSET_DATA_3 = {
       "options": {
         "a": "how well acidity, tannin, alcohol, sweetness and fruit work together",
         "b": "whether the wine matches the price printed on the list",
-        "c": "the equality of red and white wines on a list",
+        "c": "the equality of red and white wines offered on a restaurant list",
         "d": "how evenly the wine has been distributed between glasses"
       },
       "answer": "a",
@@ -10435,10 +10435,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "In wine assessment, length describes",
       "options": {
-        "a": "the total time the wine spent maturing in oak",
+        "a": "the total time the wine spent maturing in oak barrels",
         "b": "how long the flavours persist after the wine is swallowed",
-        "c": "the size of the vineyard from which it came",
-        "d": "how long the bottle can be stored before opening"
+        "c": "the size of the vineyard estate from which it came",
+        "d": "how long the bottle can safely be stored before opening"
       },
       "answer": "b",
       "explanation": "A long finish is generally taken as a marker of quality, alongside intensity and complexity.",
@@ -10507,9 +10507,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Sprinklers protect vines from frost because water releases heat as it",
       "options": {
-        "a": "soaks into the soil beneath the vine",
-        "b": "evaporates from the surface of the bud",
-        "c": "drains away from the base of the vine",
+        "a": "soaks into the soil beneath the vine roots",
+        "b": "evaporates slowly from the surface of the bud",
+        "c": "drains away quickly from the base of the vine",
         "d": "freezes, holding the bud at around zero degrees"
       },
       "answer": "d",
@@ -10533,8 +10533,8 @@ window.WSET_DATA_3 = {
       "options": {
         "a": "complex, since excessive yields dilute but very low yields do not guarantee quality",
         "b": "a simple inverse rule, with lower yields always producing better wine",
-        "c": "non-existent, since yield has no bearing on wine quality",
-        "d": "positive, with the highest yields producing the finest wines"
+        "c": "non-existent, since yield has no bearing on wine quality or concentration",
+        "d": "positive, with the highest yields consistently producing the finest wines"
       },
       "answer": "a",
       "explanation": "Vine balance matters more than the raw figure, and appellation limits are a blunt instrument for enforcing it.",
@@ -10629,8 +10629,8 @@ window.WSET_DATA_3 = {
       "options": {
         "a": "use monitoring and natural controls, reserving sprays for real need",
         "b": "apply preventative sprays on a fixed calendar regardless of need",
-        "c": "eliminate every insect present in the vineyard",
-        "d": "replace all vines with disease-resistant hybrids"
+        "c": "eliminate every insect present in the vineyard using broad-spectrum sprays",
+        "d": "replace all vines with disease-resistant hybrid varieties"
       },
       "answer": "a",
       "explanation": "It reduces chemical use and cost without the full restrictions of organic certification.",
@@ -10725,7 +10725,7 @@ window.WSET_DATA_3 = {
       "options": {
         "a": "deeper colour and slightly more flavour extraction",
         "b": "a paler wine with less flavour from the skins",
-        "c": "a completely colourless finished wine",
+        "c": "a completely colourless finished wine after pressing",
         "d": "a wine with pronounced tannic structure"
       },
       "answer": "a",
@@ -10773,9 +10773,9 @@ window.WSET_DATA_3 = {
       "question": "Adding unfermented grape must to a finished dry wine is a way of",
       "options": {
         "a": "removing tartrate crystals before the wine is bottled",
-        "b": "raising the alcohol content of the finished wine",
+        "b": "raising the alcohol content of the finished wine considerably",
         "c": "producing a sweet wine with precise control over sugar levels",
-        "d": "introducing oak character without using barrels"
+        "d": "introducing oak character without using any barrels at all"
       },
       "answer": "c",
       "explanation": "It is widely used for commercial off-dry wines, where consistency between batches matters commercially.",
@@ -10796,7 +10796,7 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Dry white Bordeaux is produced principally from",
       "options": {
-        "a": "Riesling and Gewurztraminer on the Left Bank",
+        "a": "Riesling and Gewurztraminer grown on the Left Bank gravel",
         "b": "Chardonnay and Pinot Blanc grown on gravel soils",
         "c": "Chenin Blanc grown on the cooler clay of the Right Bank",
         "d": "Sauvignon Blanc and S\u00e9millon, sometimes with a little Muscadelle"
@@ -10996,9 +10996,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Higher-quality German Sekt is increasingly made from",
       "options": {
-        "a": "black varieties fermented on their skins",
-        "b": "imported base wine fermented in tank",
-        "c": "grapes affected by noble rot each autumn",
+        "a": "black varieties fermented on their skins for colour",
+        "b": "imported base wine fermented quickly in tank",
+        "c": "grapes affected by noble rot each autumn harvest",
         "d": "Riesling and Pinot varieties by the traditional method"
       },
       "answer": "d",
@@ -11050,7 +11050,7 @@ window.WSET_DATA_3 = {
         "a": "restrict production to a handful of steep hillside sites",
         "b": "make high volumes at low cost from flat, mechanised vineyards",
         "c": "use grape varieties from outside northern Italy",
-        "d": "age the wines on their lees for several years"
+        "d": "age the wines on their lees for several years before disgorgement"
       },
       "answer": "b",
       "explanation": "The hillside DOCG zones of Conegliano-Valdobbiadene and Asolo represent the quality tier above it.",
@@ -11072,10 +11072,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Cava production is dominated by",
       "options": {
-        "a": "a single state-owned production facility",
-        "b": "hundreds of equally sized cooperative producers",
+        "a": "a single state-owned production facility located near Barcelona",
+        "b": "hundreds of equally sized cooperative producers under one DO",
         "c": "a small number of very large producers alongside many small ones",
-        "d": "producers based outside Spain entirely"
+        "d": "producers based outside Spain entirely, mainly in northern Italy"
       },
       "answer": "c",
       "explanation": "That scale is what allows Cava to offer traditional method wine at prices well below Champagne.",
@@ -11097,9 +11097,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Interest in old-vine Garnacha across Spain has grown because such vineyards offer",
       "options": {
-        "a": "a guaranteed absence of vintage variation",
+        "a": "a guaranteed absence of vintage variation from year to year",
         "b": "the highest yields available anywhere in the country",
-        "c": "grapes that require no vineyard work whatsoever",
+        "c": "grapes that require no vineyard work whatsoever throughout the season",
         "d": "concentrated fruit from low yields at relatively modest land prices"
       },
       "answer": "d",
@@ -11124,7 +11124,7 @@ window.WSET_DATA_3 = {
         "a": "the large number of indigenous varieties still widely planted",
         "b": "having replaced all local varieties with international ones",
         "c": "permitting only three grape varieties nationwide",
-        "d": "producing exclusively fortified wines"
+        "d": "producing exclusively fortified wines for the export market"
       },
       "answer": "a",
       "explanation": "That diversity is now treated as a commercial asset rather than an obstacle to export.",
@@ -11145,9 +11145,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Prohibition affected American wine in ways still visible today, notably through",
       "options": {
-        "a": "a permanent ban on all wine production in California",
+        "a": "a permanent ban on all wine production across California",
         "b": "the loss of vineyards and a complex three-tier distribution system",
-        "c": "the requirement that all wine be fortified before sale",
+        "c": "the requirement that all wine be fortified before its sale",
         "d": "the elimination of every vinifera variety from the country"
       },
       "answer": "b",
@@ -11196,10 +11196,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Chile is unusual among major wine countries because much of its vineyard is",
       "options": {
-        "a": "grown under glass to exclude all pests",
+        "a": "grown under glass structures to exclude all vineyard pests",
         "b": "planted entirely on American rootstock as a precaution",
         "c": "planted on ungrafted vines, phylloxera never having taken hold",
-        "d": "replanted completely every five to ten years"
+        "d": "replanted completely every five to ten years as a precaution"
       },
       "answer": "c",
       "explanation": "Natural barriers of desert, ocean and mountains have historically isolated the country's vineyards.",
@@ -11220,9 +11220,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Argentina's wine industry changed significantly when producers began",
       "options": {
-        "a": "moving all vineyards down to sea level",
+        "a": "moving all vineyards down to sea level for easier irrigation",
         "b": "abandoning Malbec in favour of high-yielding local grapes",
-        "c": "producing exclusively for the domestic market",
+        "c": "producing exclusively for the domestic bulk market",
         "d": "targeting export markets, prompting a shift to quality varieties"
       },
       "answer": "d",
@@ -11272,7 +11272,7 @@ window.WSET_DATA_3 = {
         "a": "qualify for the highest appellation classification",
         "b": "deliver consistent style and volume at a reliable price",
         "c": "claim a single-vineyard designation on the label",
-        "d": "avoid any need to state a vintage year"
+        "d": "avoid any need to state a vintage year on the label"
       },
       "answer": "b",
       "explanation": "Broad Geographical Indications such as South Eastern Australia exist precisely to enable this.",
@@ -11297,7 +11297,7 @@ window.WSET_DATA_3 = {
         "a": "all Australian vines are grafted onto old rootstock",
         "b": "Australian law prohibits removing any planted vine",
         "c": "phylloxera never reached certain regions such as the Barossa",
-        "d": "the climate prevents vines from ever dying"
+        "d": "the climate prevents vines from ever dying of natural causes"
       },
       "answer": "c",
       "explanation": "Strict quarantine has protected these areas, and the surviving old Shiraz and Grenache are highly prized.",
@@ -11343,7 +11343,7 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "A Pinot Grigio described as ramato has been made with",
       "options": {
-        "a": "extended ageing in new oak barrels",
+        "a": "extended ageing in new oak barrels before bottling",
         "b": "a period of skin contact, giving a copper tint",
         "c": "grapes dried for months after harvest",
         "d": "fortification during its fermentation"
@@ -11368,7 +11368,7 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Savoie in eastern France is best known for",
       "options": {
-        "a": "sweet fortified wines aged oxidatively",
+        "a": "sweet fortified wines aged oxidatively in cask",
         "b": "full-bodied reds from Grenache and Mourv\u00e8dre",
         "c": "light, high-acid white wines from alpine vineyards",
         "d": "large-volume production of inexpensive ros\u00e9"
@@ -11442,10 +11442,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Txakoli from the Basque country is typically",
       "options": {
-        "a": "a full-bodied red aged for years in American oak",
+        "a": "a full-bodied red wine aged for years in American oak",
         "b": "a light, high-acid white wine, often with a slight spritz",
-        "c": "a sweet fortified wine from sun-dried grapes",
-        "d": "a traditional method sparkling wine from Pened\u00e8s"
+        "c": "a sweet fortified wine made from sun-dried grapes",
+        "d": "a traditional method sparkling wine made in Pened\u00e8s"
       },
       "answer": "b",
       "explanation": "The cool, wet Atlantic climate of the region gives wines with pronounced freshness and low alcohol.",
@@ -11492,7 +11492,7 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Sicilia DOC covers the whole island and was created principally to",
       "options": {
-        "a": "require all wines to be aged for a decade",
+        "a": "require all wines to be aged for a decade before release",
         "b": "give island-wide wines a recognised geographical indication",
         "c": "prohibit the use of any indigenous grape varieties",
         "d": "restrict production to a handful of hillside sites"
@@ -11518,10 +11518,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Modern quality Vinho Verde differs from the traditional commercial style in being",
       "options": {
-        "a": "a red wine aged in new oak barrels",
-        "b": "much sweeter with far lower alcohol levels",
+        "a": "a red wine aged in new French oak barrels entirely",
+        "b": "much sweeter with far lower alcohol levels overall",
         "c": "drier, more concentrated and often varietal Alvarinho",
-        "d": "fortified with grape spirit before bottling"
+        "d": "fortified with grape spirit before it is bottled"
       },
       "answer": "c",
       "explanation": "The historic style was light, slightly sweet and spritzy, and the region now spans both approaches.",
@@ -11567,9 +11567,9 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "B\u00edo B\u00edo in southern Chile is characterised by",
       "options": {
-        "a": "vineyards planted entirely above 2,000 metres",
-        "b": "the hottest and driest conditions in the country",
-        "c": "a legal requirement to produce only fortified wine",
+        "a": "vineyards planted entirely above 2,000 metres altitude",
+        "b": "the hottest and driest conditions found in the country",
+        "c": "a legal requirement to produce only fortified wine styles",
         "d": "a cooler, wetter climate suited to aromatic white varieties"
       },
       "answer": "d",
@@ -11593,8 +11593,8 @@ window.WSET_DATA_3 = {
       "options": {
         "a": "one of the country's most widely planted black varieties",
         "b": "a white variety used only for sparkling base wine",
-        "c": "a rootstock rather than a fruiting variety",
-        "d": "grown exclusively for fortified wine production"
+        "c": "a rootstock rather than a fruiting grape variety",
+        "d": "grown exclusively for fortified wine production locally"
       },
       "answer": "a",
       "explanation": "It generally produces softer, fruitier wines than Malbec and has historically been used for volume production.",
@@ -11619,7 +11619,7 @@ window.WSET_DATA_3 = {
         "a": "high-volume irrigated production of inexpensive wine",
         "b": "low-intervention winemaking from old dry-farmed vines",
         "c": "traditional method sparkling wine aged on the lees",
-        "d": "fortified wines aged in a solera system"
+        "d": "fortified wines aged in a solera system for decades"
       },
       "answer": "b",
       "explanation": "Rh\u00f4ne varieties and old-vine Chenin Blanc dominate, generally handled with restrained oak.",
@@ -11640,10 +11640,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Rutherglen in Victoria is suited to fortified Muscat because it is",
       "options": {
-        "a": "cool and damp, encouraging noble rot every autumn",
-        "b": "planted at high altitude with very cold nights",
+        "a": "cool and damp, encouraging noble rot to form every autumn",
+        "b": "planted at high altitude with very cold night temperatures",
         "c": "hot and dry, allowing grapes to shrivel and concentrate on the vine",
-        "d": "exposed to constant ocean fog through the season"
+        "d": "exposed to constant ocean fog through the growing season"
       },
       "answer": "c",
       "explanation": "The heat also drives the oxidative cask ageing that builds the style's toffee and raisin complexity.",
@@ -11690,8 +11690,8 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Corsican wine is characterised by",
       "options": {
-        "a": "vineyards planted entirely above 1,500 metres",
-        "b": "a cool continental climate suited to Riesling",
+        "a": "vineyards planted entirely above 1,500 metres altitude",
+        "b": "a cool continental climate suited to Riesling production",
         "c": "exclusively fortified production in a solera system",
         "d": "Mediterranean conditions and local varieties such as Nielluccio"
       },
@@ -11717,7 +11717,7 @@ window.WSET_DATA_3 = {
       "options": {
         "a": "dry and medium-bodied with restrained fruit and earthy notes",
         "b": "intensely aromatic with lychee and rose character",
-        "c": "deeply coloured with firm tannic structure",
+        "c": "deeply coloured with firm tannic structure and dark fruit",
         "d": "sweet with pronounced honey and dried apricot"
       },
       "answer": "a",
@@ -11764,7 +11764,7 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Vintage Champagne is required to spend longer on its lees than non-vintage because",
       "options": {
-        "a": "the law requires all vintage wines to be sweeter",
+        "a": "the law requires all vintage wines to be sweeter than non-vintage blends",
         "b": "the additional time develops the complexity expected of the style",
         "c": "vintage wines ferment far more slowly in the bottle",
         "d": "vintage wines contain no yeast after fermentation"
@@ -11790,9 +11790,9 @@ window.WSET_DATA_3 = {
       "question": "A Blanc de Noirs sparkling wine is made from",
       "options": {
         "a": "grapes affected by noble rot before picking",
-        "b": "white grapes only, typically Chardonnay",
+        "b": "white grapes only, typically Chardonnay from cool sites",
         "c": "black grapes pressed gently so no colour is extracted",
-        "d": "a blend of red and white finished wines"
+        "d": "a blend of red and white finished still wines"
       },
       "answer": "c",
       "explanation": "The style is typically fuller-bodied than Blanc de Blancs, reflecting the contribution of Pinot Noir and Meunier.",
@@ -11840,7 +11840,7 @@ window.WSET_DATA_3 = {
         "a": "traditional method production with minimum lees ageing",
         "b": "tank method production with no lees contact",
         "c": "the use of Chardonnay as the sole variety",
-        "d": "fortification before the wine is bottled"
+        "d": "fortification before the wine is bottled and released"
       },
       "answer": "a",
       "explanation": "Permitted varieties differ by region, reflecting whatever is grown locally for still wine.",
@@ -11862,7 +11862,7 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "Australian sparkling Shiraz is distinctive because it is",
       "options": {
-        "a": "a fortified wine aged in a solera system",
+        "a": "a fortified wine aged in a solera system for decades",
         "b": "a pale dry wine made entirely from white grapes",
         "c": "a red sparkling wine, usually with some residual sweetness",
         "d": "a still wine bottled without any carbon dioxide"
@@ -11888,10 +11888,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Chardonnay and Pinot Noir dominate quality sparkling production worldwide because they",
       "options": {
-        "a": "contribute deep colour to the finished wine",
+        "a": "contribute deep colour to the finished wine's overall hue",
         "b": "retain high acidity when picked early and blend well together",
-        "c": "are the only varieties that can ferment in bottle",
-        "d": "produce the highest sugar levels of any varieties"
+        "c": "are the only varieties permitted to ferment inside the bottle",
+        "d": "produce the highest sugar levels of any planted varieties"
       },
       "answer": "b",
       "explanation": "Chardonnay gives finesse and acidity while Pinot Noir supplies body and structure to the blend.",
@@ -11938,10 +11938,10 @@ window.WSET_DATA_3 = {
       "difficulty": "hard",
       "question": "How is Crusted Port best described?",
       "options": {
-        "a": "A single-vintage wine aged for decades in cask",
+        "a": "A single-vintage wine aged for decades in cask before bottling",
         "b": "A blend of several vintages bottled unfiltered, requiring decanting",
-        "c": "A dry, pale style aged beneath a layer of flor",
-        "d": "A lightly sparkling style served well chilled"
+        "c": "A dry, pale style aged beneath a layer of flor, as in Sherry",
+        "d": "A lightly sparkling style served well chilled, made by tank method"
       },
       "answer": "b",
       "explanation": "It offers something of the character of Vintage Port without the single-year designation or price.",
@@ -11989,9 +11989,9 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Sherry sales declined in many markets during the late twentieth century largely because",
       "options": {
-        "a": "the region lost its protected designation of origin",
-        "b": "production in Jerez ceased for several decades",
-        "c": "the wines became prohibitively expensive to produce",
+        "a": "the region lost its protected designation of origin during EU accession",
+        "b": "production in Jerez ceased for several decades due to phylloxera",
+        "c": "the wines became prohibitively expensive to produce under solera ageing rules",
         "d": "the category became associated with sweet, low-quality commercial styles"
       },
       "answer": "d",
@@ -12015,9 +12015,9 @@ window.WSET_DATA_3 = {
       "question": "Most Port is blended from several quintas in order to",
       "options": {
         "a": "achieve a consistent house style and balance the components",
-        "b": "comply with a legal requirement covering all Port",
-        "c": "avoid having to declare a vintage in any year",
-        "d": "reduce the alcohol level of the finished wine"
+        "b": "comply with a legal requirement covering all Port production",
+        "c": "avoid having to declare a vintage in any given year",
+        "d": "reduce the alcohol level of the finished wine slightly"
       },
       "answer": "a",
       "explanation": "Single Quinta wines are the exception, usually released in years without a general declaration.",
@@ -12088,7 +12088,7 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "A larger bowl is generally used for full-bodied red wine because it",
       "options": {
-        "a": "prevents any sediment reaching the drinker",
+        "a": "prevents any sediment reaching the drinker during service",
         "b": "keeps the wine at a lower temperature for longer",
         "c": "reduces the quantity of wine poured per serving",
         "d": "allows more aeration and gives the aromas room to develop"
@@ -12161,10 +12161,10 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "A responsible approach to wine service includes",
       "options": {
-        "a": "declining to state the alcohol content of any wine",
-        "b": "encouraging customers to order as much as possible",
+        "a": "declining to state the alcohol content of any wine on the list",
+        "b": "encouraging customers to order as much as possible before driving",
         "c": "providing water, food and accurate information about alcohol levels",
-        "d": "serving only the highest-alcohol wines on the list"
+        "d": "serving only the highest-alcohol wines on the list to increase spend"
       },
       "answer": "c",
       "explanation": "Trade professionals have a duty of care as well as a commercial interest in customer wellbeing.",
@@ -12185,7 +12185,7 @@ window.WSET_DATA_3 = {
       "difficulty": "medium",
       "question": "Wine shipped in an unrefrigerated container in summer risks",
       "options": {
-        "a": "an increase in the wine's natural acidity",
+        "a": "an increase in the wine's natural acidity during transit",
         "b": "a second fermentation starting inside the bottle",
         "c": "the development of noble rot in the bottle",
         "d": "heat damage, showing as cooked flavours and pushed corks"
@@ -12211,8 +12211,8 @@ window.WSET_DATA_3 = {
       "options": {
         "a": "a fault in the Fino but the intended style in the Oloroso",
         "b": "a fault in both wines regardless of the style",
-        "c": "the intended style in both wines equally",
-        "d": "irrelevant, since neither wine can oxidise"
+        "c": "the intended style in both wines equally under flor",
+        "d": "irrelevant, since neither wine can oxidise once fortified"
       },
       "answer": "a",
       "explanation": "Context determines whether a character is a flaw, which is why knowing the intended style matters.",
@@ -12260,7 +12260,7 @@ window.WSET_DATA_3 = {
         "a": "list only wines from a single country of origin",
         "b": "include the largest possible number of bottles",
         "c": "match the food offering and the expectations of its customers",
-        "d": "omit all prices to encourage customers to ask"
+        "d": "omit all prices to encourage customers to ask about the cost"
       },
       "answer": "c",
       "explanation": "Range, price spread and style balance all follow from understanding who is ordering and what they are eating.",
