@@ -76,6 +76,27 @@ function renderReferencePage(containerId, data) {
   `;
 
   setupReferenceSidebar(container);
+  setupScrollReveal(container);
+}
+
+function setupScrollReveal(container) {
+  const items = [...container.querySelectorAll('.ref-subsection')];
+  if (!('IntersectionObserver' in window)) {
+    items.forEach((el) => el.classList.add('revealed'));
+    return;
+  }
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { rootMargin: '0px 0px -10% 0px', threshold: 0.1 }
+  );
+  items.forEach((el) => observer.observe(el));
 }
 
 function setupReferenceSidebar(container) {

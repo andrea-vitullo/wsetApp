@@ -3,25 +3,40 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>WSET Mock Exams</title>
+  <title>WSET Bible</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
-    <div class="brand">WSET Mock Exams</div>
-    <nav class="main-nav">
+    <div class="brand">WSET Bible</div>
+    <nav class="main-nav" id="main-nav">
       <button type="button" class="nav-link" data-section="exam">Mock Exams</button>
       <button type="button" class="nav-link" data-section="regions">Regions</button>
       <button type="button" class="nav-link" data-section="vinification">Vine Cycle &amp; Vinification</button>
       <button type="button" class="nav-link" data-section="soils">Soils</button>
     </nav>
+    <button type="button" id="nav-burger" class="nav-burger" aria-label="Menu" aria-expanded="false" aria-controls="main-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
   </header>
 
   <main id="app">
     <!-- Home / setup -->
     <section id="view-home" class="view">
+      <div class="hero-banner">
+        <div class="hero-banner-inner">
+          <div class="hero-eyebrow">WSET Study Companion</div>
+          <h1 class="hero-title">WSET Bible</h1>
+          <p class="hero-subtitle">Mock exams, wine regions, the vine cycle &amp; vinification, and soils — everything you need to pass, all in one place.</p>
+        </div>
+      </div>
       <div class="container">
-        <h1>Practice for your WSET exam</h1>
+        <h2 class="section-heading">Practice for your WSET exam</h2>
         <p class="subtitle">Papers are drawn fresh each time from the full question pool, at the official Learning Outcome weighting, with no repeated concept in the same sitting.</p>
 
         <div id="level-cards" class="level-cards">

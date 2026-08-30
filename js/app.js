@@ -101,7 +101,23 @@ document.querySelectorAll('.nav-link').forEach((btn) => {
     if (!target) return;
     showView(target.view);
     if (target.render) target.render();
+    closeMobileNav();
   });
+});
+
+const navBurger = document.getElementById('nav-burger');
+const mainNav = document.getElementById('main-nav');
+
+function closeMobileNav() {
+  navBurger.classList.remove('open');
+  mainNav.classList.remove('open');
+  navBurger.setAttribute('aria-expanded', 'false');
+}
+
+navBurger.addEventListener('click', () => {
+  const isOpen = mainNav.classList.toggle('open');
+  navBurger.classList.toggle('open', isOpen);
+  navBurger.setAttribute('aria-expanded', String(isOpen));
 });
 
 function formatClock(totalSeconds) {

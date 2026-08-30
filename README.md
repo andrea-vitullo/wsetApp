@@ -1,4 +1,4 @@
-# WSET Mock Exams
+# WSET Bible
 
 A mock exam web app for the **WSET Level 2 Award in Wines** and the **WSET Level 3 Award in
 Wines**, built on an original question dataset. The two levels are kept fully separate throughout.
