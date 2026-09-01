@@ -57,6 +57,8 @@ const views = {
   results: document.getElementById('view-results'),
   'regions-list': document.getElementById('view-regions-list'),
   'region-detail': document.getElementById('view-region-detail'),
+  'grapes-list': document.getElementById('view-grapes-list'),
+  'grape-detail': document.getElementById('view-grape-detail'),
   vinification: document.getElementById('view-vinification'),
   soils: document.getElementById('view-soils'),
 };
@@ -68,6 +70,8 @@ const VIEW_SECTION = {
   results: 'exam',
   'regions-list': 'regions',
   'region-detail': 'regions',
+  'grapes-list': 'grapes',
+  'grape-detail': 'grapes',
   vinification: 'vinification',
   soils: 'soils',
 };
@@ -77,6 +81,7 @@ const VIEW_SECTION = {
 const NAV_SECTIONS = {
   exam: { view: 'home' },
   regions: { view: 'regions-list', render: () => typeof renderRegionsList === 'function' && renderRegionsList() },
+  grapes: { view: 'grapes-list', render: () => typeof renderGrapesList === 'function' && renderGrapesList() },
   vinification: { view: 'vinification', render: () => typeof renderVinificationPage === 'function' && renderVinificationPage() },
   soils: { view: 'soils', render: () => typeof renderSoilsPage === 'function' && renderSoilsPage() },
 };

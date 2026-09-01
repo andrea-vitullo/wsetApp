@@ -15,6 +15,7 @@
     <nav class="main-nav" id="main-nav">
       <button type="button" class="nav-link" data-section="exam">Mock Exams</button>
       <button type="button" class="nav-link" data-section="regions">Regions</button>
+      <button type="button" class="nav-link" data-section="grapes">Grapes</button>
       <button type="button" class="nav-link" data-section="vinification">Vine Cycle &amp; Vinification</button>
       <button type="button" class="nav-link" data-section="soils">Soils</button>
     </nav>
@@ -110,6 +111,24 @@
       </div>
     </section>
 
+    <!-- Grapes: browse -->
+    <section id="view-grapes-list" class="view hidden">
+      <div class="container">
+        <h1>Grape Varieties</h1>
+        <p class="subtitle">A reference guide to the world's wine grapes — viticulture, characteristics, winemaking and notable styles, alongside what you're tested on.</p>
+        <input id="grape-search" type="text" class="region-search" placeholder="Search grapes, synonyms or regions…" />
+        <div id="grape-groups" class="region-groups"></div>
+      </div>
+    </section>
+
+    <!-- Grapes: detail -->
+    <section id="view-grape-detail" class="view hidden">
+      <div class="container">
+        <button id="grape-back-btn" type="button" class="btn btn-secondary">&larr; All grapes</button>
+        <div id="grape-detail-content"></div>
+      </div>
+    </section>
+
     <!-- Vine Cycle & Vinification -->
     <section id="view-vinification" class="view hidden">
       <div class="container ref-page-wide">
@@ -128,11 +147,13 @@
   <script src="js/data/level2.js"></script>
   <script src="js/data/level3.js"></script>
   <script src="js/data/regions.js"></script>
+  <script src="js/data/grapes.js"></script>
   <script src="js/data/vinification.js"></script>
   <script src="js/data/soils.js"></script>
   <script src="js/sampler.js"></script>
   <script src="js/app.js"></script>
   <script src="js/regions.js"></script>
+  <script src="js/grapes.js"></script>
   <script src="js/reference.js"></script>
 </body>
 </html>
